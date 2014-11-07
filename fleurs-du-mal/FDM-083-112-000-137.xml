@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title rend="Les Deux Bonnes Soeurs">Deux Bonnes Soeurs</title>
+            <author>Charles Baudelaire</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <name xml:id="RP">Rebecca Panter</name>
+            </respStmt>
+            <sponsor>Jean and Alexander Heard Library</sponsor>
+         </titleStmt>
+         <publicationStmt>
+            <idno>FDM-083-112-000-137</idno>
+            <publisher>Jean and Alexander Heard Library</publisher>
+            <pubPlace>Nashville</pubPlace>
+            <address>
+               <addrLine>Jean and Alexander Heard Library</addrLine>
+               <addrLine>419 21st Avenue South</addrLine>
+               <addrLine>Nashville, TN 37203</addrLine>
+               <addrLine>USA</addrLine>
+            </address>
+            <date>2014</date>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="U1857">
+                  <desc>1857 Unexpurgated</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Les Fleurs du Mal</title>
+                        <author>Charles Baudelaire</author>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Poulet-Malassis et De Broise</publisher>
+                           <date>1857</date>
+                           <note>Original edition with condemned pieces</note>
+                        </imprint>
+                        <extent>248 p.</extent>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="E1857">
+                  <desc>1857 Expurgated</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Les Fleurs du Mal</title>
+                        <author>Charles Baudelaire</author>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Poulet-Malassis et De Broise</publisher>
+                           <date>1857</date>
+                           <note>Original edition with condemned pieces removed</note>
+                        </imprint>
+                        <extent>248 p.</extent>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="FDM1861">
+                  <desc>1861 2nd edition censored</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Les Fleurs du Mal</title>
+                        <author>Charles Baudelaire</author>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Poulet-Malassis et De Broise</publisher>
+                           <date>1861</date>
+                           <note>2nd edition augmented by 35 new poems and ornamented with a
+                              portrait of the author drawn and engraved by Felix Bracquemond</note>
+                        </imprint>
+                        <extent> 319 p.</extent>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="LE1866">
+                  <desc>1866 Les Epaves xml:id="1866"</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Les Épaves</title>
+                        <author>Charles Baudelaire</author>
+                        <imprint>
+                           <pubPlace>Amsterdam</pubPlace>
+                           <publisher>À L'Enseigne du Coq</publisher>
+                           <date>1866</date>
+                           <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                              this is a false imprint, the book actually being published in Brussels
+                              by Poulet-Malassis.</note>
+                           <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                              9-55</note>
+                           <note>With a frontispeice etching by Félicien Rops</note>
+                        </imprint>
+                        <extent>163 p.</extent>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="FDM1868">
+                  <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
+                  <biblStruct>
+                     <monogr>
+                        <title>Oeuvres Complètes de Charles Baudelaire</title>
+                        <author>Charles Baudelaire</author>
+                        <editor>Théophile Gautier</editor>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Michel Lévy Frères</publisher>
+                           <date>1868-1873</date>
+                           <note>Volume 1 contains Les Fleurs du Mal</note>
+                        </imprint>
+                        <extent>7 volumes</extent>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+            </listWit>
+<!-- create witList in sourceDesc with the different editions and their bib data
+1. 1857 Unexpurgated xml:id="U1857"
+2. 1857 Expurgated xml:id="E1857"
+3. 1861 2nd edition censored xml:id="FDM1861"
+4. 1866 Les Epaves xml:id="1866"
+5. 1868 3rd edition - posthumous xml:id="1868"
+-->
+<!--
+<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
+for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
+You may copy it, give it away or re-use it under the terms of the Project Gutenberg
+License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
+Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
+Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
+encoding: ISO-8859-1 </p>
+<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
+Online Distributed Proofreading Team.</p>
+-->
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+      	<div type="sonnet">
+      		<head>
+				<title>LES DEUX BONNES SOEURS</title>
+			</head>
+      		<lg type="stanza" subtype="quatrain" n="1"> 	
+				<l n="1">La Débauche et la Mort sont deux aimables filles,</l>
+				<l n="2">Prodigues de baisers et riches de santé,</l>
+				<l n="3">Dont le flanc toujours vierge et drapé de guenilles</l>
+				<l n="4">Sous l'éternel labeur n'a jamais enfanté.</l>
+			</lg>
+			<lg type="stanza" subtype="quatrain" n="2">
+				<l n="5">Au poète sinistre, ennemi des familles,</l>
+				<l n="6">Favori de l'enfer, courtisan mal renté,</l>
+				<l n="7">Tombeaux et lupanars montrent sous leurs charmilles</l>
+				<l n="8">Un lit que le remords n'a jamais fréquenté.</l>
+			</lg>
+			<lg type="stanza" subtype="tercet" n="3">
+				<l n="9">Et la bière et l'alcôve en blasphèmes fécondes</l>
+				<l n="10">Nous offrent tour à tour, comme deux bonnes soeurs,</l>
+				<l n="11">De terribles plaisirs et d'affreuses douceurs.</l>
+			</lg>
+			<lg type="stanza" subtype="tercet" n="4">
+				<l n="12">Quand veux-tu m'enterrer, Débauche aux bras immondes?</l>
+				<l n="13">Ô Mort, quand viendras-tu, sa rivale en attraits,</l>
+				<l n="14">Sur ses myrtes infects enter tes noirs cyprès?</l>
+			</lg> 	
+      	</div>
+      </body>
+   </text>
+</TEI>
