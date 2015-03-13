@@ -6,9 +6,14 @@
         <title rend="LE VAMPIRE">VAMPIRE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+        </respStmt>
+         <respStmt>
+         	<resp>Critical Apparatus</resp>
+          	<!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          	<name xml:id="TMF">Tim Foster</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -76,27 +81,6 @@
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                    this is a false imprint, the book actually being published in Brussels
-                    by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                    9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -143,22 +127,34 @@ Online Distributed Proofreading Team.</p>
           <title>LE VAMPIRE</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
-          <l n="1">Toi qui, comme un coup de couteau.</l>
-          <l n="2">Dans mon coeur plaintif est entrée;</l>
-          <l n="3">Toi qui, forte comme un troupeau</l>
+          <l n="1">Toi qui, comme un coup de couteau,</l>
+          <l n="2">Dans mon cœur plaintif es entrée<app>
+                            <lem wit="#U1857 #E1857">,</lem>
+                            <rdg wit="#FDM1861 #FDM1868">;</rdg>
+                        </app></l>
+          <l n="3">Toi qui, <app>
+                            <lem wit="#U1857 #E1857"/>
+                            <rdg wit="#FDM1861 #FDM1868">forte</rdg>
+                        </app>comme un <app>
+                            <lem wit="#U1857 #E1857">hideux</lem>
+                            <rdg wit="#FDM1861 #FDM1868"/>
+                        </app> troupeau</l>
           <l n="4">De démons, vins, folle et parée,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">De mon esprit humilié</l>
-          <l n="6">Faire ton lit et ton domaine.</l>
-          <l n="7">--Infâme à qui je suis lié</l>
+          <l n="6">Faire ton lit et ton domaine<app>
+                            <lem wit="#U1857 #E1857">,</lem>
+                            <rdg wit="#FDM1861 #FDM1868">;</rdg>
+                        </app></l>
+          <l n="7">— Infâme à qui je suis lié</l>
           <l n="8">Comme le forçat à la chaîne,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="3">
           <l n="9">Comme au jeu le joueur têtu,</l>
           <l n="10">Comme à la bouteille l'ivrogne,</l>
           <l n="11">Comme aux vermines la charogne,</l>
-          <l n="12">--Maudite, maudite sois-tu!</l>
+          <l n="12">— Maudite, maudite sois-tu!</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="4">
           <l n="13">J'ai prié le glaive rapide</l>
@@ -173,7 +169,7 @@ Online Distributed Proofreading Team.</p>
           <l n="20">A ton esclavage maudit,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="6">
-          <l n="21">Imbécile!--de son empire</l>
+          <l n="21">Imbécile! — de son empire</l>
           <l n="22">Si nos efforts te délivraient,</l>
           <l n="23">Tes baisers ressusciteraient</l>
           <l n="24">Le cadavre de ton vampire!»</l>

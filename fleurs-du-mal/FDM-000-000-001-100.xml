@@ -6,9 +6,14 @@
         <title rend="LE COUCHER DU SOLEIL ROMANTIQUE">COUCHER DU SOLEIL ROMANTIQUE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+          <name xml:id="VUCB">Vanderbilt University Corpus-Baudelaire(VUCB) TEAM</name>
+        </respStmt>
+         <respStmt>
+          <resp>Critical Apparatus</resp>
+          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <name xml:id="TMF">Tim Foster</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -27,55 +32,6 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="U1857">
-            <desc>1857 Unexpurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="E1857">
-            <desc>1857 Expurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces removed</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="FDM1861">
-            <desc>1861 2nd edition censored</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-                    portrait of the author drawn and engraved by Felix Bracquemond</note>
-                </imprint>
-                <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="LE1866">
             <desc>1866 Les Epaves xml:id="1866"</desc>
             <biblStruct>
@@ -138,32 +94,43 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem" subtype="sonnet" n="" rhyme="abbacddceefggf">
+      <div type="poem" subtype="sonnet">
         <head>
           <title>LE COUCHER DU SOLEIL ROMANTIQUE</title>
         </head>
-        <lg type="quatrain" n="1" rhyme="abab">
-          <l n="1">Que le Soleil est beau quand tout frais il se<rhyme label="a">lève</rhyme>,</l>
-          <l n="2">Comme une explosion nous lançant son<rhyme label="b">bonjour</rhyme>!</l>
-          <l n="3">--Bienheureux celui-là qui peut avec<rhyme label="b">amour</rhyme>
-          </l>
-          <l n="4">Saluer son coucher plus glorieux qu'un<rhyme label="a">rêve</rhyme>!</l>
+        <lg type="quatrain" n="1">
+          <l n="1">Que le Soleil est beau quand tout frais il se lève,</l>
+          <l n="2">Comme une explosion nous lançant son bonjour!</l>
+          <l n="3">—Bienheureux celui-là qui peut avec amour</l>
+          <l n="4">Saluer son coucher plus glorieux qu'un rêve!</l>
         </lg>
-        <lg type="quatrain" n="2" rhyme="cdcd">
-          <l n="5">Je me souviens!... J'ai vu tout, fleur, source,<rhyme label="c">sillon</rhyme>,</l>
-          <l n="6">Se pâmer sous son oeil comme un coeur qui<rhyme label="d">palpite</rhyme>,..</l>
-          <l n="7">--Courons vers l'horizon, il est tard, courons<rhyme label="d">vite</rhyme>,</l>
-          <l n="8">Pour attraper au moins un oblique<rhyme label="c">rayon</rhyme>!</l>
+        <lg type="quatrain" n="2">
+          <l n="5">Je me souviens!... J'ai vu tout, fleur, source, sillon,</l>
+          <l n="6">Se pâmer sous son œil comme un cœur qui palpite...</l>
+          <l n="7">—Courons vers l'horizon, il est tard, courons vite,</l>
+          <l n="8">Pour attraper au moins un oblique rayon!</l>
         </lg>
-        <lg type="tercet" n="3" rhyme="eef">
-          <l n="9">Mais je poursuis en vain le Dieu qui se<rhyme label="e">retire</rhyme>;</l>
-          <l n="10">L'irrésistible Nuit établit son<rhyme label="e">empire</rhyme>,</l>
-          <l n="11">Noire, humide, funeste et pleine de<rhyme label="f">frissons</rhyme>;</l>
+        <lg type="tercet" n="3">
+          <l n="9">Mais je poursuis en vain le Dieu qui se retire;</l>
+          <l n="10">L'irrésistible Nuit établit son empire,</l>
+          <l n="11">Noire, humide, funeste et pleine de frissons;</l>
         </lg>
-        <lg type="tercet" n="4" rhyme="ggf">
-          <l n="12">Une odeur de tombeau dans les ténèbres<rhyme label="g">nage</rhyme>,</l>
-          <l n="13">Et mon pied peureux froisse, au bord du<rhyme label="g">marécage</rhyme>,</l>
-          <l n="14">Des crapauds imprévus et de froids<rhyme label="e">limaçons</rhyme>.</l>
+        <lg type="tercet" n="4">
+          <l n="12">Une odeur de tombeau dans les ténèbres nage,</l>
+          <l n="13">Et mon pied peureux froisse, au bord du marécage,</l>
+          <l n="14">Des crapauds imprévus et de froids limaçons
+          <app>
+                     <lem wit="#LE1866"><note n="1"
+                           anchored="true" place="bottom">
+                           <p>Le mot: <emph style="italics">Genus irritabile vatum</emph>, date de bien des siècles avant les querelles des Classiques, des Romantiques, des Réalistes, des Euphuistes, etc... Il est évident que par <emph style="italics">l'irrésistible Nuit</emph> M. Charles Baudelaire a voulu caractériser l'état actuel de la litérature, et que les <emph style="italics">crapauds imprévus</emph> et les <emph style="italics">froids limaçons</emph> sont les écrivains qui ne sont pas de son école.</p>
+                           <p>Ce sonnet a été composé en 1862, pour servir d'épilogue à un livre de M. Charles Asselineau, qui n'a pas paru: <emph style="italics">Mélanges tires d'une petite bibliothèque romantique</emph>; lequel devait avoir pour prologue un sonnet de M. Théodore de Banville: <emph style="italics">Le lever du soleil romantique</emph>.</p>
+                           <p>(<emph style="italics">Note de l'éditeur</emph>.)</p>
+                           </note>
+                           </lem>
+                     <rdg wit="#F1868"/>
+                  </app>
+          
+          .</l>
         </lg>
       </div>
     </body>
