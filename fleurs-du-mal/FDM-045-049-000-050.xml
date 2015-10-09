@@ -15,6 +15,10 @@
           <resp>Critical Apparatus</resp>
           <name xml:id="RVR">Ramona V. Romero</name>
         </respStmt>
+        <respStmt>
+          <resp>Review</resp>
+          <name xml:id="TFH">Todd F. Hughes</name>
+        </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -123,7 +127,7 @@
           <title type="main">LE POISON</title>
         </head>
         <lg type="stanza" subtype="quintain" n="1">
-          <l n="1">Le vin sait revêtir le plus sordide bouge</l>
+          <l n="1">Le vin sait revètir le plus sordide bouge</l>
           <l n="2">D'un luxe miraculeux,</l>
           <l n="3">Et fait surgir plus d'un portique fabuleux</l>
           <l n="4">Dans l'or de sa vapeur rouge,</l>
