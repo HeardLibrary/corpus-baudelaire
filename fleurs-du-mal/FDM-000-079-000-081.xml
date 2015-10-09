@@ -5,11 +5,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="Obsession">Obsession</title>
+        <title rend="OBSESSION">OBSESSION</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <name xml:id="RVR">Ramona V. Romero</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="SS">Sara Sterkenburg</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -27,22 +31,6 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="U1857">
-            <desc>1857 Unexpurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1861">
             <desc>1861 2nd edition censored</desc>
             <biblStruct>
@@ -57,27 +45,6 @@
                               portrait of the author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -117,29 +84,41 @@
     <body>
       <div type="poem" subtype="sonnet">
         <head>
-          <title>Obsession</title>
+          <title type="main">Obsession</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Grands bois, vous m'effrayez comme des cathédrales;</l>
-          <l n="2">Vous hurlez comme l'orgue; et dans nos coeurs maudits,</l>
+          <l n="2">Vous hurlez comme l'orgue; et dans nos cœurs maudits,</l>
           <l n="3">Chambres d'éternel deuil où vibrent de vieux râles,</l>
           <l n="4">Répondent les échos de vos De profundis.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Je te hais, Océan! tes bonds et tes tumultes,</l>
-          <l n="6">Mon esprit les retrouve en lui; ce rire amer</l>
+          <l n="6">Mon esprit les retrouve en lui<app>
+            <lem wit="#FDM1861">;</lem>
+            <rdg wit="#FDM1868">!</rdg>
+          </app> <app>
+            <lem wit="#FDM1861">c</lem>
+            <rdg wit="#FDM1868">C</rdg>
+          </app>e rire amer</l>
           <l n="7">De l'homme vaincu, plein de sanglots et d'insultes,</l>
-          <l n="8">Je l'entends dans le rire énorme de la mer</l>
+          <l n="8">Je l'entends dans le rire énorme de la mer.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
-          <l n="9">Comme tu me plairais, ô nuit! sans ces étoiles</l>
+          <l n="9">Comme tu me plairais, ô <app>
+            <lem wit="#FDM1861">n</lem>
+            <rdg wit="#FDM1868">N</rdg>
+          </app>uit! sans ces étoiles</l>
           <l n="10">Dont la lumière parle un langage connu!</l>
           <l n="11">Car je cherche le vide, et le noir, et le nu!</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
           <l n="12">Mais les ténèbres sont elles-mêmes des toiles</l>
-          <l n="13">Où vivent, jaillissant de mon oeil par milliers,</l>
-          <l n="14">Des êtres disparus aux regards familiers.</l>
+          <l n="13">Où vivent, jaillissant de mon œil par milliers,</l>
+          <l n="14">Des êtres disparus aux regards familiers<app>
+            <lem wit="#FDM1861">.</lem>
+            <rdg wit="#FDM1868">!</rdg>
+          </app></l>
         </lg>
       </div>
     </body>
