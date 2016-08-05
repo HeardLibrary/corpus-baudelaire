@@ -13,6 +13,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="TFH">Todd F. Hughes</name>
         </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="ACS">Angela C. Sutton</name>
+        </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -182,7 +186,7 @@ Online Distributed Proofreading Team.</p>
             <l n="33">Notre âme est un trois-mâts cherchant son Icarie;</l>
             <l n="34">Une voix retentit sur le pont: «Ouvre l'oeil!»</l>
             <l n="35">Une voix de la hune, ardente et folle, crie:</l>
-            <l n="36">«Amour... gloire... bonheur!» Enfer! c'est un écueil!</l>
+            <l n="36">«Amour... gloire... bonheur!» Enfer! c'est un écueil<lem wit ="#FDM1861">!</lem><rdg wit="#FDM1868"></rdg></l>
           </lg>
           <lg type="stanza" subtype="quatrain" n="10">
             <l n="37">Pour n'être pas changés en bêtes, ils s'enivrent</l>
@@ -212,7 +216,7 @@ Online Distributed Proofreading Team.</p>
             <l n="53">Ô le pauvre amoureux des pays chimériques!</l>
             <l n="54">Faut-il le mettre aux fers, le jeter à la mer,</l>
             <l n="55">Ce matelot ivrogne, inventeur d'Amériques</l>
-            <l n="56">Dont le mirage rend le gouffre plus amer?</l>
+            <l n="56">Dont le mirage rend le gouffre plus amer<lem wit ="#FDM1861"></lem><rdg wit="#FDM1868">?</rdg></l>
           </lg>
           <lg type="stanza" subtype="quatrain" n="15">
             <l n="57">Tel le vieux vagabond, piétinant dans la boue,</l>
@@ -225,13 +229,13 @@ Online Distributed Proofreading Team.</p>
           <ab>III</ab>
           <lg type="stanza" subtype="quatrain" n="16">
             <l n="61">Etonnants voyageurs! quelles nobles histoires</l>
-            <l n="62">Nous lisons dans vos yeux profonds comme les mers!</l>
+            <l n="62">Nous lisons dans vos yeux profonds comme les mers<lem wit ="#FDM1861"></lem><rdg wit="#FDM1868">!</rdg></l>
             <l n="63">Montrez-nous les écrins de vos riches mémoires,</l>
             <l n="64">Ces bijoux merveilleux, faits d'astres et d'éthers.</l>
           </lg>
           <lg type="stanza" subtype="quatrain" n="17">
             <l n="65">Nous voulons voyager sans vapeur et sans voile!</l>
-            <l n="66">Faites, pour égayer l'ennui de nos prisons,</l>
+            <l n="66">Faites<lem wit ="#FDM1861">.</lem><rdg wit="#FDM1868">,</rdg> pour égayer l'ennui de nos prisons,</l>
             <l n="67">Passer sur nos esprits, tendus comme une toile,</l>
             <l n="68">Vos souvenirs avec leurs cadres d'horizons.</l>
           </lg>
@@ -294,6 +298,7 @@ Online Distributed Proofreading Team.</p>
           <lg type="stanza" n="27">
             <l n="97">«Ô cerveaux enfantins!</l>
           </lg>
+          <lem wit ="#FDM1861">
           <lg type="stanza" subtype="quatrain" n="28">
             <l n="98">Pour ne pas oublier la chose capitale,</l>
             <l n="99">Nous avons vu partout, et sans l'avoir cherché,</l>
@@ -305,14 +310,35 @@ Online Distributed Proofreading Team.</p>
             <l n="103">Sans rire s'adorant et s'aimant sans dégoût;</l>
             <l n="104">L'homme, tyran goulu, paillard, dur et cupide,</l>
             <l n="105">Esclave de l'esclave et ruisseau dans l'égout;</l>
-          </lg>
-          <lg type="stanza" subtype="quatrain" n="30">
+          </lg></lem>
+          <rdg wit="#FDM1868">
+            <lg type="stanza" subtype="octave" n="28">
+              <l n="98">Pour ne pas oublier la chose capitale,</l>
+              <l n="99">Nous avons vu partout, et sans l'avoir cherché,</l>
+              <l n="100">Du haut jusques en bas de l'échelle fatale,</l>
+              <l n="101">Le spectacle ennuyeux de l'immortel péché:</l>
+              <l n="102">La femme, esclave vile, orgueilleuse et stupide,</l>
+              <l n="103">Sans rire s'adorant et s'aimant sans dégoût;</l>
+              <l n="104">L'homme, tyran goulu, paillard, dur et cupide,</l>
+              <l n="105">Esclave de l'esclave et ruisseau dans l'égout;</l>
+            </lg>
+          </rdg>
+          <lem wit ="#FDM1861"><lg type="stanza" subtype="quatrain" n="30">
             <l n="106">Des costumes qui sont pour les yeux une ivresse;</l>
             <l n="107">Des femmes dont les dents et les ongles sont teints,</l>
             <l n="108">Et des jongleurs savants que le serpent caresse.»</l>
             <l n="109">Et des jongleurs savants que le serpent caresse.»</l>
           </lg>
-          <lg type="stanza" subtype="quatrain" n="31">
+        </lem>
+          <rdg wit="#FDM1868"><lg type="stanza" subtype="quatrain" n="29">
+          <l n="106">Des costumes qui sont pour les yeux une ivresse;</l>
+          <l n="107">Des femmes dont les dents et les ongles sont teints,</l>
+          <l n="108">Et des jongleurs savants que le serpent caresse.»</l>
+          <l n="109">Et des jongleurs savants que le serpent caresse.»</l>
+        </lg>
+      </rdg>
+       
+      <lg type="stanza" subtype="quatrain" n="31">
             <l n="110">Plusieurs religions semblables à la nôtre,</l>
             <l n="111">Toutes escaladant le ciel; la Sainteté,</l>
             <l n="112">Comme en un lit de plume un délicat se vautre,</l>

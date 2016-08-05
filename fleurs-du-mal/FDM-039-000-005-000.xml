@@ -13,6 +13,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="EW">Ed Warga</name>
         </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="ACS">Angela C. Sutton</name>
+        </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -173,7 +177,11 @@ Online Distributed Proofreading Team.</p>
           <l n="33">Et, vertigineuse douceur!</l>
           <l n="34">A travers ces lèvres nouvelles,</l>
           <l n="35">Plus éclatantes et plus belles,</l>
-          <l n="36">T'infuser mon venin, ma soeur!</l>
+          <l n="36">T'infuser mon venin, ma soeur<app><lem wit="#U1857">!</lem>
+          <rdg wit = "#LE1866">!<note place = "bottom" n="1"><p>(1) Les juges ont cru découvrir un sens à la fois sanguinaire et obscène dans les deux dernières stances. La gravité du Recueil excluait de pareilles
+              <hi rend = "italics"> plaisanteries </hi>  Mais venin significant spleen ou mélancolie, était une idée trop simple pour des criminalistes. Que leur interprétation syphilitique leur resté sur la conscience, </P>
+              <p>(Note de l'<hi red = "italics">éditeur</hi><choice><sic>,</sic><corr>)</corr></choice></p>
+            </note></rdg></app></l>
         </lg>
       </div>
     </body>

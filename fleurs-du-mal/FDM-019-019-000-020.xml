@@ -8,12 +8,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <titleStmt>
         <!-- Title element - insert name of poem. If tile starts with an article, leave it off in the title value
 and include the title with the article in a rend attribute. -->
-        <title rend="La Géante">Géante</title>
+        <title rend="LA GÉANTE">GÉANTE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Encoded by</resp>
           <!-- Insert your name and XML ID - choose an XML ID for the project and stick with it! -->
           <name xml:id="TG">Teresa Gray</name>
+        </respStmt>
+        <respStmt>
+        	<resp>Critical Apparatus</resp>
+        	<name xml:id="SYC"> Sophia Clark</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -65,37 +69,16 @@ and include the title with the article in a rend attribute. -->
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les �paves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>� L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A.
-                                        Lemerre), this is a false imprint, the book actually being
-                                        published in Brussels by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                                        9-55</note>
-                  <note>With a frontispeice etching by F�licien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
               <monogr>
-                <title>Oeuvres Compl�tes de Charles Baudelaire</title>
+                <title>Oeuvres Complètes de Charles Baudelaire</title>
                 <author>Charles Baudelaire</author>
-                <editor>Th�ophile Gautier</editor>
+                <editor>Théophile Gautier</editor>
                 <imprint>
                   <pubPlace>Paris</pubPlace>
-                  <publisher>Michel L�vy Fr�res</publisher>
+                  <publisher>Michel Lévy Frères</publisher>
                   <date>1868-1873</date>
                   <note>Volume 1 contains Les Fleurs du Mal</note>
                 </imprint>
@@ -121,9 +104,9 @@ Online Distributed Proofreading Team.</p>
   <!-- TEI header ends, text section begins... -->
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" subtype="sonnet">
         <head>
-          <title>LA Géante</title>
+          <title type="main">LA GÉANTE</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Du temps que la Nature en sa verve puissante</l>
@@ -133,12 +116,27 @@ Online Distributed Proofreading Team.</p>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">J'eusse aimé voir son corps fleurir avec son âme</l>
-          <l n="6">Et grandir librement dans ses terribles jeux;</l>
-          <l n="7">Deviner si son coeur couve une sombre flamme</l>
-          <l n="8">Aux humides brouillards qui nagent dans ses yeux;</l>
+          <l n="6">Et grandir librement dans ses terribles jeux
+          	<app>
+          		<lem wit="#U1857">,</lem>
+          		<rdg wit="#FDM1861 #FDM1868">;</rdg>
+          	</app>
+          </l>
+          <l n="7">Deviner si son <choice><orig>cœur</orig><reg>coeur</reg></choice> couve une sombre flamme</l>
+          <l n="8">Aux humides brouillards qui nagent dans ses yeux
+          	<app>
+          		<lem wit="#U1857">,</lem>
+          		<rdg wit="#FDM1861 #FDM1868">;</rdg>
+          	</app>
+          </l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
-          <l n="9">Parcourir à loisir ses magnifiques formes;</l>
+          <l n="9">Parcourir à loisir ses magnifiques formes
+          	<app>
+          		<lem wit="#U1857">,</lem>
+          		<rdg wit="#FDM1861">;</rdg>
+          	</app>
+          </l>
           <l n="10">Ramper sur le versant de ses genoux énormes,</l>
           <l n="11">Et parfois en été, quand les soleils malsains,</l>
         </lg>

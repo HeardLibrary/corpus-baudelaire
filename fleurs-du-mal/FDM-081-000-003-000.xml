@@ -13,6 +13,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="ACS">Angela C. Sutton</name>
+        </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -119,7 +123,11 @@ Online Distributed Proofreading Team.</p>
   <text>
     <body>
       <div type="poem">
-        <head>Femmes Damnées (Delphine et Hippolyte)</head>
+        <title type=full>
+          <title type="main">Femmes Damnées</title>
+          <lem wit="#U1857"></lem>
+          <rdg wit="#LE1866"><title type="sub">Delphine et Hippolyte</title></rdg>
+      </title>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">À la pâle clarté des lampes languissantes,</l>
           <l n="2">Sur de profonds coussins tout imprégnés d'odeur</l>
@@ -127,7 +135,7 @@ Online Distributed Proofreading Team.</p>
           <l n="4">Qui levaient le rideau de sa jeune candeur.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
-          <l n="5">Elle cherchait, d'un oeil troublé par la tempête,</l>
+          <l n="5">Elle cherchait, d'un oeil troublé par la tempête <lem wit ="#U1857"></lem><rdg wit="#LE1866">,</rdg></l>
           <l n="6">De sa naïveté le ciel déjà lointain,</l>
           <l n="7">Ainsi qu'un voyageur qui retourne la tête</l>
           <l n="8">Vers les horizons bleus dépassés le matin.</l>
@@ -152,9 +160,9 @@ Online Distributed Proofreading Team.</p>
         </lg>
         <lg type="stanza" subtype="quatrain" n="6">
           <l n="21">Elle cherchait dans l'oeil de sa pâle victime</l>
-          <l n="22">Le cantique muet que chante le plaisir,</l>
+          <l n="22">Le cantique muet que chante le plaisir<lem wit ="#U1857"></lem><rdg wit="#LE1866">,</rdg></l>
           <l n="23">Et cette gratitude infinie et sublime</l>
-          <l n="24">Qui sort de la paupière ainsi qu'un long soupir.</l>
+          <l n="24">Qui sort de la paupière ainsi qu'un long soupir<lem wit ="#U1857">:</lem><rdg wit="#LE1866">.</rdg></l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="7">
           <l n="25">— «Hippolyte, cher coeur, que dis-tu de ces choses?</l>
@@ -170,14 +178,14 @@ Online Distributed Proofreading Team.</p>
         </lg>
         <lg type="stanza" subtype="quatrain" n="9">
           <l n="33">Ils passeront sur toi comme un lourd attelage</l>
-          <l n="34">De chevaux et de boeufs aux sabots sans pitié...</l>
+          <l n="34">De chevaux et de boeufs aux sabots sans pitié<lem wit ="#U1857">....</lem><rdg wit="#LE1866">...</rdg></l>
           <l n="35">Hippolyte, ô ma soeur! tourne donc ton visage,</l>
           <l n="36">Toi, mon âme et mon coeur, mon tout et ma moitié,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="10">
           <l n="37">Tourne vers moi tes yeux pleins d'azur et d'étoiles!</l>
           <l n="38">Pour un de ces regards charmants, baume divin,</l>
-          <l n="39">Des plaisirs plus obscurs je lèverai les voiles,</l>
+          <l n="39">Des plaisirs plus obscurs je lèverai les voiles<lem wit ="#U1857">,</lem><rdg wit="#LE1866"></rdg></l>
           <l n="40">Et je t'endormirai dans un rêve sans fin!»</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="11">
@@ -195,13 +203,13 @@ Online Distributed Proofreading Team.</p>
         <lg type="stanza" subtype="quatrain" n="13">
           <l n="49">Avons-nous donc commis une action étrange ?</l>
           <l n="50">Explique, si tu peux, mon trouble et mon effroi:</l>
-          <l n="51">Je frissonne de peur quand tu me dis: 'Mon ange!'</l>
+          <l n="51">Je frissonne de peur quand tu me dis: <lem wit ="#U1857">Mon ange!</lem><rdg wit="#LE1866">"Mon ange!"</rdg></l>
           <l n="52">Et cependant je sens ma bouche aller vers toi.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="14">
-          <l n="53">Ne me regarde pas ainsi, toi, ma pensée!</l>
+          <l n="53">Ne me regarde pas ainsi, toi, ma pensée <lem wit ="#U1857">,</lem><rdg wit="#LE1866">!</rdg></l>
           <l n="54">Toi que j'aime à jamais, ma soeur d'élection,</l>
-          <l n="55">Quand même tu serais une embûche dressée</l>
+          <l n="55">Quand même tu serais une embûche dressée<lem wit ="#U1857">,</lem><rdg wit="#LE1866"></rdg></l>
           <l n="56">Et le commencement de ma perdition!»</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="15">
@@ -211,8 +219,8 @@ Online Distributed Proofreading Team.</p>
           <l n="60">— «Qui donc devant l'amour ose parler d'enfer ?</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="16">
-          <l n="61">Maudit soit à jamais le rêveur inutile</l>
-          <l n="62">Qui voulut le premier, dans sa stupidité,</l>
+          <l n="61">Maudit soit à jamais le rêveur inutile<lem wit ="#U1857">Mon ange!</lem><rdg wit="#LE1866">"Mon ange!"</rdg></l>
+          <l n="62">Qui voulut le premier<lem wit ="#U1857"></lem><rdg wit="#LE1866">,</rdg>dans sa stupidité,</l>
           <l n="63">S'éprenant d'un problème insoluble et stérile,</l>
           <l n="64">Aux choses de l'amour mêler l'honnêteté!</l>
         </lg>
@@ -226,34 +234,34 @@ Online Distributed Proofreading Team.</p>
           <l n="69">Va, si tu veux, chercher un fiancé stupide;</l>
           <l n="70">Cours offrir un coeur vierge à ses cruels baisers;</l>
           <l n="71">Et, pleine de remords et d'horreur, et livide,</l>
-          <l n="72">Tu me rapporteras tes seins stigmatisés...</l>
+          <l n="72">Tu me rapporteras tes seins stigmatisés<lem wit ="#U1857">;</lem><rdg wit="#LE1866">...</rdg></l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="19">
-          <l n="73">On ne peut ici-bas contenter qu'un seul maître!»</l>
+          <l n="73">On ne peut <lem wit ="#U1857">ici bas</lem><rdg wit="#LE1866">ici-bas</rdg> contenter qu'un seul maître!»</l>
           <l n="74">Mais l'enfant, épanchant une immense douleur,</l>
           <l n="75">Cria soudain: — «Je sens s'élargir dans mon être</l>
           <l n="76">Un abîme béant; cet abîme est mon coeur!</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="20">
-          <l n="77">Brûlant comme un volcan, profond comme le vide!</l>
+          <l n="77">Brûlant comme un volcan, profond comme le vide<lem wit ="#U1857">;</lem><rdg wit="#LE1866">!</rdg></l>
           <l n="78">Rien ne rassasiera ce monstre gémissant</l>
-          <l n="79">Et ne rafraîchira la soif de l'Euménide</l>
+          <l n="79">Et ne rafraîchira la soif de l'Euménide<lem wit ="#U1857">,</lem><rdg wit="#LE1866"></rdg></l>
           <l n="80">Qui, la torche à la main, le brûle jusqu'au sang.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="21">
           <l n="81">Que nos rideaux fermés nous séparent du monde,</l>
           <l n="82">Et que la lassitude amène le repos!</l>
-          <l n="83">Je veux m'anéantir dans ta gorge profonde,</l>
-          <l n="84">Et trouver sur ton sein la fraîcheur des tombeaux!»</l>
+          <l n="83">Je veux m'anéantir dans ta gorge profonde<lem wit ="#U1857">,</lem><rdg wit="#LE1866"></rdg></l>
+          <l n="84">Et trouver sur ton sein la fraîcheur des tombeaux<lem wit ="#U1857">.</lem><rdg wit="#LE1866">!</rdg>»</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="22">
-          <l n="85">— Descendez, descendez, lamentables victimes,</l>
-          <l n="86">Descendez le chemin de l'enfer éternel!</l>
-          <l n="87">Plongez au plus profond du gouffre, où tous les crimes</l>
+          <l n="85"><lem wit ="#U1857"></lem><rdg wit="#LE1866">-</rdg>Descendez, descendez, lamentables victimes,</l>
+          <l n="86">Descendez le chemin de l'enfer éternel<lem wit ="#U1857">;</lem><rdg wit="#LE1866">!</rdg></l>
+          <l n="87">Plongez au plus profond du gouffre<lem wit ="#U1857"></lem><rdg wit="#LE1866">,</rdg> où tous les crimes</l>
           <l n="88">Flagellés par un vent qui ne vient pas du ciel,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="23">
-          <l n="89">Bouillonnent pêle-mêle avec un bruit d'orage.</l>
+          <l n="89">Bouillonnent pêle-mêle avec un bruit d'orage<lem wit ="#U1857">;</lem><rdg wit="#LE1866">.</rdg></l>
           <l n="90">Ombres folles, courez au but de vos désirs;</l>
           <l n="91">Jamais vous ne pourrez assouvir votre rage,</l>
           <l n="92">Et votre châtiment naîtra de vos plaisirs.</l>

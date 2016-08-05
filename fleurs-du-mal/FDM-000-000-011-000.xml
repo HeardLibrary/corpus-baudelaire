@@ -6,12 +6,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title rend="Les promesses d'un visage">Promesses d'un visage</title>
+        <title rend="LES PROMESSES D'UN VISAGE">PROMESSES D'UN VISAGE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Encoded by</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="SW">Steven Wenz</name>
+        </respStmt>
+        <respStmt>
+        	<resp>Critical Apparatus</resp>
+        	<name xml:id="SYC">Sophia Clark</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -29,39 +33,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="U1857">
-            <desc>1857 Unexpurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="FDM1861">
-            <desc>1861 2nd edition censored</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-                              portrait of the author drawn and engraved by Felix Bracquemond</note>
-                </imprint>
-                <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="LE1866">
             <desc>1866 Les Epaves xml:id="1866"</desc>
             <biblStruct>
@@ -80,23 +51,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <note>With a frontispeice etching by Félicien Rops</note>
                 </imprint>
                 <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="FDM1868">
-            <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Oeuvres Complètes de Charles Baudelaire</title>
-                <author>Charles Baudelaire</author>
-                <editor>Théophile Gautier</editor>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Michel Lévy Frères</publisher>
-                  <date>1868-1873</date>
-                  <note>Volume 1 contains Les Fleurs du Mal</note>
-                </imprint>
-                <extent>7 volumes</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -119,7 +73,7 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>Les promesses d'un visage</title>
+          <title type="main">LES PROMESSES D'UN VISAGE</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">J'aime, ô pâle beauté, tes sourcils surbaissés,</l>
@@ -128,28 +82,28 @@ Online Distributed Proofreading Team.</p>
           <l n="4">Qui ne sont pas du tout funèbres.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
-          <l n="1">Tes yeux, qui sont d'accord avec tes noirs cheveux,</l>
-          <l n="2">Avec ta crinière élastique,</l>
-          <l n="3">Tes yeux, languissamment, me disent: «Si tu veux,</l>
-          <l n="4">Amant de la muse plastique,</l>
+          <l n="5">Tes yeux, qui sont d'accord avec tes noirs cheveux,</l>
+          <l n="6">Avec ta crinière élastique,</l>
+          <l n="7">Tes yeux, languissamment, me disent: «Si tu veux,</l>
+          <l n="8">Amant de la muse plastique,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="3">
-          <l n="1">Suivre l'espoir qu'en toi nous avons excité,</l>
-          <l n="2">Et tous les goûts que tu professes,</l>
-          <l n="3">Tu pourras constater notre véracité</l>
-          <l n="4">Depuis le nombril jusqu'aux fesses;</l>
+          <l n="9">Suivre l'espoir qu'en toi nous avons excité,</l>
+          <l n="10">Et tous les goûts que tu professes,</l>
+          <l n="11">Tu pourras constater notre véracité</l>
+          <l n="12">Depuis le nombril jusqu'aux fesses;</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="4">
-          <l n="1">Tu trouveras au bout de deux beaux seins bien lourds,</l>
-          <l n="2">Deux larges médailles de bronze,</l>
-          <l n="3">Et sous un ventre uni, doux comme du velours,</l>
-          <l n="4">Bistré comme la peau d'un bonze,</l>
+          <l n="13">Tu trouveras au bout de deux beaux seins bien lourds,</l>
+          <l n="14">Deux larges médailles de bronze,</l>
+          <l n="15">Et sous un ventre uni, doux comme du velours,</l>
+          <l n="16">Bistré comme la peau d'un bonze,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="5">
-          <l n="1">Une riche toison qui, vraiment, est la soeur</l>
-          <l n="2">De cette énorme chevelure,</l>
-          <l n="3">Souple et frisée, et qui t'égale en épaisseur,</l>
-          <l n="4">Nuit sans étoiles, Nuit obscure!»</l>
+          <l n="17">Une riche toison qui, vraiment, est la <choice><orig>sœur</orig><reg>soeur</reg></choice></l>
+          <l n="18">De cette énorme chevelure,</l>
+          <l n="19">Souple et frisée, et qui t'égale en épaisseur,</l>
+          <l n="20">Nuit sans étoiles, Nuit obscure!»</l>
         </lg>
       </div>
     </body>

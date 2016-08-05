@@ -1,14 +1,19 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
         <title>REMORDS POSTHUME</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
-          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <resp>Basic Markup</resp>
           <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="RVR">Ramona V. Romero</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -52,31 +57,10 @@
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-                    portrait of the author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the
+                    author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                    this is a false imprint, the book actually being published in Brussels
-                    by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                    9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -116,7 +100,7 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem" subtype="sonnet">
         <head>
-          <title>REMORDS POSTHUME</title>
+          <title type="main">REMORDS POSTHUME</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Lorsque tu dormiras, ma belle ténébreuse,</l>
@@ -132,13 +116,22 @@ Online Distributed Proofreading Team.</p>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
           <l n="9">Le tombeau, confident de mon rêve infini,</l>
-          <l n="10">--Car le tombeau toujours comprendra le poète,--</l>
-          <l n="11">Durant ces longues nuits d'où le somme est banni,</l>
+          <l n="10"><app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit="#FDM1861 #FDM1868">(</rdg>
+            </app>Car le tombeau toujours comprendra le poète<app>
+              <lem wit="#U1857">, —</lem>
+              <rdg wit="#FDM1861 #FDM1868">),</rdg>
+            </app></l>
+          <l n="11">Durant ces <app>
+              <lem wit="#U1857">grandes</lem>
+              <rdg wit="#FDM1868">longues</rdg>
+            </app> nuits d'où le somme est banni,</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
           <l n="12">Te dira: «Que vous sert, courtisane imparfaite,</l>
           <l n="13">De n'avoir pas connu ce que pleurent les morts?»</l>
-          <l n="14">--Et le ver rongera ta peau comme un remords.</l>
+          <l n="14">— Et le ver rongera ta peau comme un remords.</l>
         </lg>
       </div>
     </body>

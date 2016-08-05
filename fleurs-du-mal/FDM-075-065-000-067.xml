@@ -6,9 +6,13 @@
         <title>TRISTESSE DE LA LUNE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+          <name xml:id="VUCB">Vanderbilt University Corpus-Baudelaire(VUCB) TEAM</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -59,27 +63,7 @@
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                    this is a false imprint, the book actually being published in Brussels
-                    by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                    9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
+          
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -114,31 +98,37 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" subtype="sonnet">
         <head>
-          <title>TRISTESSE DE LA LUNE</title>
+          <title type="main">TRISTESSE DE LA LUNE</title>
         </head>
-        <lg type="stanza" subtype="quatrain">
+        <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Ce soir, la lune rêve avec plus de paresse;</l>
           <l n="2">Ainsi qu'une beauté, sur de nombreux coussins,</l>
-          <l n="3">Qui d'une main distraite et légère caresse,</l>
-          <l n="4">Avant de s'endormir, le contour de ses seins,</l>
+          <l n="3">Qui d'une main distraite et légère caresse<app><lem wit="#U1857">,</lem>
+          <rdg wit="#FDM1861 #FDM1868"/></app></l>
+          <l n="4">Avant de s'endormir<app><lem wit="#U1857">,</lem><rdg wit="#FDM1861 #FDM1868"/></app> le contour de ses seins,</l>
         </lg>
-        <lg type="stanza" subtype="quatrain">
+        <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Sur le dos satiné des molles avalanches,</l>
-          <l n="6">Mourante, elle se livre aux longues pâmoisons,</l>
+          <l n="6">Mourante, elle se livre aux longues <app><lem wit="#U1857">pamoisons,</lem><rdg>pâmoisons,</rdg></app></l>
           <l n="7">Et promène ses yeux sur les visions blanches</l>
           <l n="8">Qui montent dans l'azur comme des floraisons.</l>
         </lg>
-        <lg type="stanza" subtype="tercet">
+        <lg type="stanza" subtype="tercet" n="3">
           <l n="9">Quand parfois sur ce globe, en sa langueur oisive,</l>
           <l n="10">Elle laisse filer une larme furtive,</l>
-          <l n="11">Un poète pieux, ennemi du sommeil,</l>
+          <l n="11">Un <app><lem wit="#U1857">poète</lem><rdg wit="#FDM1861 #FDM1868">poëte</rdg></app> pieux, ennemi du sommeil,</l>
         </lg>
-        <lg type="stanza" subtype="tercet">
+        <lg type="stanza" subtype="tercet" n="4">
           <l n="12">Dans le creux de sa main prend cette larme pâle,</l>
           <l n="13">Aux reflets irisés comme un fragment d'opale,</l>
-          <l n="14">Et la met dans son coeur loin des yeux du soleil.</l>
+          <l n="14">Et la met dans son 
+            <choice>
+             <orig>cœur</orig>
+             <reg>coeur</reg>
+           </choice>  
+            loin des yeux du <app><lem wit="#U1857">soleil</lem><rdg wit="#FDM1868">Soleil</rdg></app>.</l>
         </lg>
       </div>
     </body>

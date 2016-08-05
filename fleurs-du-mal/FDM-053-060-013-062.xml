@@ -1,12 +1,10 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title>FRANCISCÆ MEÆ LAUDES</title>
+        <title>FRANCISCAE MEAE LAUDES</title>
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Basic Markup</resp>
@@ -110,16 +108,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <body>
       <div type="poem">
         <head>
-          <title type="main">FRANCISCÆ MEÆ LAUDES</title>
+          <title type="main"><choice>
+              <orig>FRANCISCÆ</orig>
+              <reg>FRANCISCAE</reg>
+            </choice>
+            <choice>
+              <orig>MEÆ</orig>
+              <reg>MEAE</reg>
+            </choice> LAUDES</title>
           <title type="sub">
             <app>
               <lem wit="#U1857">VERS COMPOSÉ POUR UNE MODISTE ÉRUDITE ET DÉVOTE</lem>
               <rdg wit="#FDM1861 #FDM1868"/>
               <rdg wit="#LE1866">VERS COMPOSE POUR UNE MODISTE ERUDITE ET DEVOTE<note n="1"
                   anchored="true" place="bottom">
-                  <p>Le sous-titre de cette pièce, supprimé dans la seconde éedition des<emph
-                      style="italics">Fleurs du Mal</emph>, se trouve dan la première avec la drôle
-                    de note suivante:</p>
+                  <p>Le sous-titre de cette pièce, supprimé dans la seconde éedition des<hi
+                      rend="italics">Fleurs du Mal</hi>, se trouve dan la première avec la drôle de
+                    note suivante:</p>
                   <p>« Ne semble-t-il pas au lecteur, comme à moi, qu la langue de la dernière
                     décadence latine, — supreme soupir d'une personne robuste, déjà transformeé et
                     préparée pour la vie spirituelle, — est singulièrement propre à exprimer la
@@ -170,7 +175,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <lg type="stanza" subtype="tercet" n="3">
           <l n="7">Sicut beneficum Lethe,</l>
           <l n="8">Hauriam oscula de te,</l>
-          <l n="9">Quæ imbuta es magnete.</l>
+          <l n="9"><choice>
+              <orig>Quæ</orig>
+              <reg>Quae</reg>
+            </choice> imbuta es magnete.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
           <l n="10">Quum vitiorum tempestas</l>
@@ -195,12 +203,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </lg>
         <lg type="stanza" subtype="tercet" n="6">
           <l n="16">Piscina plena virtutis,</l>
-          <l n="17">Fons æternæ juventutis,</l>
+          <l n="17">Fons <choice>
+              <orig>æternæ</orig>
+              <reg>aeternae</reg>
+            </choice> juventutis,</l>
           <l n="18">Labris vocem redde mutis!</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="7">
           <l n="19">Quod erat spurcum, cremasti;</l>
-          <l n="20">Quod rudius, exæquasti;</l>
+          <l n="20">Quod rudius, <choice>
+              <orig>exæquasti</orig>
+              <reg>exaequasti</reg>
+            </choice>;</l>
           <l n="21">Quod debile, confirmasti<app>
               <lem wit="#U1857">.</lem>
               <rdg wit="#LE1866 #FDM1868">!</rdg>

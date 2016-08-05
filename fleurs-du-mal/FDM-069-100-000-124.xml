@@ -6,13 +6,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title rend="LA SERVANTE AU GRAND COEUR DONT VOUS ÉTIEZ JALOUSE">SERVANTE AU GRAND COEUR DONT VOUS ÉTIEZ JALOUSE</title>
+        <title rend="LA SERVANTE AU GRAND <choice><orig>CŒUR</orig><reg>COEUR</reg></choice> DONT VOUS ÉTIEZ JALOUSE">SERVANTE AU GRAND <choice><orig>CŒUR</orig><reg>COEUR</reg></choice> DONT VOUS ÉTIEZ JALOUSE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="TMF">Tim Foster</name>
         </respStmt>
+        <respStmt>
+        	<resp>Critical Apparatus</resp>
+        	<name xml:id="SYC">Sophia Clark</name>
+        </respStmt>	
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -62,27 +66,6 @@ portrait of the author drawn and engraved by Felix Bracquemond</note>
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-this is a false imprint, the book actually being published in Brussels
-by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -118,31 +101,89 @@ Online Distributed Proofreading Team.</p>
   <text>
     <body>
       <div type="poem">
-        <head>
-          <title type="main">La servante au grand coeur dont vous étiez jalouse</title>
-        </head>
         <lg type="stanza" n="1">
-          <l n="1">La servante au grand coeur dont vous étiez jalouse,</l>
-          <l n="2">Et qui dort son sommeil sous une humble pelouse,</l>
-          <l n="3">Nous devrions pourtant lui porter quelques fleurs.</l>
-          <l n="4">Les morts, les pauvres morts, ont de grandes douleurs,</l>
+          <l n="1">La servante au grand <choice><orig>cœur</orig><reg>coeur</reg></choice> dont vous étiez jalouse
+          	<app>
+          			<lem wit="#U1857"></lem>
+          			<rdg wit="#FDM1861 #FDM1868">,</rdg>
+          	</app>
+          	</l>
+          <l n="2"> 
+          	<app>
+          			<lem wit="#U1857">— Dort-elle</lem>
+          			<rdg wit="#FDM1861 #FDM1868">Et qui dort</rdg>
+          	</app>
+          		son sommeil sous une humble pelouse
+          	<app>
+          			<lem wit="#U1857">? —</lem>
+          			<rdg wit="#FDM1861 #FDM1868">,</rdg>
+          	</app>
+          </l>
+          <l n="3">Nous 
+          	<app>
+          			<lem wit="#U1857">aurions déjà dû</lem>
+          			<rdg wit="#FDM1861 #FDM1868">devrions pourtant</rdg>
+          	</app>
+          		lui porter quelques fleurs.</l>
+          <l n="4">Les morts, les pauvres morts
+            <app>
+          			<lem wit="#U1857"></lem>
+          			<rdg wit="#FDM1861 #FDM1868">,</rdg>
+          	</app>
+           		ont de grandes douleurs,</l>
           <l n="5">Et quand Octobre souffle, émondeur des vieux arbres,</l>
           <l n="6">Son vent mélancolique à l'entour de leurs marbres,</l>
           <l n="7">Certe, ils doivent trouver les vivants bien ingrats,</l>
-          <l n="8">À dormir, comme ils font, chaudement dans leurs draps,</l>
+          <l n="8">
+          	<app>
+          			<lem wit="#U1857">A</lem>
+          			<rdg wit="#FDM1868">De</rdg>
+          	</app>
+          		dormir, comme ils font, chaudement dans leurs draps,</l>
           <l n="9">Tandis que, dévorés de noires songeries,</l>
           <l n="10">Sans compagnon de lit, sans bonnes causeries,</l>
           <l n="11">Vieux squelettes gelés travaillés par le ver,</l>
-          <l n="12">Ils sentent s'égoutter les neiges de l'hiver</l>
-          <l n="13">Et le siècle couler, sans qu'amis ni famille</l>
+          <l n="12">Ils sentent s'égoutter les neiges de l'hiver
+            <app>
+          			<lem wit="#U1857">,</lem>
+          			<rdg wit="#FDM1861 #FDM1868"></rdg>
+          	</app>
+          </l>
+          <l n="13">
+          	<app>
+          			<lem wit="#U1857">Et l'éternité fuir</lem>
+          			<rdg wit="#FDM1861 #FDM1868">Et le siècle couler,</rdg>
+          	</app>
+          		sans qu'amis ni famille</l>
           <l n="14">Remplacent les lambeaux qui pendent à leur grille.</l>
-          <l n="15">Lorsque la bûche siffle et chante, si le soir</l>
-          <l n="16">Calme, dans le fauteuil je la voyais s'asseoir,</l>
+        </lg>
+        <lg type="stanza" n="2">
+          <l n="15">Lorsque la bûche siffle et chante, si le soir,</l>
+          <l n="16">Calme, dans le fauteuil
+          	<app>
+          			<lem wit="#U1857">elle venait</lem>
+          			<rdg wit="#FDM1861 #FDM1868">je la voyais</rdg>
+          		s'asseoir,</l>
           <l n="17">Si, par une nuit bleue et froide de décembre,</l>
-          <l n="18">Je la trouvais tapie en un coin de ma chambre,</l>
+          <l n="18">Je la trouvais tapie en un coin de ma chambre
+          	<app>
+          			<lem wit="#U1857">,</lem>
+          			<rdg wit="#FDM1868"></rdg>
+          	</app>
+          </l>
           <l n="19">Grave, et venant du fond de son lit éternel</l>
-          <l n="20">Couver l'enfant grandi de son oeil maternel,</l>
-          <l n="21">Que pourrais-je répondre à cette âme pieuse,</l>
+          <l n="20">Couver l'enfant grandi de son <choice><orig>œil</orig><reg>oeil</reg></choice> maternel,</l>
+          <l n="21">Que 
+            <app>
+          			<lem wit="#U1857">pourais-je</lem>
+          			<rdg wit="#FDM1861 #FDM1868">pourrais-je</rdg>
+          	</app>
+          		répondre à cette âme pieuse
+          	<app>
+          			<lem wit="#U1857"></lem>
+          			<rdg wit="#FDM1861 #FDM1868">,</rdg>
+          	</app>
+          </l>
           <l n="22">Voyant tomber des pleurs de sa paupière creuse?</l>
         </lg>
       </div>

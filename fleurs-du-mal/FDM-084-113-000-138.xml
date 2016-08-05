@@ -6,12 +6,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title rend="La Fontaine du sang">Fontaine du sang</title>
+        <title rend="LA FONTAINE DU SANG">FONTAINE DU SANG</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="SW">Steven Wenz</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -62,27 +66,7 @@ portrait of the author drawn and engraved by Felix Bracquemond</note>
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-this is a false imprint, the book actually being published in Brussels
-by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
+          
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -117,9 +101,9 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" subtype="sonnet">
         <head>
-          <title>La Fontaine du sang</title>
+          <title type="main">LA FONTAINE DU SANG</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Il me semble parfois que mon sang coule à flots,</l>
@@ -128,20 +112,24 @@ Online Distributed Proofreading Team.</p>
           <l n="4">Mais je me tâte en vain pour trouver la blessure.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
-          <l n="1">À travers la cité, comme dans un champ clos,</l>
-          <l n="2">Il s'en va, transformant les pavés en îlots,</l>
-          <l n="3">Désaltérant la soif de chaque créature,</l>
-          <l n="4">Et partout colorant en rouge la nature.</l>
+          <l n="5">À travers la cité, comme dans un champ clos,</l>
+          <l n="6">Il s'en va, transformant les pavés en îlots,</l>
+          <l n="7">Désaltérant la soif de chaque créature,</l>
+          <l n="8">Et partout colorant en rouge la nature.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
-          <l n="1">J'ai demandé souvent à des vins captieux</l>
-          <l n="2">D'endormir pour un jour la terreur qui me mine;</l>
-          <l n="3">Le vin rend l'oeil plus clair et l'oreille plus fine!</l>
+          <l n="9">J'ai demandé souvent à des vins captieux</l>
+          <l n="10">D'endormir pour un jour la terreur qui me mine;</l>
+          <l n="11">Le vin rend <choice>
+            <orig>l'œil</orig>
+            <reg>l'oeil</reg>
+          </choice>   
+            plus clair et l'oreille plus fine!</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
-          <l n="1">J'ai cherché dans l'amour un sommeil oublieux;</l>
-          <l n="2">Mais l'amour n'est pour moi qu'un matelas d'aiguilles</l>
-          <l n="3">Fait pour donner à boire à ces cruelles filles!</l>
+          <l n="12">J'ai cherché dans l'amour un sommeil oublieux<app><lem wit="#U1857">,</lem><rdg wit="#FDM1861 #FDM1868">;</rdg></app></l>
+          <l n="13">Mais l'amour n'est pour moi qu'un matelas d'aiguilles</l>
+          <l n="14">Fait pour donner à boire à ces cruelles filles!</l>
         </lg>
       </div>
     </body>

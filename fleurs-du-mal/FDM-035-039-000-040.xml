@@ -6,11 +6,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title>Je te donne ces vers afin que si mon nom</title>
+        <title>JE TE DONNE CES VERS AFIN QUE SI MON NOM</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <name xml:id="ZB">Zora Breeding</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name ref="#ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -61,27 +65,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
+          
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -116,15 +100,17 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="sonnet">
+      <div type="poem" subtype="sonnet">
         <head>
-          <title>Je te donne ces vers afin que si mon nom</title>
+          <title/>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
-          <l n="1">Je te donne ces vers afin que si mon nom</l>
+          <l n="1">Je te donne ces vers afin que<app><lem wit="#U1857">,</lem><rdg wit="#FDM1861 #FDM1868"/></app> si mon nom</l>
           <l n="2">Aborde heureusement aux époques lointaines,</l>
-          <l n="3">Et fait rêver un soir les cervelles humaines,</l>
-          <l n="4">Vaisseau favorisé par un grand aquilon,</l>
+          <l n="3"><app><lem wit="#U1857">Et, navire poussé par un grand aquilon,</lem>
+            <rdg wit="#FDM1861 #FDM1868">Et fait rêver un soir les cervelles humaines,</rdg></app></l>
+          <l n="4"><app><lem wit="#U1857">Fait travailler un soir cervelles humaines,</lem>
+            <rdg wit="#FDM1861 #FDM1868">Vaisseau favorisé par un grand aquilon,</rdg></app></l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Ta mémoire, pareille aux fables incertaines,</l>
@@ -133,8 +119,9 @@ Online Distributed Proofreading Team.</p>
           <l n="8">Reste comme pendue à mes rimes hautaines;</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
-          <l n="9">Être maudit à qui, de l'abîme profond</l>
-          <l n="10">Jusqu'au plus haut du ciel, rien, hors moi, ne répond!</l>
+          <l n="9">Être maudit à qui<app><lem wit="#U1857"/><rdg wit="#FDM1861 #FDM1868">,</rdg></app> de l'abîme profond<app><lem wit="#U1857">,</lem><rdg wit="#FDM1861 #FDM1868"/></app></l>
+          <l n="10">Jusqu'au plus haut du ciel<app><lem wit="#U1857"/><rdg wit="#FDM1861 #FDM1868">,</rdg>
+          </app> rien, hors moi, ne répond!</l>
           <l n="11">— Ô toi qui, comme une ombre à la trace éphémère,</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">

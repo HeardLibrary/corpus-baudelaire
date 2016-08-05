@@ -5,11 +5,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Hymne à la Beauté</title>
+        <title>HYMNE A LA BEAUTÉ</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <name xml:id="ZB">Zora Breeding</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name ref="#ZB">Zora Breeding</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -23,14 +27,45 @@
           <addrLine>USA</addrLine>
         </address>
         <date>2014</date>
-        <idno>FDM-000-021-010-022</idno>
+        <idno>FDM-000-021-000-022</idno>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="U1857">1857 Unexpurgated</witness>
-          <witness xml:id="FDM1861">1861 2nd edition censored</witness>
-          <witness xml:id="LE1866">1866 Les Epaves xml:id="1866"</witness>
-          <witness xml:id="FDM1868">1868 3rd edition - posthumous xml:id="1868"</witness>
+          <witness xml:id="FDM1861">
+            <desc>1861 2nd edition censored</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1861</date>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a
+                    portrait of the author drawn and engraved by Felix Bracquemond</note>
+                </imprint>
+                <extent>319 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          
+          <witness xml:id="FDM1868">
+            <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Oeuvres Complètes de Charles Baudelaire</title>
+                <author>Charles Baudelaire</author>
+                <editor>Théophile Gautier</editor>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Michel Lévy Frères</publisher>
+                  <date>1868-1873</date>
+                  <note>Volume 1 contains Les Fleurs du Mal</note>
+                </imprint>
+                <extent>7 volumes</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
         </listWit>
         <!--
             <p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
@@ -50,45 +85,55 @@
     <body>
       <div type="poem">
         <head>
-          <title>HYMNE A LA BEAUTE</title>
+          <title type="main">HYMNE A LA BEAUTÉ</title>
         </head>
-        <lg type="quatrain" n="1">
+        <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Viens-tu du ciel profond ou sors-tu de l'abîme,</l>
           <l n="2">O Beauté? Ton regard, infernal et divin,</l>
           <l n="3">Verse confusément le bienfait et le crime,</l>
           <l n="4">Et l'on peut pour cela te comparer au vin.</l>
         </lg>
-        <lg type="quatrain" n="2">
-          <l n="5">Tu contiens dans ton oeil le couchant et l'aurore;</l>
+        <lg type="stanza" subtype="quatrain" n="2">
+          <l n="5">Tu contiens dans ton 
+            <choice>
+              <orig>œil</orig>
+              <reg>oeil</reg>
+            </choice>
+            le couchant et l'aurore;</l>
           <l n="6">Tu répands des parfums comme un soir orageux;</l>
           <l n="7">Tes baisers sont un filtre et ta bouche une amphore</l>
           <l n="8">Qui font le héros lâche et l'enfant courageux.</l>
         </lg>
-        <lg type="quatrain" n="3">
+        <lg type="stanza" subtype="quatrain" n="3">
           <l n="9">Sors-tu du gouffre noir ou descends-tu des astres?</l>
           <l n="10">Le Destin charmé suit tes jupons comme un chien;</l>
           <l n="11">Tu sèmes au hasard la joie et les désastres,</l>
           <l n="12">Et tu gouvernes tout et ne réponds de rien.</l>
         </lg>
-        <lg type="quatrain" n="4">
+        <lg type="stanza" subtype="quatrain" n="4">
           <l n="13">Tu marches sur des morts. Beauté, dont tu te moques;</l>
           <l n="14">De tes bijoux l'Horreur n'est pas le moins charmant,</l>
           <l n="15">Et le Meurtre, parmi tes plus chères breloques,</l>
           <l n="16">Sur ton ventre orgueilleux danse amoureusement.</l>
         </lg>
-        <lg type="quatrain" n="5">
+        <lg type="stanza" subtype="quatrain" n="5">
           <l n="17">L'éphémère ébloui vole vers toi, chandelle,</l>
           <l n="18">Crépite, flambe et dit: Bénissons ce flambeau!</l>
           <l n="19">L'amoureux pantelant incliné sur sa belle</l>
           <l n="20">A l'air d'un moribond caressant son tombeau.</l>
         </lg>
-        <lg type="quatrain" n="6">
+        <lg type="stanza" subtype="quatrain" n="6">
           <l n="21">Que tu viennes du ciel ou de l'enfer, qu'importe,</l>
           <l n="22">O Beauté! monstre énorme, effrayant, ingénu!</l>
-          <l n="23">Si ton oeil, ton souris, ton pied, m'ouvrent la porte</l>
+          <l n="23">Si ton 
+            <choice>
+              <orig>œil</orig>
+              <reg>oeil</reg>
+            </choice>
+            , ton souris, ton pied, m'ouvrent la porte</l>
           <l n="24">D'un infini que j'aime et n'ai jamais connu?</l>
         </lg>
-        <lg type="quatrain" n="6">
+        <lg type="stanza" subtype="quatrain" n="6">
           <l n="25">De Satan ou de Dieu, qu'importe? Ange ou Sirène,</l>
           <l n="26">Qu'importé, si tu rends,--fée aux yeux de velours,</l>
           <l n="27">Rythme, parfum, lueur, ô mon unique reine!--</l>

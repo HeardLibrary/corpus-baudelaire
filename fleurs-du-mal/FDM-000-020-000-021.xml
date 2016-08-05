@@ -5,11 +5,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="Le Masque">Masque</title>
+        <title rend="LE MASQUE">MASQUE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <name xml:id="ZB">Zora Breeding</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name ref="#ZB">Zora Breeding</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -27,10 +31,41 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="U1857">1857 Unexpurgated</witness>
-          <witness xml:id="FDM1861">1861 2nd edition censored</witness>
-          <witness xml:id="LE1866">1866 Les Epaves xml:id="1866"</witness>
-          <witness xml:id="FDM1868">1868 3rd edition - posthumous xml:id="1868"</witness>
+          <witness xml:id="FDM1861">
+            <desc>1861 2nd edition censored</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1861</date>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a
+                    portrait of the author drawn and engraved by Felix Bracquemond</note>
+                </imprint>
+                <extent>319 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          
+          <witness xml:id="FDM1868">
+            <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Oeuvres Complètes de Charles Baudelaire</title>
+                <author>Charles Baudelaire</author>
+                <editor>Théophile Gautier</editor>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Michel Lévy Frères</publisher>
+                  <date>1868-1873</date>
+                  <note>Volume 1 contains Les Fleurs du Mal</note>
+                </imprint>
+                <extent>7 volumes</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
         </listWit>
         <!--
             <p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
@@ -49,10 +84,12 @@
   <text>
     <body>
       <div type="poem">
+
         <head>
           <title type="main">LE MASQUE</title>
           <title type="sub">STATUE ALLÉGORIQUE DANS LE GOUT DE LA RENAISSANCE</title>
-          <title type="sub">A ERNEST CHRISTOPHE STATUAIRE</title>
+          <title type="sub">A ERNEST CHRISTOPHE</title>
+          <title type="sub">STATUAIRE</title>
         </head>
         <lg type="stanza" n="1">
           <l n="1">Contemplons ce trésor de grâces florentines;</l>
@@ -64,36 +101,60 @@
           <l n="7">Et charmer les loisirs d'un pontife ou d'un prince.</l>
         </lg>
         <lg type="stanza" n="2">
-          <l n="8">--Aussi, vois ce souris fin et voluptueux</l>
-          <l n="9">Où la Fatuité promène son extase;</l>
+          <l n="8">—Aussi, vois ce souris fin et voluptueux</l>
+          <l n="9">Où la <app>
+            <lem wit="#FDM1861">Fatuité</lem>
+            <rdg wit="#FDM1868">fatuité</rdg>
+          </app> promène son extase;</l>
           <l n="10">Ce long regard sournois, langoureux et moqueur;</l>
           <l n="11">Ce visage mignard, tout encadré de gaze,</l>
           <l n="12">Dont chaque trait nous dit avec un air vainqueur:</l>
-          <l n="13">« La Volupté m'appelle et l'Amour me couronne! »</l>
+          <l n="13">« La Volupté m'appelle et l'<app>
+            <lem wit="#FDM1861">amour</lem>
+            <rdg wit="#FDM1868">Amour</rdg>
+          </app> me couronne! »</l>
           <l n="14">A cet être doué de tant de majesté</l>
           <l n="15">Vois quel charme excitant la gentillesse donne!</l>
-          <l n="16">Approchons, et tournons autour de sa beauté.</l>
+          <l n="16">Approchons, et tournons autour de sa beauté. </l>
         </lg>
         <lg type="stanza" n="3">
           <l n="17">O blasphème de l'art! ô surprise fatale!</l>
           <l n="18">La femme au corps divin, promettant le bonheur,</l>
-          <l n="19">Par le haut se termine en monstre bicéphale!</l>
+          <l n="19">Par le haut se termine en monstre bicéphale! </l>
         </lg>
         <lg type="stanza" n="4">
-          <l n="20">Mais non! Ce n'est qu'un masque, un décor suborneur,</l>
+          <l n="20"><app>
+            <lem wit="#FDM1861">—</lem>
+            <rdg wit="#FDM1868"/>
+          </app>Mais non! <app>
+            <lem wit="#FDM1861">ce</lem>
+            <rdg wit="#FDM1868">Ce</rdg>
+          </app> n'est qu'un masque, un décor suborneur,</l>
           <l n="21">Ce visage éclairé d'une exquise grimace,</l>
           <l n="22">Et, regarde, voici, crispée atrocement,</l>
           <l n="23">La véritable tête, et la sincère face</l>
           <l n="24">Renversée à l'abri de la face qui ment.</l>
-          <l n="25">--Pauvre grande beauté! le magnifique fleuve</l>
-          <l n="26">De tes pleurs aboutit dans mon coeur soucieux;</l>
+          <l n="25"><app>
+            <lem wit="#FDM1861"/>
+            <rdg wit="#FDM1868">—</rdg>
+          </app>Pauvre grande beauté! le magnifique fleuve</l>
+          <l n="26">De tes pleurs aboutit dans mon cœur soucieux;</l>
           <l n="27">Ton mensonge m'enivre, et mon âme s'abreuve</l>
-          <l n="28">Aux flots que la Douleur fait jaillir de tes yeux!</l>
+          <l n="28">Aux flots que la Douleur fait jaillir de tes yeux! </l>
         </lg>
         <lg type="stanza" n="5">
-          <l n="29">--Mais pourquoi pleure-t-elle? Elle, beauté parfaite</l>
+          <l n="29">—Mais pourquoi pleure-t-elle? Elle, beauté parfaite</l>
           <l n="30">Qui mettrait à ses pieds le genre humain vaincu,</l>
-          <l n="31">Quel mal mystérieux ronge son flanc d'athlète?</l>
+          <l n="31"><app>
+            <lem wit="#FDM1861"><sic>uel</sic>
+              <note type="editorial" resp="#ZB">
+                The initial letter "Q" has been left off of the beginning of the first word in the line, "quel". 
+                This is most likely a typesetting error, as there is no such word as "uel". 
+              </note></lem>
+            <rdg wit="#FDM1868">Quel</rdg>
+            <!--The pdf version of the 1961 lacks a beginning Q for this word. Perhaps a check of the 
+                     print is needed to verify typographical error --> 
+          </app> mal mystérieux ronge son flanc d'athlète? </l>
         </lg>
         <lg type="stanza" n="6">
           <l n="32">--Elle pleure, insensé, parce qu'elle a vécu!</l>

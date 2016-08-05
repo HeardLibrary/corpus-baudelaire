@@ -6,12 +6,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title>Harmonie du Soir</title>
+        <title>HARMONIE DU SOIR</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="RVR">Ramona V. Romero</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -62,27 +66,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
+          
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -119,30 +103,35 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>Harmonie du Soir</title>
+          <title type="main">HARMONIE DU SOIR</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Voici venir les temps où vibrant sur sa tige</l>
           <l n="2">Chaque fleur s'évapore ainsi qu'un encensoir;</l>
-          <l n="3">Les sons et les parfums tournent dans l'air du soir;</l>
-          <l n="4">Valse mélancolique et langoureux vertige!</l>
+          <l n="3">Les sons et les parfums tournent dans l'air du soir<app><lem wit="#U1857">,</lem>
+          <rdg wit="#FDM1861 #FDM1868">;</rdg></app></l>
+          <l n="4"><app><lem wit="#U1857">—</lem><rdg wit="#FDM1861"></rdg></app>Valse mélancolique et langoureux vertige! <app><lem wit="#U1857">—</lem><rdg wit="#FDM1861"></rdg></app></l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Chaque fleur s'évapore ainsi qu'un encensoir;</l>
-          <l n="6">Le violon frémit comme un coeur qu'on afflige;</l>
-          <l n="7">Valse mélancolique et langoureux vertige!</l>
+          <l n="6">Le violon frémit comme un <choice><orig>cœur</orig>
+            <reg>coeur</reg></choice> qu'on afflige;</l>
+          <l n="7"><app><lem wit="#U1857">—</lem><rdg wit="#FDM1861"></rdg></app>Valse mélancolique et langoureux vertige!<app><lem wit="#U1857">—</lem><rdg wit="#FDM1861"></rdg></app></l>
           <l n="8">Le ciel est triste et beau comme un grand reposoir.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="3">
-          <l n="9">Le violon frémit comme un coeur qu'on afflige,</l>
-          <l n="10">Un coeur tendre, qui hait le néant vaste et noir!</l>
-          <l n="11">Le ciel est triste et beau comme un grand reposoir;</l>
-          <l n="12">Le soleil s'est noyé dans son sang qui se fige.</l>
+          <l n="9">Le violon frémit comme un <choice><orig>cœur</orig>
+            <reg>coeur</reg></choice> qu'on afflige,</l>
+          <l n="10">Un <choice><orig>cœur</orig>
+            <reg>coeur</reg></choice> tendre, qui hait le néant vaste et noir!</l>
+          <l n="11"><app><lem wit="#U1857">—</lem><rdg wit="#FDM1861"></rdg></app>Le ciel est triste et beau comme un grand reposoir;</l>
+          <l n="12">Le soleil s'est noyé dans son sang qui se fige<app><lem wit="#U1857 #FDM1861">.</lem><rdg wit="#FDM1868">...</rdg></app></l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="4">
-          <l n="13">Un coeur tendre, qui hait le néant vaste et noir,</l>
-          <l n="14">Du passé lumineux recueille tout vestige!</l>
-          <l n="15">Le soleil s'est noyé dans son sang qui se fige...</l>
+          <l n="13">Un <choice><orig>cœur</orig>
+            <reg>coeur</reg></choice> tendre, qui hait le néant vaste et noir,</l>
+          <l n="14">Du passé lumineux recueille tout vestige<app><lem wit="#U1857">;</lem><rdg wit="#FDM1861 #FDM1868">!</rdg></app></l>
+          <l n="15"><app><lem wit="#U1857">—</lem><rdg wit="#FDM1861"></rdg></app>Le soleil s'est noyé dans son sang qui se fige<app><lem wit="#U1857">;</lem><rdg wit="#FDM1861">.....</rdg><rdg wit="#FDM1868">...</rdg></app></l>
           <l n="16">Ton souvenir en moi luit comme un ostensoir!</l>
         </lg>
       </div>

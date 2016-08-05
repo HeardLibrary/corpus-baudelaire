@@ -5,11 +5,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="Le Beau Navire">Beau Navire</title>
+        <title rend="LE BEAU NAVIRE">BEAU NAVIRE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <name xml:id="ZB">Zora Breeding</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="RVR">Ramona V. Romero</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -53,31 +57,10 @@
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-                              portrait of the author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the
+                    author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -117,10 +100,13 @@
     <body>
       <div type="poem">
         <head>
-          <title>LE BEAU NAVIRE</title>
+          <title type="main">LE BEAU NAVIRE</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
-          <l n="1">Je veux te raconter, ô molle enchanteresse,</l>
+          <l n="1">Je veux te raconter, ô molle enchanteresse<app>
+              <lem wit="#U1857">,</lem>
+              <rdg wit="#FDM1861 #FDM1868">!</rdg>
+            </app></l>
           <l n="2">Les diverses beautés qui parent ta jeunesse;</l>
           <l n="3">Je veux te peindre ta beauté</l>
           <l n="4">Où l'enfance s'allie à la maturité.</l>
@@ -138,9 +124,15 @@
           <l n="12">Tu passes ton chemin, majestueuse enfant.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="4">
-          <l n="13">Je veux te raconter, ô molle enchanteresse,</l>
+          <l n="13">Je veux te raconter, ô molle enchanteresse<app>
+              <lem wit="#U1857">,</lem>
+              <rdg wit="#FDM1861 #FDM1868">!</rdg>
+            </app></l>
           <l n="14">Les diverses beautés qui parent ta jeunesse;</l>
-          <l n="15">Je veux te peindre ta beauté</l>
+          <l n="15">Je veux te peindre ta beauté<app>
+              <lem wit="#U1857"/>
+              <rdg wit="#FDM1861 #FDM1868">,</rdg>
+            </app></l>
           <l n="16">Où l'enfance s'allie à la maturité.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="5">
@@ -153,7 +145,10 @@
           <l n="21">Boucliers provoquants, armés de pointes roses!</l>
           <l n="22">Armoire à doux secrets, pleine de bonnes choses,</l>
           <l n="23">De vins, de parfums, de liqueurs</l>
-          <l n="24">Qui feraient délirer les cerveaux et les coeurs!</l>
+          <l n="24">Qui feraient délirer les cerveaux et les <choice>
+              <orig>cœurs</orig>
+              <reg>coeurs</reg>
+            </choice>!</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="7">
           <l n="25">Quand tu vas balayant l'air de ta jupe large,</l>
@@ -162,16 +157,31 @@
           <l n="28">Suivant un rythme doux, et paresseux, et lent.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="8">
-          <l n="29">Tes nobles jambes sons les volants qu'elles chassent,</l>
+          <l n="29">Tes nobles jambes<app>
+              <lem wit="#U1857"/>
+              <rdg wit="#FDM1861 #FDM1868">,</rdg>
+            </app> sons les volants qu'elles chassent<app>
+              <lem wit="#U1857"/>
+              <rdg wit="#FDM1861 #FDM1868">,</rdg>
+            </app></l>
           <l n="30">Tourmentent les désirs obscurs et les agacent</l>
           <l n="31">Comme deux sorcières qui font</l>
           <l n="32">Tourner un philtre noir dans un vase profond.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="9">
-          <l n="33">Tes bras qui se joueraient des précoces hercules</l>
+          <l n="33">Tes bras<app>
+              <lem wit="#U1857"/>
+              <rdg wit="#FDM1861 #FDM1868">,</rdg>
+            </app> qui se joueraient des précoces hercules<app>
+              <lem wit="#U1857"/>
+              <rdg wit="#FDM1861 #FDM1868">,</rdg>
+            </app></l>
           <l n="34">Sont des boas luisants les solides émules,</l>
           <l n="35">Faits pour serrer obstinément,</l>
-          <l n="36">Comme pour l'imprimer dans ton coeur, ton amant.</l>
+          <l n="36">Comme pour l'imprimer dans ton <choice>
+              <orig>cœur</orig>
+              <reg>coeur</reg>
+            </choice>, ton amant.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="10">
           <l n="37">Sur ton cou large et rond, sur tes épaules grasses,</l>

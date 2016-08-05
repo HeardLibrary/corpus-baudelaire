@@ -6,11 +6,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="Allegorie">Allegorie</title>
+        <title>ALLEGORIE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <name xml:id="SW">Steven Wenz</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -62,27 +66,7 @@
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A.
-                                        Lemerre), this is a false imprint, the book actually being
-                                        published in Brussels by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                                        9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
+          
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -109,14 +93,14 @@
     <body>
       <div type="poem">
         <head>
-          <title>ALLEGORIE</title>
+          <title type="main">ALLEGORIE</title>
         </head>
         <lg type="stanza" n="1">
           <l n="1">C'est une femme belle et de riche encolure,</l>
           <l n="2">Qui laisse dans son vin traîner sa chevelure.</l>
           <l n="3">Les griffes de l'amour, les poisons du tripot,</l>
           <l n="4">Tout glisse et tout s'émousse au granit de sa peau.</l>
-          <l n="5">Elle rit à la Mort et nargue la Débauche,</l>
+          <l n="5">Elle rit à la <app><lem wit="#U1857">mort</lem><rdg wit="#FDM1861 #FDM1868">Mort</rdg></app> et nargue la <app><lem wit="#U1857">débauche</lem><rdg wit="#FDM1861 #FDM1868">Débauche</rdg></app>,</l>
           <l n="6">Ces monstres dont la main, qui toujours gratte et fauche,</l>
           <l n="7">Dans ses jeux destructeurs a pourtant respecté</l>
           <l n="8">De ce corps ferme et droit la rude majesté.</l>
@@ -128,7 +112,7 @@
           <l n="14">Et pourtant nécessaire à la marche du monde,</l>
           <l n="15">Que la beauté du corps est un sublime don</l>
           <l n="16">Qui de toute infamie arrache le pardon.</l>
-          <l n="17">Elle ignore l'Enfer comme le Purgatoire,</l>
+          <l n="17">Elle ignore <app><lem wit="#U1857">l'enfer</lem><rdg wit="#FDM1861 #FDM1868">l'Enfer</rdg></app> comme le <app><lem wit="#U1857">purgatoire</lem><rdg wit="#FDM1861 #FDM1868">Purgatoire</rdg></app>,</l>
           <l n="18">Et quand l'heure viendra d'entrer dans la Nuit noire</l>
           <l n="19">Elle regardera la face de la Mort,</l>
           <l n="20">Ainsi qu'un nouveau-né, — sans haine et sans remords.</l>

@@ -6,12 +6,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title rend="Lola de Valence">Lola de Valence</title>
+        <title rend="LOLA DE VALENCE">LOLA DE VALENCE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Encoded by</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="SW">Steven Wenz</name>
+        </respStmt>
+        <respStmt>
+        	<resp>Critical Apparatus</resp>
+        	<name xml:id="SYC">Sophia Clark</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -29,39 +33,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="U1857">
-            <desc>1857 Unexpurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="FDM1861">
-            <desc>1861 2nd edition censored</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-                              portrait of the author drawn and engraved by Felix Bracquemond</note>
-                </imprint>
-                <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="LE1866">
             <desc>1866 Les Epaves xml:id="1866"</desc>
             <biblStruct>
@@ -119,11 +90,28 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title>Lola de Valence</title>
+          <title type="main">
+          	LOLA DE VALENCE
+          	<app>
+              	<lem wit="#LE1866">
+                	<note n="1" anchored="true" place="bottom">
+                  		<p>Ces vers ont été composés pour servir d'inscription à un merveilleux portrait de mademoiselle Lola, ballérine espagnole, par M. Edouard Manet, qui, comme tous les tableaux du même peintre, a fait esclandre. - La muse de M. Charles Baudelaire est si généralement suspecte, qu'il s'est trouvé des critiques d'estaminet pour dénicher un sens obscéne dans le <emph style="italics"> bijou rose et noir</emph>. Nous croyons, nous, que le poëte a voulu simplement dire qu'une beauté, d'un caractère à la fois ténébreux et folâtre, faisait rêver à l'association du <emph style="italics">rose</emph> et du <emph style="italics">noir</emph>.</p>
+                  		<p>(<emph style="italics">Note de l'éditeur</emph>.)</p>
+                	</note>
+              	</lem>
+              <rdg wit="#FDM1868"/>
+            </app>
+          </title>
+          <title type="sub">
+          	<app>
+          		<lem wit="#LE1866"/>
+          		<rdg wit="#FDM1868">INSCRIPTION POUR LE TABLEAU D'ÉDOUARD MANET</rdg>
+          	</app>
+          </title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Entre tant de beautés que partout on peut voir,</l>
-          <l n="2">Je contemple bien, amis, que le désir balance;</l>
+          <l n="2">Je comprends bien, amis, que le désir balance;</l>
           <l n="3">Mais on voit scintiller en Lola de Valence</l>
           <l n="4">Le charme inattendu d'un bijou rose et noir.</l>
         </lg>

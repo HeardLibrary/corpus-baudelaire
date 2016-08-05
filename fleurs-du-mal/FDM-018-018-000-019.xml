@@ -6,12 +6,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title rend="L'Ideal">Ideal</title>
+        <title rend="L'IDÉAL">IDÉAL</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="EW">Ed Warga</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -62,27 +66,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
+          
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -117,33 +101,53 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem" n="13">
+      <div type="poem" subtype="sonnet">
         <head>
-          <title>L'IDEAL</title>
+          <title type="main">L'IDÉAL</title>
         </head>
-        <lg type="quatrain" rhyme="abab">
-          <l n="1">Ce ne seront jamais ces beautés de<rhyme label="a">vignettes</rhyme>,</l>
-          <l n="2">Produits avariés, nés d'un siècle<rhyme label="b">vaurien</rhyme>,</l>
-          <l n="3">Ces pieds à brodequins, ces doigts à<rhyme label="a">castagnettes</rhyme>,</l>
-          <l n="4">Qui sauront satisfaire un coeur comme<rhyme label="b">le mien</rhyme>.</l>
+        <lg type="stanza" subtype="quatrain" n="1">
+          <l n="1">Ce ne seront jamais ces beautés de vignettes,</l>
+          <l n="2">Produits avariés, nés d'un siècle vaurien,</l>
+          <l n="3">Ces pieds à brodequins, ces doigts à castagnettes,</l>
+          <l n="4">Qui sauront satisfaire un 
+            <choice>
+            <orig>cœur</orig>
+            <reg>coeur</reg>
+          </choice> 
+            comme le mien.</l>
         </lg>
-        <lg type="quatrain" rhyme="cdcd">
-          <l n="5">Je laisse, à Gavarni, poète des<rhyme label="c">chloroses</rhyme>,</l>
-          <l n="6">Soa troupeau gazouillant de beautés<rhyme label="d">d'hôpital</rhyme>,</l>
-          <l n="7">Car je ne puis trouver parmi ces pâles<rhyme label="c">roses</rhyme>
-          </l>
-          <l n="8">Une fleur qui ressemble à mon rouge<rhyme label="d">idéal</rhyme>.</l>
+        <lg type="stanza" subtype="quatrain" n="2">
+          <l n="5">Je laisse, à Gavarni, 
+            <app>
+            <lem wit="#U1857">poète</lem>
+            <rdg wit="#FDM1861 #FDM1868">poëte</rdg>
+          </app> 
+            des chloroses,</l>
+          <l n="6">Soa troupeau gazouillant de beautés d'hôpital
+            <app>
+            <lem wit="#U1857">;</lem>
+            <rdg wit="#FDM1861 #FDM1868">.</rdg>
+          </app></l>
+          <l n="7">Car je ne puis trouver parmi ces pâles roses</l>
+          <l n="8">Une fleur qui ressemble à mon rouge idéal.</l>
         </lg>
-        <lg type="tercet" rhyme="eef">
-          <l n="9">Ce qu'il faut à ce coeur profond comme un<rhyme label="e">abîme</rhyme>,</l>
-          <l n="10">C'est vous, Lady Macbeth, âme puissante au<rhyme label="e">crime</rhyme>,</l>
-          <l n="11">Rêve d'Eschyle éclos au climat des<rhyme label="f">autans</rhyme>;</l>
+        <lg type="stanza" subtype="tercet" n="3">
+          <l n="9">Ce qu'il faut à ce 
+            <choice>
+            <orig>cœur</orig>
+            <reg>coeur</reg>
+            </choice>  
+            profond comme un abîme,</l>
+          <l n="10">C'est vous, Lady Macbeth, âme puissante au crime, </l>
+          <l n="11"><app>
+            <lem wit="#U1857">Rève</lem>
+            <rdg wit="#FDM1861 #FDM1868">Rêve</rdg>
+          </app> d'Eschyle éclos au climat des autans;</l>
         </lg>
-        <lg type="tercet" rhyme="ggf">
-          <l n="12">Ou bien toi, grand Nuit, fille de<rhyme label="g">Michel-Ange</rhyme>,</l>
-          <l n="13">Qui tors paisiblement dans une pose<rhyme label="g">étrange</rhyme>
-          </l>
-          <l n="14">Tes appas façonnés aux bouches des<rhyme label="f">Titans</rhyme>!</l>
+        <lg type="stanza" subtype="tercet" n="4">
+          <l n="12">Ou bien toi, grand Nuit, fille de Michel-Ange,</l>
+          <l n="13">Qui tors paisiblement dans une pose étrange</l>
+          <l n="14">Tes appas façonnés aux bouches des Titans!</l>
         </lg>
       </div>
     </body>

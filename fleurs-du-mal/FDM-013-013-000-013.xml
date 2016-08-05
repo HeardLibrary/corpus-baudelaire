@@ -3,12 +3,15 @@
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title>BOHEMIENS EN VOYAGE</title>
+        <title>BOHÉMIENS EN VOYAGE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
-          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+          <resp>Basic Markup</resp>
+          <name xml:id="VUCB">Vanderbilt University Corpus-Baudelaire(VUCB) TEAM</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="RVR">Ramona V. Romero</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -52,31 +55,10 @@
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-                    portrait of the author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the
+                    author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                    this is a false imprint, the book actually being published in Brussels
-                    by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                    9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -114,38 +96,31 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem" subtype="sonnet" n="8" rhyme="abbacddceefggf">
+      <div type="poem" subtype="sonnet">
         <head>
-          <title>BOHEMIENS EN VOYAGE</title>
+          <title type="main">BOHÉMIENS EN VOYAGE</title>
         </head>
-        <lg type="quatrain" n="1" rhyme="abba">
-          <l n="1">La tribu prophétique aux prunelles<rhyme label="a">ardentes</rhyme>
-          </l>
-          <l n="2">Hier s'est mise en route, emportant ses<rhyme label="b">petits</rhyme>
-          </l>
-          <l n="3">Sur son dos, ou livrant à leurs fiers<rhyme label="b">appétits</rhyme>
-          </l>
-          <l n="4">Le trésor toujours prêt des mamelles<rhyme label="a">pendantes</rhyme>.</l>
+        <lg type="stanza" subtype="quatrain" n="1">
+          <l n="1">La tribu prophétique aux prunelles ardentes</l>
+          <l n="2">Hier s'est mise en route, emportant ses petits</l>
+          <l n="3">Sur son dos, ou livrant à leurs fiers appétits</l>
+          <l n="4">Le trésor toujours prêt des mamelles pendantes.</l>
         </lg>
-        <lg type="quatrain" n="2" rhyme="cddc">
-          <l n="5">Les hommes vont à pied sous leurs armes<rhyme label="c">luisantes</rhyme>
-          </l>
-          <l n="6">Le long des chariots où les leurs sont<rhyme label="d">blottis</rhyme>,</l>
-          <l n="7">Promenant sur le ciel des yeux<rhyme label="d">appesantis</rhyme>
-          </l>
-          <l n="8">Par le morne regret des chimères<rhyme label="c">absentes</rhyme>.</l>
+        <lg type="stanza" subtype="quatrain" n="2">
+          <l n="5">Les hommes vont à pied sous leurs armes luisantes</l>
+          <l n="6">Le long des chariots où les leurs sont blottis,</l>
+          <l n="7">Promenant sur le ciel des yeux appesantis</l>
+          <l n="8">Par le morne regret des chimères absentes.</l>
         </lg>
-        <lg type="tercet" n="3" rhyme="eef">
-          <l n="9">Du fond de son réduit sablonneux, le<rhyme label="e">grillon</rhyme>,</l>
-          <l n="10">Les regardant passer, redouble sa<rhyme label="e">chanson</rhyme>;</l>
-          <l n="11">Cybèle, qui les aime, augmente ses<rhyme label="f">verdures</rhyme>,</l>
+        <lg type="stanza" subtype="tercet" n="3">
+          <l n="9">Du fond de son réduit sablonneux, le grillon,</l>
+          <l n="10">Les regardant passer, redouble sa chanson;</l>
+          <l n="11">Cybèle, qui les aime, augmente ses verdures,</l>
         </lg>
-        <lg type="tercet" n="4" rhyme="ggf">
-          <l n="12">Fait couler le rocher et fleurir le<rhyme label="g">désert</rhyme>
-          </l>
-          <l n="13">Devant ces voyageurs, pour lesquels est<rhyme label="g">ouvert</rhyme>
-          </l>
-          <l n="14">L'empire familier des ténèbres<rhyme label="f">futures</rhyme>.</l>
+        <lg type="stanza" subtype="tercet" n="4">
+          <l n="12">Fait couler le rocher et fleurir le désert</l>
+          <l n="13">Devant ces voyageurs, pour lesquels est ouvert</l>
+          <l n="14">L'empire familier des ténèbres futures.</l>
         </lg>
       </div>
     </body>

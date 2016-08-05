@@ -6,12 +6,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title>Rêve parisien</title>
+        <title>RÊVE PARISIEN</title>
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Encoded by</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="ZB">Zora Breeding</name>
+        </respStmt>
+        <respStmt>
+        	<resp>Critical Apparatus</resp>
+        	<name xml:id="SYC"> Sophia Clark</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -29,22 +33,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="U1857">
-            <desc>1857 Unexpurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1861">
             <desc>1861 2nd edition censored</desc>
             <biblStruct>
@@ -59,27 +47,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                         portrait of the author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                                        this is a false imprint, the book actually being published in Brussels
-                                        by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                                        9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -117,20 +84,29 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" subtype="composite">
         <head>
-          <title type="main">Rêve parisien</title>
-          <title type="sub">À Constantin Guys</title>
+          <title type="main">RÊVE PARISIEN</title>
+          <title type="sub">A CONSTANTIN GUYS</title>
         </head>
+        <lg type="poem" n="1">
+        	<head>
+        		</title>I</title>
+        	</head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">De ce terrible paysage,</l>
-          <l n="2">Tel que jamais mortel n'en vit,</l>
+          <l n="2">
+          	<app>
+          		<lem wit="#FDM1861">Tel que jamais mortel n'en vit,</rdg>
+          		<rdg wit="#FDM1868">Que jamais <choice><orig>œil</orig><reg>oeil</reg></choice> mortel ne vit,</rdg>
+          	</app>
+          </l>
           <l n="3">Ce matin encore l'image,</l>
           <l n="4">Vague et lointaine, me ravit.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Le sommeil est plein de miracles!</l>
-          <l n="6">Par un caprice singulier</l>
+          <l n="6">Par un caprice singulier,</l>
           <l n="7">J'avais banni de ces spectacles</l>
           <l n="8">Le végétal irrégulier,</l>
         </lg>
@@ -142,19 +118,19 @@ Online Distributed Proofreading Team.</p>
         </lg>
         <lg type="stanza" subtype="quatrain" n="4">
           <l n="13">Babel d'escaliers et d'arcades,</l>
-          <l n="14">C'était un palais infini</l>
+          <l n="14">C'était un palais infini,</l>
           <l n="15">Plein de bassins et de cascades</l>
           <l n="16">Tombant dans l'or mat ou bruni;</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="5">
           <l n="17">Et des cataractes pesantes,</l>
-          <l n="18">Comme des rideaux de cristal</l>
+          <l n="18">Comme des rideaux de cristal,</l>
           <l n="19">Se suspendaient, éblouissantes,</l>
-          <l n="20">À des murailles de métal.</l>
+          <l n="20">A des murailles de métal.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="6">
           <l n="21">Non d'arbres, mais de colonnades</l>
-          <l n="22">Les étangs dormants s'entouraient</l>
+          <l n="22">Les étangs dormants s'entouraient,</l>
           <l n="23">Où de gigantesques naïades,</l>
           <l n="24">Comme des femmes, se miraient.</l>
         </lg>
@@ -162,11 +138,11 @@ Online Distributed Proofreading Team.</p>
           <l n="25">Des nappes d'eau s'épanchaient, bleues,</l>
           <l n="26">Entre des quais roses et verts,</l>
           <l n="27">Pendant des millions de lieues,</l>
-          <l n="28">Vers les confins de l'univers:</l>
+          <l n="28">Vers les confins de l'univers;</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="8">
           <l n="29">C'étaient des pierres inouïes</l>
-          <l n="30">Et des flots magiques, c'étaient</l>
+          <l n="30">Et des flots magiques; c'étaient</l>
           <l n="31">D'immenses glaces éblouies</l>
           <l n="32">Par tout ce qu'elles reflétaient!</l>
         </lg>
@@ -197,9 +173,14 @@ Online Distributed Proofreading Team.</p>
         <lg type="stanza" subtype="quatrain" n="13">
           <l n="49">Et sur ces mouvantes merveilles</l>
           <l n="50">Planait (terrible nouveauté!</l>
-          <l n="51">Tout pour l'oeil, rien pour les oreilles!)</l>
+          <l n="51">Tout pour l'<choice><orig>œil</orig><reg>oeil</reg></choice>, rien pour les oreilles!)</l>
           <l n="52">Un silence d'éternité.</l>
         </lg>
+        </lg>
+        <lg type="poem" n="2">
+        	<head>
+        		<title>II</title>
+        	</head>
         <lg type="stanza" subtype="quatrain" n="14">
           <l n="53">En rouvrant mes yeux pleins de flamme</l>
           <l n="54">J'ai vu l'horreur de mon taudis,</l>
@@ -210,7 +191,13 @@ Online Distributed Proofreading Team.</p>
           <l n="57">La pendule aux accents funèbres</l>
           <l n="58">Sonnait brutalement midi,</l>
           <l n="59">Et le ciel versait des ténèbres</l>
-          <l n="60">Sur le triste monde engourdi.</l>
+          <l n="60">Sur 
+          	<app>
+          		<lem wit="#FDM1861">le</rdg>
+          		<rdg wit="#FDM1868">ce</rdg>
+          	</app>
+           triste monde engourdi.</l>
+        </lg>
         </lg>
       </div>
     </body>

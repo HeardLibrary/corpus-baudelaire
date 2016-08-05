@@ -5,11 +5,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Je t'adore à l'égal de la voûte nocturne</title>
+        <title>JE T'ADORE À L'ÉGAL DE LA VOÛTE NOCTURNE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <name xml:id="ZB">Zora Breeding</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name ref="#ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -60,27 +64,7 @@
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
+          
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -116,9 +100,10 @@
   <text>
     <body>
       <div type="poem">
-        <head>Je t'adore à l'égal de la voûte nocturne</head>
-        <!--untitled poem. Used first line as head-->
-        <lg type="stanza" n="1">
+        <head>
+          <title/>
+        </head>
+        <lg type="stanza" subtype="sextet" n="1">
           <l n="1">Je t'adore à l'égal de la voûte nocturne,</l>
           <l n="2">O vase de tristesse, ô grande taciturne,</l>
           <l n="3">Et t'aime d'autant plus, belle, que tu me fuis,</l>
@@ -126,9 +111,10 @@
           <l n="5">Plus ironiquement accumuler les lieues</l>
           <l n="6">Qui séparent mes bras des immensités bleues.</l>
         </lg>
-        <lg type="stanza" n="2">
+        <lg type="stanza" subtype="quatrain" n="2">
           <l n="7">Je m'avance à l'attaque, et je grimpe aux assauts,</l>
-          <l n="8">Comme après un cadavre un choeur de vermisseaux,</l>
+          <l n="8">Comme après un cadavre un <choice><orig>chœur</orig>
+            <reg>choeur</reg></choice> de vermisseaux,</l>
           <l n="9">Et je chéris, ô bête implacable et cruelle,</l>
           <l n="10">Jusqu'à cette froideur par où tu m'es plus belle!</l>
         </lg>

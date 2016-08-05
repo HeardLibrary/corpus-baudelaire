@@ -1,14 +1,23 @@
+<!-- Requisite XML information. Encoding, namespace, and schema info. -->
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- TEI Header begins here... -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title>SPLEEN (Pluviôse, irrité)</title>
+        <!-- Title element - insert name of poem. If tile starts with an article, leave it off in the title value and include the title with the article in a rend attribute. -->
+        <title rend="SPLEEN (PLUVIÔSE IRRITÉ…)">SPLEEN (PLUVIÔSE IRRITÉ…)</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
-          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+          <resp>Basic Markup by</resp>
+          <!-- Insert your name and XML ID - choose an XML ID for the project and stick with it! -->
+          <name xml:id="VUCB">Vanderbilt University Corpus-Baudelaire(VUCB) TEAM</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="AS">Adam Steffanick</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -22,9 +31,16 @@
           <addrLine>USA</addrLine>
         </address>
         <date>2014</date>
+        <!-- Insert identification number. See the Editions Table (https://github.com/CliffordAnderson/corpus-baudelaire/wiki/Editions-Table) to derive the numerical ID Code. -->
         <idno>FDM-059-075-000-077</idno>
       </publicationStmt>
       <sourceDesc>
+        <!-- create listWit in sourceDesc with the different editions and their bib data
+        1. 1857 Unexpurgated xml:id="U1857"
+        2. 1861 2nd edition censored xml:id="FDM1861"
+        3. 1866 Les Epaves xml:id="LE1866"
+        4. 1868 3rd edition - posthumous xml:id="FDM1868"
+        -->
         <listWit>
           <witness xml:id="U1857">
             <desc>1857 Unexpurgated</desc>
@@ -52,31 +68,9 @@
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-                    portrait of the author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                    this is a false imprint, the book actually being published in Brussels
-                    by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                    9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -99,48 +93,86 @@
           </witness>
         </listWit>
         <!--
-<p>The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is
-for the use of anyone anywhere at no cost and with almost no restrictions whatsoever.
-You may copy it, give it away or re-use it under the terms of the Project Gutenberg
-License included with this eBook or online at www.gutenberg.org Title: Les Fleurs du
-Mal Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099] Release
-Date: July, 2004 First Posted: November 5, 2002 Language: French Character set
-encoding: ISO-8859-1 </p>
-<p>Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the
-Online Distributed Proofreading Team.</p>
--->
+        The Project Gutenberg EBook of Les Fleurs du Mal, by Charles Baudelaire This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org
+        Title: Les Fleurs du Mal
+        Author: Charles Baudelaire Posting Date: September 11, 2012 [EBook #6099]
+        Release Date: July, 2004 First Posted: November 5, 2002 Language: French Character set encoding: ISO-8859-1
+        Produced by Tonya Allen, Julie Barkley, Juliet Sutherland, Charles Franks and the Online Distributed Proofreading Team.
+        -->
       </sourceDesc>
     </fileDesc>
   </teiHeader>
+  <!-- TEI header ends, text section begins... -->
   <text>
     <body>
-      <div type="sonnet">
+      <!-- The div element is included in the source text. Retain this element and add the type attribute. For the type attribute value use 'poem' unless the poem is a specific type like 'sonnet'. -->
+      <div type="poem" subtype="sonnet">
+        <!-- Remove all p elements
+        Add head and title element -->
         <head>
-          <title>SPLEEN (Pluviôse, irrité)</title>
+          <title>SPLEEN</title>
         </head>
+        <!-- Add lg element with type, subtype, and n attributes
+        Add l elements with n attributes -->
         <lg type="stanza" subtype="quatrain" n="1">
-          <l n="1">Pluviôse, irrité contre la vie entière,</l>
-          <l n="2">De son urne à grands flots vers un froid ténébreux</l>
+          <l n="1">Pluviôse
+            <app>
+              <lem wit="#U1857" />
+              <rdg wit="#FDM1861 #FDM1868">,</rdg>
+            </app>
+            irrité contre la
+            <app>
+              <lem wit="#U1857">ville</lem>
+              <rdg wit="#FDM1868">vie</rdg>
+            </app>
+            entière
+            <app>
+              <lem wit="#U1857" />
+              <rdg wit="#FDM1861 #FDM1868">,</rdg>
+            </app>
+          </l>
+          <l n="2">De son urne à
+            <app>
+              <lem wit="#U1857">grand</lem>
+              <rdg wit="#FDM1861 #FDM1868">grands</rdg>
+            </app>
+            flots verse un froid ténébreux</l>
           <l n="3">Aux pâles habitants du voisin cimetière</l>
           <l n="4">Et la mortalité sur les faubourgs brumeux.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Mon chat sur le carreau cherchant une litière</l>
           <l n="6">Agite sans repos son corps maigre et galeux;</l>
-          <l n="7">L'âme d'un vieux poète erre dans la gouttière</l>
+          <l n="7">
+            <app>
+              <lem wit="#U1857">L'ombre</lem>
+              <rdg wit="#FDM1861 #FDM1868">L'âme</rdg>
+            </app>
+            d'un vieux
+            <app>
+              <lem wit="#U1857">poète</lem>
+              <rdg wit="#FDM1861 #FDM1868">poëte</rdg>
+            </app>
+            erre dans la gouttière</l>
           <l n="8">Avec la triste voix d'un fantôme frileux.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
           <l n="9">Le bourdon se lamente, et la bûche enfumée</l>
-          <l n="10">Accompagne en fausset la pendule enrhumée</l>
+          <l n="10">Accompagne en fausset la pendule enrhumée,</l>
           <l n="11">Cependant qu'en un jeu plein de sales parfums,</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
           <l n="12">Héritage fatal d'une vieille hydropique,</l>
-          <l n="13">Le beau valet de coeur et la dame de pique</l>
+          <l n="13">Le beau valet de
+            <choice>
+              <orig>cœur</orig>
+              <reg>coeur</reg>
+            </choice>
+          et la dame de pique</l>
           <l n="14">Causent sinistrement de leurs amours défunts.</l>
         </lg>
       </div>
     </body>
   </text>
 </TEI>
+<!-- After making up the poem in the source text, save the poem as an individual file. Save the file using the numeric code based on the Editions Table. Add the TEI header from the template file. Replace values in header template as appropriate.-->

@@ -5,11 +5,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="Le Flacon">Flacon</title>
+        <title rend="LE FLACON">FLACON</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <name xml:id="ZB">Zora Breeding</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name ref="#ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -60,27 +64,7 @@
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
+
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -117,41 +101,132 @@
     <body>
       <div type="poem">
         <head>
-          <title>LE FLACON</title>
+          <title type="main">LE FLACON</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Il est de forts parfums pour qui toute matière</l>
-          <l n="2">Est poreuse. On dirait qu'ils pénètrent le verre.</l>
-          <l n="3">En ouvrant un coffret venu de l'orient</l>
+          <l n="2">Est poreuse 
+            <app>
+            <lem wit="#U1857">; — </lem >
+            <rdg wit="#FDM1861 #FDM1868">.</rdg>
+           </app>
+                On dirait qu'ils pénètrent le verre.</l>
+          <l n="3">
+            <app>
+              <lem wit="#U1857">Quelquefois en</lem>
+               <rdg wit="#FDM1861 #FDM1868">En</rdg>
+            </app>
+            ouvrant un coffret venu de 
+            <app>
+              <lem wit="#U1857">l'Orient</lem>
+              <rdg wit="#FDM1868">l'orient</rdg>
+            </app>
+          </l>
           <l n="4">Dont la serrure grince et rechigne en criant,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
-          <l n="5">Ou dans une maison déserte quelque armoire</l>
-          <l n="6">Pleine de l'âcre odeur des temps, poudreuse et noire,</l>
-          <l n="7">Parfois on trouve un vieux flacon qui se souvient,</l>
+          <l n="5">Ou dans une maison déserte quelque armoire
+          <app>
+            <lem wit="#U1857">,</lem>
+            <rdg wit="#FDM1861 #FDM1868"></rdg>
+          </app>
+          </l>
+          <l n="6">
+            <app> 
+              <lem wit="#U1857">Sentant l'odeur d'un siècle, arachnéenne</lem>
+              <rdg wit="#FDM1861 #FDM1868">Pleine de l'âcre odeur des temps, poudreuse</rdg> 
+            </app> 
+            et noire,</l>
+          <l n="7">
+            <app>
+              <lem wit="#U1857">On</lem>
+              <rdg wit="#FDM1861 #FDM1868">Parfois on</rdg>
+            
+            </app> 
+                   trouve un vieux flacon 
+                   <app>
+                     <lem wit="#U1857">jauni</lem>
+                     <rdg wit="#FDM1861 #FDM1868"></rdg>
+                   </app>
+                   qui se souvient,</l>
           <l n="8">D'où jaillit toute vive une âme qui revient.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="3">
-          <l n="9">Mille pensers dormaient, chrysalides funèbres,</l>
-          <l n="10">Frémissant doucement dans tes lourdes ténèbres,</l>
+          <l n="9">Mille pensers dormaient,
+            <app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit="#FDM1861 #FDM1868"></rdg>
+            </app>
+            chrysalides funèbres,</l>
+          <l n="10">Frémissant doucement dans tes lourdes ténèbres,
+            <app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit="#FDM1861 #FDM1868"></rdg>
+            </app>
+          </l>
           <l n="11">Qui dégagent leur aile et prennent leur essor,</l>
-          <l n="12">Teintés d'azur, glacés de rose, lamés d'or.</l>
+          <l n="12">Teintés d'azur, 
+            <app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit="#FDM1861 #FDM1868"></rdg>
+            </app>
+            glacés de rose, 
+            <app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit="#FDM1861 #FDM1868"></rdg>
+            </app>
+            lamés d'or.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="4">
           <l n="13">Voilà le souvenir enivrant qui voltige</l>
-          <l n="14">Dans l'air troublé; les yeux se ferment; le Vertige</l>
+          <l n="14">Dans l'air troublé; 
+            <app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit="#FDM1861 #FDM1868"></rdg>
+            </app>
+            les yeux se ferment; le 
+            <app>
+              <lem wit="#U1857">vertige</lem>
+              <rdg wit="#FDM1861 #FDM1868">Vertige</rdg>
+            </app>
+          </l>
           <l n="15">Saisit l'âme vaincue et la pousse à deux mains</l>
-          <l n="16">Vers un gouffre obscurci de miasmes humains;</l>
+          <l n="16">Vers un gouffre 
+            <app>
+              <lem wit="#U1857">où l'air est plein de parfums</lem>
+              <rdg wit="#FDM1861 #FDM1868">obscurci de miasmes</rdg>
+            </app> 
+            humains
+            <app>
+              <lem wit="#U1857">.</lem>
+              <rdg wit="#FDM1861 #FDM1868">;</rdg>
+            </app>
+          </l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="5">
           <l n="17">Il la terrasse au bord d'un gouffre séculaire,</l>
-          <l n="18">Où, Lazare odorant déchirant son suaire,</l>
+          <l n="18">Où, 
+            <app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit="#FDM1861 #FDM1868"></rdg>
+            </app>
+            Lazare odorant déchirant son suaire,
+            <app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit="#FDM1861 #FDM1868"></rdg>
+            </app>
+          </l>
           <l n="19">Se meut dans son réveil le cadavre spectral</l>
           <l n="20">D'un vieil amour ranci, charmant et sépulcral.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="6">
           <l n="21">Ainsi, quand je serai perdu dans la mémoire</l>
-          <l n="22">Des hommes, dans le coin d'une sinistre armoire;</l>
+          <l n="22">Des hommes, 
+            <app>
+              <lem wit="#U1857">—</lem>
+              <rdg wit="#FDM1861 #FDM1868"></rdg>
+            </app>
+            dans le coin d'une sinistre armoire;</l>
           <l n="23">Quand on m'aura jeté, vieux flacon désolé,</l>
           <l n="24">Décrépit, poudreux, sale, abject, visqueux, fêlé,</l>
         </lg>

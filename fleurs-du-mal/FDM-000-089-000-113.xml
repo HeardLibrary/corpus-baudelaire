@@ -6,9 +6,13 @@
         <title rend="LE CYGNE">CYGNE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+          <name xml:id="VUCB">Vanderbilt University Corpus-Baudelaire(VUCB) TEAM</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="RVR">Ramona V. Romero</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -26,22 +30,6 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="U1857">
-            <desc>1857 Unexpurgated</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Fleurs du Mal</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Paris</pubPlace>
-                  <publisher>Poulet-Malassis et De Broise</publisher>
-                  <date>1857</date>
-                  <note>Original edition with condemned pieces</note>
-                </imprint>
-                <extent>248 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1861">
             <desc>1861 2nd edition censored</desc>
             <biblStruct>
@@ -52,31 +40,10 @@
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-                    portrait of the author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the
+                    author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                    this is a false imprint, the book actually being published in Brussels
-                    by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                    9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -114,13 +81,17 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" subtype="composite">
         <head>
-          <title>LE CYGNE</title>A VICTOR HUGO</head>
-        <div>
-          <head>I</head>
+          <title type="main">LE CYGNE</title>
+          <title type="sub">A VICTOR HUGO</title></head>
+        <lg type="poem">
+          <head><title type="main">I</title></head>
           <lg type="stanza" subtype="quatrain" n="1">
-            <l n="1">Andromaque, je pense à vous! Ce petit fleuve,</l>
+            <l n="1">Andromaque, je pense à vous! <app>
+                <lem wit="#FDM1861"/>
+                <rdg wit="#FDM1868">—</rdg>
+              </app>Ce petit fleuve,</l>
             <l n="2">Pauvre et triste miroir où jadis resplendit</l>
             <l n="3">L'immense majesté de vos douleurs de veuve,</l>
             <l n="4">Ce Simoïs menteur qui par vos pleurs grandit,</l>
@@ -128,8 +99,14 @@ Online Distributed Proofreading Team.</p>
           <lg type="stanza" subtype="quatrain" n="2">
             <l n="5">A fécondé soudain ma mémoire fertile,</l>
             <l n="6">Comme je traversais le nouveau Carrousel.</l>
-            <l n="7">Le vieux Paris n'est plus (la forme d'une ville</l>
-            <l n="8">Change plus vite, hélas! que le coeur d'un mortel);</l>
+            <l n="7"><app>
+                <lem wit="#FDM1861"/>
+                <rdg wit="#FDM1868">—</rdg>
+              </app>Le vieux Paris n'est plus (la forme d'une ville</l>
+            <l n="8">Change plus vite, hélas! que le <choice>
+                <orig>cœur</orig>
+                <reg>coeur</reg>
+              </choice> d'un mortel);</l>
           </lg>
           <lg type="stanza" subtype="quatrain" n="3">
             <l n="9">Je ne vois qu'en esprit tout ce camp de baraques,</l>
@@ -140,20 +117,32 @@ Online Distributed Proofreading Team.</p>
           <lg type="stanza" subtype="quatrain" n="4">
             <l n="13">Là s'étalait jadis une ménagerie;</l>
             <l n="14">Là je vis, un matin, à l'heure où sous les cieux</l>
-            <l n="15">Clairs et froids le Travail s'éveille, où la voirie</l>
-            <l n="16">Pousse un sombre ouragan dans l'air silencieux,</l>
+            <l n="15"><app>
+                <lem wit="#FDM1861">Froids et clairs</lem>
+                <rdg wit="#FDM1868">Clairs et froids</rdg>
+              </app> le Travail s'éveille, où la voirie</l>
+            <l n="16">Pousse un sombre ouragan dans l'air silencieux<app>
+                <lem wit="#FDM1861">,</lem>
+                <rdg wit="#FDM1868">.</rdg>
+              </app></l>
           </lg>
           <lg type="stanza" subtype="quatrain" n="5">
             <l n="17">Un cygne qui s'était évadé de sa cage,</l>
             <l n="18">Et, de ses pieds palmés frottant le pavé sec,</l>
             <l n="19">Sur le sol raboteux traînait son grand plumage.</l>
-            <l n="20">Près d'un ruisseau sans eau la bête ouvrant le bec,</l>
+            <l n="20">Près d'un ruisseau sans eau la bête ouvrant le bec</l>
           </lg>
           <lg type="stanza" subtype="quatrain" n="6">
             <l n="21">Baignait nerveusement ses ailes dans la poudre,</l>
-            <l n="22">Et disait, le coeur plein de son beau lac natal:</l>
-            <l n="23">« Eau, quand donc pleuvras-tu? quand tonneras-tu,</l>
-            <l n="24">Je vois ce malheureux, mythe étrange et fatal, foudre?</l>
+            <l n="22">Et disait, le <choice>
+                <orig>cœur</orig>
+                <reg>coeur</reg>
+              </choice> plein de son beau lac natal:</l>
+            <l n="23">« Eau, quand donc pleuvras-tu? quand tonneras-tu, foudre? <app>
+                <lem wit="#FDM1861">»</lem>
+                <rdg wit="#FDM1868"/>
+              </app></l>
+            <l n="24">Je vois ce malheureux, mythe étrange et fatal,</l>
           </lg>
           <lg type="stanza" subtype="quatrain" n="7">
             <l n="25">Vers le ciel quelquefois, comme l'homme d'Ovide,</l>
@@ -161,11 +150,14 @@ Online Distributed Proofreading Team.</p>
             <l n="27">Sur son cou convulsif tendant sa tête avide,</l>
             <l n="28">Comme s'il adressait des reproches à Dieu!</l>
           </lg>
-        </div>
-        <div>
-          <head>II</head>
+        </lg>
+        <lg type="poem" n="2">
+          <head><title type="main">II</title></head>
           <lg type="stanza" subtype="quatrain" n="8">
-            <l n="29">Paris change, mais rien dans ma mélancolie</l>
+            <l n="29">Paris change<app>
+                <lem wit="#FDM1861">!</lem>
+                <rdg wit="#FDM1868">,</rdg>
+              </app> mais rien dans ma mélancolie</l>
             <l n="30">N'a bougé! palais neufs, échafaudages, blocs,</l>
             <l n="31">Vieux faubourgs, tout pour moi devient allégorie,</l>
             <l n="32">Et mes chers souvenirs sont plus lourds que des rocs.</l>
@@ -184,13 +176,19 @@ Online Distributed Proofreading Team.</p>
           </lg>
           <lg type="stanza" subtype="quatrain" n="11">
             <l n="41">Je pense à la négresse, amaigrie et phtisique,</l>
-            <l n="42">Piétinant dans la boue, et cherchant, l'oeil hagard,</l>
+            <l n="42">Piétinant dans la boue, et cherchant, l'<choice>
+                <orig>œil</orig>
+                <reg>oeil</reg>
+              </choice> hagard,</l>
             <l n="43">Les cocotiers absents de la superbe Afrique</l>
             <l n="44">Derrière la muraille immense du brouillard;</l>
           </lg>
           <lg type="stanza" subtype="quatrain" n="12">
             <l n="45">A quiconque a perdu ce qui ne se retrouve</l>
-            <l n="46">Jamais! jamais! à ceux qui s'abreuvent de pleurs</l>
+            <l n="46">Jamais<app>
+                <lem wit="#FDM1861">,</lem>
+                <rdg wit="#FDM1868">!</rdg>
+              </app> jamais! à ceux qui s'abreuvent de pleurs</l>
             <l n="47">Et tettent la Douleur comme une bonne louve!</l>
             <l n="48">Aux maigres orphelins séchant comme des fleurs!</l>
           </lg>
@@ -200,7 +198,7 @@ Online Distributed Proofreading Team.</p>
             <l n="51">Je pense aux matelots oubliés dans une île,</l>
             <l n="52">Aux captifs, aux vaincus!... à bien d'autres encor!</l>
           </lg>
-        </div>
+        </lg>
       </div>
     </body>
   </text>

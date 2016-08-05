@@ -6,12 +6,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title rend="Le Flambeau Vivant">Flambeau Vivant</title>
+        <title rend="LE FLAMBEAU VIVANT">FLAMBEAU VIVANT</title>
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Encoded by</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="EJW">Ed Warga</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
+          <name xml:id="RVR">Ramona V. Romero</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -55,31 +60,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a
-                              portrait of the author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the
+                    author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                              this is a false imprint, the book actually being published in Brussels
-                              by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                              9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -109,20 +93,26 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
   </teiHeader>
   <text>
     <body>
-      <div type="sonnet">
+      <div type="poem" subtype="sonnet">
         <head>
-          <title>Le Flambeau vivant</title>
+          <title type="main">LE FLAMBEAU VIVANT</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
-          <l n="1">Ils marchent devant moi, ces Yeux pleins de lumières,</l>
-          <l n="2">Qu'un Ange très savant a sans doute aimantés</l>
+          <l n="1">Ils marchent devant moi, ces <app>
+              <lem wit="#U1857">yeux</lem>
+              <rdg wit="#FDM1861 #FDM1868">Yeux</rdg>
+            </app> pleins de lumières,</l>
+          <l n="2">Qu'un Ange très savant a sans doute aimantés;</l>
           <l n="3">Ils marchent, ces divins frères qui sont mes frères,</l>
-          <l n="4">Secouant dans mes yeux leurs feux diamantés.</l>
+          <l n="4"><app>
+              <lem wit="#U1857">Suspendant mon regard à</lem>
+              <rdg wit="#FDM1861 #FDM1868">Secouant dans mes yeux</rdg>
+            </app> leurs feux diamantés.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Me sauvant de tout piège et de tout péché grave,</l>
-          <l n="6">Ils conduisent mes pas dans la route du Beau</l>
-          <l n="7">Ils sont mes serviteurs et je suis leur esclave</l>
+          <l n="6">Ils conduisent mes pas dans la route du Beau;</l>
+          <l n="7">Ils sont mes serviteurs et je suis leur esclave;</l>
           <l n="8">Tout mon être obéit à ce vivant flambeau.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
@@ -131,9 +121,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <l n="12">Rougit, mais n'éteint pas leur flamme fantastique;</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
-          <l n="13">Ils célèbrent la Mort, vous chantez le Réveil</l>
+          <l n="13">Ils célèbrent la Mort, vous chantez le Réveil;</l>
           <l n="14">Vous marchez en chantant le réveil de mon âme,</l>
-          <l n="15">Astres dont nul soleil ne peut flétrir la flamme!</l>
+          <l n="15">Astres dont <app>
+              <lem wit="#U1857">le</lem>
+              <rdg wit="#FDM1861 #FDM1868">nul</rdg>
+            </app> soleil ne peut flétrir la flamme!</l>
         </lg>
       </div>
     </body>

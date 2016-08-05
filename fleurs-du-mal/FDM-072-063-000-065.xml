@@ -2,13 +2,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
         <title rend="LE REVENANT">REVENANT</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
-          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+          <resp>Basic Markup</resp>
+          <name xml:id="VUCB">Vanderbilt University Corpus-Baudelaire(VUCB) TEAM</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="SS">Sara Sterkenburg</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -59,27 +61,6 @@
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                    this is a false imprint, the book actually being published in Brussels
-                    by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                    9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -114,31 +95,35 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" subtype="sonnet">
         <head>
           <title>LE REVENANT</title>
         </head>
-        <lg type="stanza" subtype="quatrain">
-          <l n="1">Comme les anges à l'oeil fauve,</l>
+        <lg type="stanza" subtype="quatrain" n="1">
+          <l n="1">Comme les anges à l'œil fauve,</l>
           <l n="2">Je reviendrai dans ton alcôve</l>
           <l n="3">Et vers toi glisserai sans bruit</l>
           <l n="4">Avec les ombres de la nuit;</l>
         </lg>
-        <lg type="stanza" subtype="quatrain">
+        <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Et je te donnerai, ma brune,</l>
           <l n="6">Des baisers froids comme la lune</l>
           <l n="7">Et des caresses de serpent</l>
           <l n="8">Autour d'une fosse rampant.</l>
         </lg>
-        <lg type="stanza" subtype="tercet">
+        <lg type="stanza" subtype="tercet" n="3">
           <l n="9">Quand viendra le matin livide,</l>
           <l n="10">Tu trouveras ma place vide,</l>
           <l n="11">Où jusqu'au soir il fera froid.</l>
         </lg>
-        <lg type="stanza" subtype="tercet">
+        <lg type="stanza" subtype="tercet" n="4">
           <l n="12">Comme d'autres par la tendresse,</l>
           <l n="13">Sur ta vie et sur ta jeunesse,</l>
-          <l n="14">Moi, je veux régner par l'effroi!</l>
+          <l n="14">Moi, je veux régner par l'effroi<app>
+            <lem wit="#U1857">.</lem>
+            <rdg wit="#FDM1861">.</rdg>
+            <rdg wit="#FDM1868">!</rdg>
+          </app></l>
         </lg>
       </div>
     </body>

@@ -110,7 +110,8 @@ Online Distributed Proofreading Team.</p>
         <lg type="tercet" n="4">
           <l n="12">Une odeur de tombeau dans les ténèbres nage,</l>
           <l n="13">Et mon pied peureux froisse, au bord du marécage,</l>
-          <l n="14">Des crapauds imprévus et de froids limaçons<app>
+          <l n="14">Des crapauds imprévus et de froids limaçons
+          	<app>
               <lem wit="#LE1866">
                 <note n="1" anchored="true" place="bottom">
                   <p>Le mot:<emph style="italics">Genus irritabile vatum</emph>, date de bien des siècles avant les querelles des Classiques, des Romantiques, des Réalistes, des Euphuistes, etc... Il est évident que par<emph style="italics">l'irrésistible Nuit</emph>M. Charles Baudelaire a voulu caractériser l'état actuel de la litérature, et que les<emph style="italics">crapauds imprévus</emph>et les<emph style="italics">froids limaçons</emph>sont les écrivains qui ne sont pas de son école.</p>
@@ -118,7 +119,7 @@ Online Distributed Proofreading Team.</p>
                   <p>(<emph style="italics">Note de l'éditeur</emph>.)</p>
                 </note>
               </lem>
-              <rdg wit="#F1868"/>
+              <rdg wit="#FDM1868"/>
             </app>.</l>
         </lg>
       </div>

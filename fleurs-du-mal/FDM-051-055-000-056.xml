@@ -2,13 +2,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title>Causerie</title>
+        <title>CAUSERIE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
-          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+          <resp>Basic Markup</resp>
+          <name xml:id="VUCB">Vanderbilt University Corpus-Baudelaire(VUCB) TEAM</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="SS">Sara Sterkenburg</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -59,27 +61,6 @@
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                    this is a false imprint, the book actually being published in Brussels
-                    by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                    9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -116,29 +97,47 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem" subtype="sonnet">
         <head>
-          <title>Causerie</title>
+          <title>CAUSERIE</title>
         </head>
-        <lg type="stanza" n="1" subtype="quartrain">
-          <l n="1">Vous êtes un beau ciel d'automne, clair et rose!</l>
+        <lg type="stanza" subtype="quatrain" n="1">
+          <l n="1">Vous <app>
+            <lem wit="#U1857">ètes</lem>
+            <rdg wit="#FDM1861 #FDM1868">êtes</rdg>
+          </app> un beau ciel d'automne, clair et rose!</l>
           <l n="2">Mais la tristesse en moi monte comme la mer,</l>
           <l n="3">Et laisse, en refluant, sur ma lèvre morose</l>
           <l n="4">Le souvenir cuisant de son limon amer.</l>
         </lg>
-        <lg type="stanza" n="2" subtype="quartrain">
-          <l n="6">—-Ta main se glisse en vain sur mon sein qui se pâme;</l>
-          <l n="7">Ce qu'elle cherche, amie, est un lieu saccagé</l>
-          <l n="8">Par la griffe et la dent féroce de la femme.</l>
-          <l n="9">Ne cherchez plus mon coeur; les bêtes l'ont mangé.</l>
+        <lg type="stanza" subtype="quatrain" n="2">
+          <l n="5">—Ta main se glisse en vain sur mon sein qui se pâme;</l>
+          <l n="6">Ce qu'elle cherche, amie, est un lieu saccagé</l>
+          <l n="7">Par la griffe et la dent féroce de la femme.<app>
+            <lem wit="#U1857">—</lem>
+            <rdg wit="#FDM1861 #FDM1868"/>
+          </app></l>
+          <l n="8">Ne cherchez plus mon cœur; <app>
+            <lem wit="#U1857">des monstres</lem>
+            <rdg wit="#FDM1861 #FDM1868">les bêtes</rdg>
+          </app> l'ont mangé.</l>
         </lg>
-        <lg type="stanza" n="3" subtype="tercet">
-          <l n="10">Mon coeur est un palais flétri par la cohue;</l>
-          <l n="11">On s'y soûle, on s'y tue, on s'y prend aux cheveux.</l>
-          <l n="12">—-Un parfum nage autour de votre gorge nue!...</l>
+        <lg type="stanza" subtype="tercet" n="3">
+          <l n="9">Mon cœur est un palais flétri par la cohue;</l>
+          <l n="10">On s'y soûle, on s'y tue, on s'y prend aux cheveux<app>
+            <lem wit="#U1857">.</lem>
+            <rdg wit="#FDM1861 ##FDM1868">!</rdg>
+          </app></l>
+          <l n="11">—Un parfum nage autour de votre gorge nue!<app>
+            <lem wit="#U1857">—</lem>
+            <rdg wit="#FDM1861 #FDM1868">...</rdg>
+          </app></l>
         </lg>
-        <lg type="stanza" n="4" subtype="tercet">
-          <l n="13">O Beauté, dur fléau des âmes! tu le veux!</l>
-          <l n="14">Avec tes yeux de feu, brillants comme des fêtes!</l>
-          <l n="15">Calcine ces lambeaux qu'ont épargnés les bêtes!</l>
+        <lg type="stanza" subtype="tercet" n="4">
+          <l n="12">O Beauté, dur fléau des âmes<app>
+            <lem wit="#U1857">!</lem>
+            <rdg wit="#FDM1861 #FDM1868">,</rdg>
+          </app> tu le veux!</l>
+          <l n="13">Avec tes yeux de feu, brillants comme des fêtes,</l>
+          <l n="14">Calcine ces lambeaux qu'ont épargnés les bêtes!</l>
         </lg>
       </div>
     </body>

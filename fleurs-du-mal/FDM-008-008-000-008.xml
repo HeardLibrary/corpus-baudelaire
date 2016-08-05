@@ -3,12 +3,16 @@
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title rend="La Muse vénale">Muse vénale</title>
+        <title rend="LA MUSE VÉNALE">MUSE VÉNALE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Encoded by</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
+          <name xml:id="VUCB">Vanderbilt University Corpus-Baudelaire(VUCB) TEAM</name>
+        </respStmt>
+        <respStmt>
+        	<resp>Critical Apparatus</resp>
+        	<name xml:id="SYC">Sophia Clark</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -59,27 +63,6 @@
               </monogr>
             </biblStruct>
           </witness>
-          <witness xml:id="LE1866">
-            <desc>1866 Les Epaves xml:id="1866"</desc>
-            <biblStruct>
-              <monogr>
-                <title>Les Épaves</title>
-                <author>Charles Baudelaire</author>
-                <imprint>
-                  <pubPlace>Amsterdam</pubPlace>
-                  <publisher>À L'Enseigne du Coq</publisher>
-                  <date>1866</date>
-                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
-                    this is a false imprint, the book actually being published in Brussels
-                    by Poulet-Malassis.</note>
-                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
-                    9-55</note>
-                  <note>With a frontispeice etching by Félicien Rops</note>
-                </imprint>
-                <extent>163 p.</extent>
-              </monogr>
-            </biblStruct>
-          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -116,28 +99,43 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem" subtype="sonnet" n="5">
         <head>
-          <title type="main">La Muse vénale</title>
+          <title type="main">LA MUSE VÉNALE</title>
         </head>
         <lg type="quatrain" rhyme="aaaa">
-          <l n="1" rhyme="a">Ô Muse de mon coeur, amante des palais,</l>
-          <l n="2" rhyme="a">Auras-tu, quand Janvier lâchera ses Borées,</l>
+          <l n="1" rhyme="a">O 
+          	<app>
+          		<lem wit="#U1857">muse</lem>
+          		<rdg wit="#FDM1868">Muse</rdg>
+          	</app>
+          	de mon <choice><orig>cœur</orig><reg>coeur</reg></choice>, amante des palais,</l>
+          <l n="2" rhyme="a">Auras-tu
+          	<app>
+          		<lem wit="#U1857"></lem>
+          		<rdg wit="#FDM1861 #FDM1868">,</rdg>
+          	</app>
+          	 quand Janvier lâchera ses Borées,</l>
           <l n="3" rhyme="a">Durante les noirs ennuis des neigeuses soirées,</l>
-          <l n="4" rhyme="a">Un tison pur chauffer tes deux pieds violets?</l>
+          <l n="4" rhyme="a">Un tison pour chauffer tes deux pieds violets?</l>
         </lg>
         <lg type="quatrain" rhyme="aaaa">
           <l n="5" rhyme="a">Ranimeras-tu donc tes épaules marbrées</l>
           <l n="6" rhyme="a" enjamb="yes">Aux nocturnes rayons qui percent les
                         volets?</l>
-          <l n="7" rhyme="a">Sentant ta bourse à sec autant que ton palais</l>
-          <l n="8" rhyme="a" enjamb="yes">Récolteras-tu l'or des voutes azurées?</l>
+          <l n="7" rhyme="a">Sentant ta bourse à sec autant que ton palais,</l>
+          <l n="8" rhyme="a" enjamb="yes">Récolteras-tu l'or des voûtes azurées?</l>
         </lg>
         <lg type="tercet" rhyme="bbc">
           <l n="9" rhyme="b">Il te faut, pour gagner ton pain de chaque soir,</l>
-          <l n="10" rhyme="b">Comme un enfant de choeur, jouer de l'escensoir,</l>
-          <l n="11" rhyme="c">Chanter des Te Deum auxquels tu ne coir guère,</l>
+          <l n="10" rhyme="b">Comme un enfant de <choice><orig>chœur</orig><reg>choeur</reg></choice>, jouer de l'escensoir,</l>
+          <l n="11" rhyme="c">Chanter des <emph style="italics">Te Deum</emph> auxquels tu ne crois 
+          	<app>
+          		<lem wit="#U1857">guères,<lem>
+          		<rdg wit="#FDM1861 #FDM1868">guère,</rdg>
+          	</app>
+        </l>
         </lg>
         <lg type="tercet" rhyme="ddc">
-          <l n="12" rhyme="d">Ou, saltimbanque à Jeun, étaler tes appas</l>
+          <l n="12" rhyme="d">Ou, saltimbanque à jeun, étaler tes appas</l>
           <l n="13" rhyme="d" enjamb="yes">Et ton rire trempé de pleurs qu'on ne voit
                         pas,</l>
           <l n="14" rhyme="c">Pour faire épanouir la rate du vulgaire.</l>
