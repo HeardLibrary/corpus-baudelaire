@@ -6,16 +6,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title>TOUT ENTIÈRE</title>
+        <title>Tout entiere</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Basic Markup</resp>
+          <resp>Encoded by</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="EW">Ed Warga</name>
-        </respStmt>
-        <respStmt>
-          <resp>Critical Apparatus</resp>
-          <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -123,43 +119,43 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title type="main">TOUT ENTIÈRE</title>
+          <title>TOUT ENTIERE</title>
         </head>
-        <lg type="stanza" subtype="quatrain" n="1">
+        <lg type="stanza" subtype="quatrain">
           <l n="1">Le Démon, dans ma chambre haute,</l>
           <l n="2">Ce matin est venu me voir,</l>
           <l n="3">Et, tâchant à me prendre en faute,</l>
           <l n="4">Me dit: « Je voudrais bien savoir,</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="2">
+        <lg type="stanza" subtype="quatrain">
           <l n="5">Parmi toutes les belles choses</l>
           <l n="6">Dont est fait son enchantement,</l>
           <l n="7">Parmi les objets noirs ou roses</l>
           <l n="8">Qui composent son corps charmant,</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="3">
-          <l n="9">Quel est le plus doux. »—O mon âme<app><lem wit="#U1857">,</lem><rdg wit="#FDM1861 #FDM1868">!</rdg></app></l>
+        <lg type="stanza" subtype="quatrain">
+          <l n="9">Quel est le plus doux. »--O mon âme!</l>
           <l n="10">Tu répondis à l'Abhorré:</l>
-          <l n="11"><app><lem wit="#U1857"/><rdg wit="#FDM1861 #FDM1868">« </rdg></app>Puisqu'en Elle tout est dictame,</l>
+          <l n="11">« Puisqu'en elle tout est dictame,</l>
           <l n="12">Rien ne peut être préféré.</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="4">
+        <lg type="stanza" subtype="quatrain">
           <l n="13">Lorsque tout me ravit, j'ignore</l>
           <l n="14">Si quelque chose me séduit.</l>
           <l n="15">Elle éblouit comme l'Aurore</l>
           <l n="16">Et console comme la Nuit;</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="5">
+        <lg type="stanza" subtype="quatrain">
           <l n="17">Et l'harmonie est trop exquise,</l>
           <l n="18">Qui gouverne tout son beau corps,</l>
           <l n="19">Pour que l'impuissante analyse</l>
           <l n="20">En note les nombreux accords.</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="6">
+        <lg type="stanza" subtype="quatrain">
           <l n="21">O métamorphose mystique</l>
           <l n="22">De tous mes sens fondus en un!</l>
           <l n="23">Son haleine fait la musique,</l>
-          <l n="24">Comme sa voix fait le parfum<app><lem wit="#U1857">.</lem><rdg wit="#FDM1861 #FDM1868">! »</rdg></app></l>
+          <l n="24">Comme sa voix fait le parfum! »</l>
         </lg>
       </div>
     </body>

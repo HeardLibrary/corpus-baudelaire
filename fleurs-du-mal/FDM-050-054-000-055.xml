@@ -3,16 +3,12 @@
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title rend="L'IRRÉPARABLE">IRRÉPARABLE</title>
+        <title rend="L'Irréparable">Irréparable</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Basic Markup</resp>
+          <resp>Encoded by</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vanderbilt University Corpus-Baudelaire(VUCB) TEAM</name>
-        </respStmt>
-        <respStmt>
-          <resp>Critical Apparatus</resp>
-          <name xml:id="ZB">Zora Breeding</name>
+          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -63,7 +59,27 @@
               </monogr>
             </biblStruct>
           </witness>
-         
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                    this is a false imprint, the book actually being published in Brussels
+                    by Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                    9-55</note>
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -98,82 +114,84 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" subtype="unknown">
         <head>
-          <title type="main">L'IRRÉPARABLE</title>
+          <title>L'Irréparable</title>
         </head>
-        
-        <lg type="stanza" subtype="cinquain" n="1">
+        <div type="I">
+          <lg type="stanza" n="1" subtype="cinquain">
             <l n="1">Pouvons-nous étouffer le vieux, le long Remords,</l>
             <l n="2">Que vit, s'agite et se tortille,</l>
             <l n="3">Et se nourrit de nous comme le ver des morts,</l>
-            <l n="4">Comme du <app><lem wit="#U1857">chéne</lem><rdg wit="#FDM1868">chêne</rdg></app> la chenille?</l>
-            <l n="5">Pouvons-nous étouffer l'implacable Remords?</l>
+            <l n="4">Comme du chêne la chenille?</l>
+            <l n="5">Pouvons-nous étouffer l'implacable Remords?&gt;</l>
           </lg>
-        <lg type="stanza" subtype="cinquain" n="2">
+          <lg type="stanza" n="2" subtype="cinquain">
             <l n="6">Dans quel philtre, dans quel vin, dans quelle tisane</l>
             <l n="7">Noierons-nous ce vieil ennemi,</l>
             <l n="8">Destructeur et gourmand comme la courtisane,</l>
             <l n="9">Patient comme la fourmi?</l>
             <l n="10">Dans quel philtre? — dans quel vin? — dans quelle tisane?</l>
           </lg>
-        <lg type="stanza" subtype="cinquain" n="3">
+          <lg type="stanza" n="3" subtype="cinquain">
             <l n="11">Dis-le, belle sorcière, oh! dis, si tu le sais,</l>
             <l n="12">À cet esprit comblé d'angoisse</l>
             <l n="13">Et pareil au mourant qu'écrasent les blessés,</l>
             <l n="14">Que le sabot du cheval froisse,</l>
-            <l n="15"><app><lem wit="#U1857">—</lem><rdg wit="#FDM1861 #FDM1868"/></app>Dis-le, belle sorcière, oh! dis, si tu le sais,</l>
+            <l n="15">Dis-le, belle sorcière, oh! dis, si tu le sais,</l>
           </lg>
-        <lg type="stanza" subtype="cinquain" n="4">
-          <l n="16">À cet agonisant que <app><lem wit="#U1857">déjà le loup</lem><rdg wit="#FDM1861 #FDM1868">le loup déjà</rdg></app> flaire</l>
+          <lg type="stanza" n="4" subtype="cinquain">
+            <l n="16">À cet agonisant que le loup déjà flaire</l>
             <l n="17">Et que surveille le corbeau,</l>
-            <l n="18"><app><lem wit="#U1857">—</lem><rdg wit="#FDM1861 #FDM1868"/></app>À ce soldat brisé,<app><lem wit="#U1857">—</lem><rdg wit="#FDM1861 #FDM1868"/></app> s'il faut qu'il désespère</l>
+            <l n="18">À ce soldat brisé, s'il faut qu'il désespère</l>
             <l n="19">D'avoir sa croix et son tombeau;</l>
             <l n="20">Ce pauvre agonisant que déjà le loup flaire!</l>
           </lg>
-        <lg type="stanza" subtype="cinquain" n="5">
+          <lg type="stanza" n="5" subtype="cinquain">
             <l n="21">Peut-on illuminer un ciel bourbeux et noir?</l>
             <l n="22">Peut-on déchirer des ténèbres</l>
             <l n="23">Plus denses que la poix, sans matin et sans soir,</l>
             <l n="24">Sans astres, sans éclairs funèbres?</l>
             <l n="25">Peut-on illuminer un ciel bourbeux et noir?</l>
           </lg>
-        <lg type="stanza" subtype="cinquain" n="6">
+          <lg type="stanza" n="6" subtype="cinquain">
             <l n="26">L'Espérance qui brille aux carreaux de l'Auberge</l>
             <l n="27">Est soufflée, est morte à jamais!</l>
-            <l n="28">Sans lune et sans rayons<app><lem wit="#U1857"/><rdg wit="#FDM1861 #FDM1868">,</rdg></app> trouver où l'on héberge</l>
+            <l n="28">Sans lune et sans rayons, trouver où l'on héberge</l>
             <l n="29">Les martyrs d'un chemin mauvais!</l>
-            <l n="30"><app><lem wit="#U1857">—</lem><rdg wit="#FDM1861 #FDM1868"/></app>Le Diable a tout éteint aux carreaux de l'Auberge<app><lem wit="#U1857">.</lem><rdg wit="#FDM1861 #FDM1868">!</rdg></app></l>
+            <l n="30">Le Diable a tout éteint aux carreaux de l'Auberge!</l>
           </lg>
-        <lg type="stanza" subtype="cinquain" n="7">
+          <lg type="stanza" n="7" subtype="cinquain">
             <l n="31">Adorable sorcière, aimes-tu les damnés?</l>
             <l n="32">Dis, connais-tu l'irrémissible?</l>
             <l n="33">Connais-tu le Remords, aux traits empoisonnés,</l>
-            <l n="34">À qui notre <choice><orig>cœur</orig><reg>coeur</reg></choice> sert de cible?</l>
+            <l n="34">À qui notre coeur sert de cible?</l>
             <l n="35">Adorable sorcière, aimes-tu les damnés?</l>
           </lg>
-        <lg type="stanza" subtype="cinquain" n="8">
+          <lg type="stanza" n="8" subtype="cinquain">
             <l n="36">L'Irréparable ronge avec sa dent maudite</l>
-          <l n="37">Notre âme,<app><lem wit="#U1857">—</lem><rdg wit="#FDM1861 #FDM1868"/></app> <app><lem wit="#U1857">honteux</lem><rdg wit="#FDM1861 #FDM1868">piteux</rdg></app> monument,<app><lem wit="#U1857">—</lem><rdg wit="#FDM1861 #FDM1868"/></app></l>
+            <l n="37">Notre âme, piteux monument,</l>
             <l n="38">Et souvent il attaque, ainsi que le termite,</l>
             <l n="39">Par la base le bâtiment.</l>
             <l n="40">L'Irréparable ronge avec sa dent maudite!</l>
           </lg>
-        <lg type="stanza" subtype="cinquain" n="9">
-            <l n="41"><app><lem wit="#U1857">—</lem><rdg wit="#FDM1868"/></app>J'ai vu parfois, au fond d'un théâtre banal</l>
+        </div>
+        <div type="II">
+          <lg type="stanza" n="9" subtype="cinquain">
+            <l n="41">J'ai vu parfois, au fond d'un théâtre banal</l>
             <l n="42">Qu'enflammait l'orchestre sonore,</l>
             <l n="43">Une fée allumer dans un ciel infernal</l>
             <l n="44">Une miraculeuse aurore;</l>
             <l n="45">J'ai vu parfois au fond d'un théâtre banal</l>
           </lg>
-        <lg type="stanza" subtype="cinquain" n="10">
+          <lg type="stanza" n="10" subtype="cinquain">
             <l n="46">Un être, qui n'était que lumière, or et gaze,</l>
-            <l n="47">Terrasser l'énorme Satan;</l>
-            <l n="48">Mais mon <choice><orig>cœur</orig><reg>coeur</reg></choice>, que jamais ne visite l'extase,</l>
+            <l n="47">Terrasser l'énorme Satan</l>
+            <l n="48">Mais mon coeur, que jamais ne visite l'extase,</l>
             <l n="49">Est un théâtre où l'on attend</l>
-            <l n="50">Toujours,<app><lem wit="#U1857">—</lem><rdg wit="#FDM1861 #FDM1868"/></app> toujours en vain,<app><lem wit="#U1857">—</lem><rdg wit="#FDM1861 #FDM1868"/></app> l'Être aux ailes de gaze!</l>
+            <l n="50">Toujours. toujours en vain, l'Etre aux ailes de gaze!</l>
           </lg>
-        
+        </div>
       </div>
     </body>
   </text>

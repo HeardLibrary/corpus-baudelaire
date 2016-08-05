@@ -6,16 +6,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title rend="LA MORT DES AMANTS">MORT DES AMANTS</title>
+        <title rend="La mort des amants">Mort des Amants</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Basic Markup</resp>
+          <resp>Encoded by</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="TFH">Todd F. Hughes</name>
-        </respStmt>
-        <respStmt>
-          <resp>Critical Apparatus</resp>
-          <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -66,7 +62,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               </monogr>
             </biblStruct>
           </witness>
-          
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                                        this is a false imprint, the book actually being published in Brussels
+                                        by Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                                        9-55</note>
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -101,31 +117,31 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem" subtype="sonnet">
+      <div type="sonnet">
         <head>
-          <title type="main">LA MORT DES AMANTS</title>
+          <title>La Mort des Amants</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
-          <l n="1">Nous aurons des lits pleins d'odeurs légères,</l>
-          <l n="2">Des divans profonds comme des tombeaux,</l>
-          <l n="3">Et d'étranges fleurs sur des étagères,</l>
-          <l n="4"><app><lem wit="#U1857">Ecloses</lem><rdg wit="#FDM1868">Écloses</rdg></app> pour nous sous des cieux plus beaux.</l>
+          <l n="">Nous aurons des lits pleins d'odeurs légères,</l>
+          <l n="1">Des divans profonds comme des tombeaux,</l>
+          <l n="2">Et d'étranges fleurs sur des étagères,</l>
+          <l n="3">Ecloses pour nous sous des cieux plus beaux.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
-          <l n="5">Usant à l'envi leurs chaleurs dernières,</l>
-          <l n="6">Nos deux <choice><orig>cœur</orig><reg>coeur</reg></choice> seront deux vastes flambeaux,</l>
-          <l n="7">Qui réfléchiront leurs doubles lumières</l>
-          <l n="8">Dans nos deux esprits, ces miroirs jumeaux.</l>
+          <l n="4">Usant à l'envi leurs chaleurs dernières,</l>
+          <l n="5">Nos deux coeurs seront deux vastes flambeaux,</l>
+          <l n="6">Qui réfléchiront leurs doubles lumières</l>
+          <l n="7">Dans nos deux esprits, ces miroirs jumeaux.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
-          <l n="9">Un soir fait de rose et de bleu mystique,</l>
-          <l n="10">Nous échangerons un éclair unique,</l>
-          <l n="11">Comme un long sanglot, tout chargé d'adieux;</l>
+          <l n="8">Un soir fait de rose et de bleu mystique,</l>
+          <l n="9">Nous échangerons un éclair unique,</l>
+          <l n="10">Comme un long sanglot, tout chargé d'adieux;</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
-          <l n="12">Et <app><lem wit="#U1857">bientôt</lem><rdg wit="#FDM1861 #FDM1868">plus tard</rdg></app> un Ange, entr'ouvrant les portes,</l>
-          <l n="13">Viendra ranimer, fidèle et joyeux,</l>
-          <l n="14">Les miroirs ternis et les flammes mortes.</l>
+          <l n="11">Et plus tard un Ange, entr'ouvrant les portes,</l>
+          <l n="12">Viendra ranimer, fidèle et joyeux,</l>
+          <l n="13">Les miroirs ternis et les flammes mortes.</l>
         </lg>
       </div>
     </body>

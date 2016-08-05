@@ -8,7 +8,7 @@
         <respStmt>
           <resp>Basic Markup</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vanderbilt University Corpus-Baudelaire(VUCB) TEAM</name>
+          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
         </respStmt>
         <respStmt>
           <resp>Critical Apparatus</resp>

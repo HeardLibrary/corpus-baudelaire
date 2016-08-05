@@ -6,17 +6,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title rend="LA RANÇON">RANÇON</title>
+        <title rend="La Rançon">Rançon</title>
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Encoded by</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="TMF">Timothy M. Foster</name>
         </respStmt>
-        <respStmt>
-        	<resp>Critical Apparatus</resp>
-        	<name xml:id="SYC">Sophia Clark</name>
-        </respSTMT>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -33,6 +29,40 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </publicationStmt>
       <sourceDesc>
         <listWit>
+          <witness xml:id="U1857">
+            <desc>1857 Unexpurgated</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1857</date>
+                  <note>Original edition with condemned pieces</note>
+                </imprint>
+                <extent>248 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="FDM1861">
+            <desc>1861 2nd edition censored</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1861</date>
+                  <note>2nd edition augmented by 35 new poems and ornamented with
+                                        a portrait of the author drawn and engraved by Felix
+                                        Bracquemond</note>
+                </imprint>
+                <extent>319 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
           <witness xml:id="LE1866">
             <desc>1866 Les Epaves xml:id="1866"</desc>
             <biblStruct>
@@ -90,7 +120,7 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title type="main">LA RANÇON</title>
+          <title>La rançon</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">L'homme a, pour payer sa rançon,</l>

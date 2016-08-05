@@ -6,16 +6,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title rend="LA CLOCHE FÊLÉE">CLOCHE FÊLÉE</title>
+        <title rend="La Cloche fêlée">Cloche fêlée</title>
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Encoded by</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="SW">Steven Wenz</name>
-        </respStmt>
-        <respStmt>
-        	<resp>Critical Apparatus</resp>
-        	<name xml:id="SYC">Sophia Clark</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -66,6 +62,27 @@ portrait of the author drawn and engraved by Felix Bracquemond</note>
               </monogr>
             </biblStruct>
           </witness>
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+this is a false imprint, the book actually being published in Brussels
+by Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
+9-55</note>
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -100,50 +117,31 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem" subtype="sonnet">
+      <div type="poem">
         <head>
-          <title type="main">LA CLOCHE FÊLÉE</title>
+          <title>La Cloche fêlée</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Il est amer et doux, pendant les nuits d'hiver,</l>
-          <l n="2">D'écouter
-          	<app>
-          		<lem wit="#U1857"></lem>
-          		<rdg wit="#FDM1861 #FDM1868">,</rdg>
-          	</app> près du feu qui palpite et qui fume
-          	<app>
-          		<lem wit="#U1857"></lem>
-          		<rdg wit="#FDM1861 #FDM1868">,</rdg>
-          	</app>
-          	</l>
+          <l n="2">D'écouter, près du feu qui palpite et qui fume,</l>
           <l n="3">Les souvenirs lointains lentement s'élever</l>
           <l n="4">Au bruit des carillons qui chantent dans la brume.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
-          <l n="5">Bienheureuse la cloche au gosier vigoureux</l>
-          <l n="6">Qui, malgré sa vieillesse, alerte et bien portante,</l>
-          <l n="7">Jette fidèlement son cri religieux,</l>
-          <l n="8">Ainsi qu'un vieux soldat qui veille sous la tente!</l>
+          <l n="1">Bienheureuse la cloche au gosier vigoureux</l>
+          <l n="2">Qui, malgré sa vieillesse, alerte et bien portante,</l>
+          <l n="3">Jette fidèlement son cri religieux,</l>
+          <l n="4">Ainsi qu'un vieux soldat qui veille sous la tente!</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
-          <l n="9">Moi, mon âme est fêlée, et lorsqu'en ses ennuis</l>
-          <l n="10">Elle veut de ses chants peupler l'air froid des nuits,</l>
-          <l n="11">Il arrive souvent que sa voix affaiblie</l>
+          <l n="1">Moi, mon âme est fêlée, et lorsqu'en ses ennuis</l>
+          <l n="2">Elle veut de ses chants peupler l'air froid des nuits,</l>
+          <l n="3">Il arrive souvent que sa voix affaiblie</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
-          <l n="12">Semble le râle épais d'un blessé qu'on oublie</l>
-          <l n="13">Au bord d'un lac de sang, sous un grand tas de morts
-          	<app>
-          		<lem wit="#U1857"></lem>
-          		<rdg wit="#FDM1861 #FDM1868">,</rdg>
-          	</app>
-          	</l>
-          <l n="14">Et qui meurt, sans bouger, dans d'immenses efforts
-          	<app>
-          		<lem wit="#U1857">.</lem>
-          		<rdg wit="#FDM1868">!</rdg>
-          	</app>
-          </l>
+          <l n="1">Semble le râle épais d'un blessé qu'on oublie</l>
+          <l n="2">Au bord d'un lac de sang, sous un grand tas de morts</l>
+          <l n="3">Et qui meurt, sans bouger, dans d'immenses efforts.</l>
         </lg>
       </div>
     </body>

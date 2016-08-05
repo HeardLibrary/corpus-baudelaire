@@ -8,12 +8,8 @@
         <title>J'AIME LE SOUVENIR DE CES ÉPOQUES NUES</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Basic Markup</resp>
+          <resp>Encoded by</resp>
           <name xml:id="SS">Sara Sterkenburg</name>
-        </respStmt>
-        <respStmt>
-          <resp>Critical Apparatus</resp>
-          <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -100,100 +96,50 @@
     <body>
       <div type="poem">
         <head>
-          <title/>
+          <title type="main">J'aime le souvenir de ces époques nues</title>
         </head>
         <lg type="stanza" n="1">
           <l n="1">J'aime le souvenir de ces époques nues</l>
-          <l n="2">Dont 
-            <app>
-              <lem wit="#U1857">le soliel se plaît</lem>
-              <rdg wit="#FDM1861 #FDM1868">
-                <choice><orig>Phœbus</orig>
-                  <reg>Phoebus</reg>
-                </choice>
-                se plaisait</rdg>
-            </app> 
-            à dorer les statues</l>
+          <l n="2">Dont le soliel se plaît à dorer les statues</l>
           <l n="3">Alors l'homme et la femme en leur agilité</l>
           <l n="4">Jouissaient sans mensonge et sans anxiété,</l>
           <l n="5">Et, le ciel amoureux leur caressant l'échine,</l>
           <l n="6">Exerçaient la santé de leur noble machine.</l>
           <l n="7">Cybèle alors, fertile en produits généreux,</l>
           <l n="8">Ne trouvait point ses fils un poids trop onéreux,</l>
-          <l n="9">Mais, louve au 
-            <choice><orig>cœur</orig><reg>coeur</reg></choice> 
-           gonflé de tendresses communes,</l>
-          <l n="10">Abreuvait l'univers à ses <app>
-            <lem wit="#U1857">tétines</lem>
-            <rdg wit="#FDM1861">tetines</rdg>
-          </app> brunes.</l>
+          <l n="9">Mais, louve au cœur gonflé de tendresses communes,</l>
+          <l n="10">Abreuvait l'univers à ses tétines brunes.</l>
           <l n="11">L'homme élégant, robuste et fort, avait le droit</l>
-          <l n="12">D'être fier des beautés <app>
-            <lem wit="#U1857">dont il était le</lem>
-          <rdg wit="#FDM1861 #FDM1868">qui le nommaient leur</rdg>
-          </app> roi,</l>
+          <l n="12">D'être fier des beautés dont il était le roi,</l>
           <l n="13">Fruits purs de tout outrage et vierges de gerçures,</l>
           <l n="14">Dont la chair lisse et ferme appelait les morsures!</l>
         </lg>
         <lg type="stanza" n="2">
-          <l n="15">Le <app><lem wit="#U1857">poète</lem>
-            <rdg wit="#FDM1861 #FDM1868">Poëte</rdg>
-          </app> aujourd'hui, quand il veut concevoir</l>
+          <l n="15">Le poète aujourd'hui, quand il veut concevoir</l>
           <l n="16">Ces natives grandeurs, aux lieux où se font voir</l>
           <l n="17">La nudité de l'homme et celle de la femme,</l>
           <l n="18">Sent un froid ténébreux envelopper son àme</l>
-          <l n="19"><app><lem wit="#U1857">A l'aspect du</lem>
-            <rdg wit="#FDM1861 #FDM1868">Devant ce noir</rdg>
-          </app> tableau plein d'épouvantement
-            <app><lem wit="#U1857"/>
-              <rdg wit="#FDM1861 #FDM1868">.</rdg>
-            </app></l>
-          <l n="20"><app><lem wit="#U1857">Des</lem>
-            <rdg wit="#FDM1861 #FDM1868">O</rdg>
-          </app> monstruosités <app><lem wit="#U1857">que voile un</lem>
-            <rdg wit="#FDM1861 #FDM1868">pleurant leur</rdg>
-          </app> vêtement<app><lem wit="#U1857">;</lem>
-            <rdg wit="#FDM1861 #FDM1868">!</rdg>
-          </app></l>
-          <l n="21"><app><lem wit="#U1857">Des visages manqués et plus laids que</lem>
-            <rdg wit="#FDM1861 #FDM1868">O ridicules troncs ! torses dignes</rdg>
-          </app> des masques<app><lem wit="#U1857">;</lem>
-            <rdg wit="#FDM1861 #FDM1868">!</rdg>
-          </app></l>
-          <l n="22"><app><lem wit="#U1857">De tous ces pauvres corps,</lem>
-            <rdg wit="#FDM1861 #FDM1868">O pauvres corps tordus,</rdg>
-          </app> maigres, ventrus ou flasques,</l>
-          <l n="23">Que le <app><lem wit="#U1857">Dieu</lem>
-            <rdg wit="#FDM1861 #FDM1868">dieu</rdg>
-          </app> de 
-            <app><lem wit="#U1857">l'utile,</lem>
-              <rdg wit="#FDM1861 #FDM1868">l'Utile,</rdg>
-            </app> implacable et serein,</l>
-          <l n="24">Enfants, emmaillotta dans ses langes d'airain<app><lem wit="#U1857">;</lem>
-            <rdg wit="#FDM1861 #FDM1868">!</rdg>
-          </app></l>
-          <l n="25"><app><lem wit="#U1857">De ces</lem>
-            <rdg wit="#FDM1861 #FDM1868">et vous</rdg>
-          </app> femmes, hélas! pâles comme des cierges,</l>
-          <l n="26">Que ronge et que nourrit la <app><lem wit="#U1857">honte,</lem>
-            <rdg wit="#FDM1861 #FDM1868">débauche,</rdg>
-          </app> et <app><lem wit="#U1857">de ces</lem>
-            <rdg wit="#FDM1861 #FDM1868">vous,</rdg>
-          </app> vierges</l>
+          <l n="19">A l'aspect du tableau plein d'épouvantement</l>
+          <l n="20">Des monstruosités que voile un vêtement;</l>
+          <l n="21">Des visages manqués et plus laids que des masques;</l>
+          <l n="22">De tous ces pauvres corps, maigres, ventrus ou flasques,</l>
+          <l n="23">Que le Dieu de l'utile, implacable et serein,</l>
+          <l n="24">Enfants, emmaillotta dans ses langes d'airain;</l>
+          <l n="25">De ces femmes, hélas! pâles comme des cierges,</l>
+          <l n="26">Que ronge et que nourrit la honte, et de ces vierges</l>
           <l n="27">Du vice maternel traînant l'hérédité</l>
           <l n="28">Et toutes les hideurs de la fécondité!</l>
         </lg>
         <lg type="stanza" n="3">
           <l n="29">Nous avons, il est vrai, nations corrompues,</l>
           <l n="30">Aux peuples anciens des beautés inconnues:</l>
-          <l n="31">Des visages rongés par les chancres du <choice><orig>cœur,</orig>
-            <reg>coeur,</reg></choice></l>
+          <l n="31">Des visages rongés par les chancres du cœur,</l>
           <l n="32">Et comme qui dirait des beautés de langueur;</l>
           <l n="33">Mais ces inventions de nos muses tardives</l>
           <l n="34">N'empêcheront jamais les races maladives</l>
           <l n="35">De rendre à la jeunesse un hommage profond,</l>
-          <l n="36">— A la sainte jeunesse, à l'air simple, au doux front,</l>
-          <l n="37">A <choice><orig>l'œil</orig><reg>l'oeil</reg></choice> limpide et clair ainsi qu'une eau courante,</l>
+          <l n="36">-- A la sainte jeunesse, à l'air simple, au doux front,</l>
+          <l n="37">A l'œil limpide et clair ainsi qu'une eau courante,</l>
           <l n="38">Et qui va répandant sur tout, insouciante</l>
           <l n="39">Comme l'azur du ciel, les oiseaux et les fleurs,</l>
           <l n="40">Ses parfums, ses chansons et ses douces chaleurs!</l>

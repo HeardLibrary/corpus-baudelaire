@@ -5,15 +5,11 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>TU METTRAIS L'UNIVERS ENTIER DANS TA RUELLE</title>
+        <title>Tu mettrais l'univers entier dans ta ruelle</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Basic Markup</resp>
+          <resp>Encoded by</resp>
           <name xml:id="ZB">Zora Breeding</name>
-        </respStmt>
-        <respStmt>
-          <resp>Critical Apparatus</resp>
-          <name ref="#ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -64,7 +60,27 @@
               </monogr>
             </biblStruct>
           </witness>
-          
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                              this is a false imprint, the book actually being published in Brussels
+                              by Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                              9-55</note>
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -100,36 +116,30 @@
   <text>
     <body>
       <div type="poem">
-        <head>
-          <title/>
-        </head>
-        <app><lem wit="#U1857"><lg type="stanza" subtype="octave" n="1"></lem><rdg wit="#FDM1868">
-          <lg type="stanza" n="1"></rdg></app>
-        <!-- Difference in stanzas, 1857 and 1866 have 3 stanzas; 1868 has only 2 -->
+        <head>Tu mettrais l'univers entier dans ta ruelle</head>
+        <!--untitled poem. Used first line as head-->
+        <lg type="stanza" n="1">
           <l n="1">Tu mettrais l'univers entier dans ta ruelle,</l>
           <l n="2">Femme impure! L'ennui rend ton âme cruelle.</l>
           <l n="3">Pour exercer tes dents à ce jeu singulier,</l>
-          <l n="4">Il te faut chaque jour un <choice><orig>cœur</orig>
-            <reg>coeur</reg></choice> au <app><lem wit="#U1857">ratelier</lem>
-              <rdg wit="#FDM1861 #FDM1868">râtelier</rdg></app>.</l>
-          <l n="5">Tes yeux<app><lem wit="#U1857"/><rdg wit="#FDM1861 #FDM1868">,</rdg>
-          </app> illuminés ainsi que des boutiques</l>
-          <l n="6"><app><lem wit="#U1857">Et</lem><rdg wit="#FDM1868">Ou</rdg></app> des ifs flamboyants dans les fêtes publiques<app><lem wit="#U1857"/><rdg wit="#FDM1861 #FDM1868">,</rdg></app></l>
+          <l n="4">Il te faut chaque jour un coeur au râtelier.</l>
+          <l n="5">Tes yeux, illuminés ainsi que des boutiques</l>
+          <l n="6">Ou des ifs flamboyants dans les fêtes publiques,</l>
           <l n="7">Usent insolemment d'un pouvoir emprunté,</l>
           <l n="8">Sans connaître jamais la loi de leur beauté.</l>
-          </lg>
-        <app><lem wit="#U1857"><lg type="stanza" n="2"></lem><rdg wit="#FDM1868"/></app>
-        <l n="9">Machine aveugle et sourde<app><lem wit="#U1857"/><rdg wit="#FDM1861 #FDM1868">,</rdg></app> en cruauté féconde!</l>
+        </lg>
+        <lg type="stanza" n="2">
+          <l n="9">Machine aveugle et sourde en cruauté féconde!</l>
           <l n="10">Salutaire instrument, buveur du sang du monde,</l>
-          <l n="11">Comment n'as-tu pas honte<app><lem wit="#U1857">,</lem><rdg wit="#FDM1861 #FDM1868"/></app> et comment n'as-tu pas</l>
+          <l n="11">Comment n'as-tu pas honte, et comment n'as-tu pas</l>
           <l n="12">Devant tous les miroirs vu pâlir tes appas?</l>
           <l n="13">La grandeur de ce mal où tu te crois savante</l>
           <l n="14">Ne t'a donc jamais fait reculer d'épouvante,</l>
           <l n="15">Quand la nature, grande en ses desseins cachés,</l>
           <l n="16">De toi se sert, ô femme, ô reine des péchés,</l>
-        <l n="17">—De toi, vil animal,—pour pétrir un génie?</l>
-          </lg>
-        <app><lem wit="#U1857"><lg type="stanza" n="3"></lem><rdg wit="#FDM1868"><lg type="stanza" n="2"></rdg></app>
+          <l n="17">--De toi, vil animal,--pour pétrir un génie?</l>
+        </lg>
+        <lg type="stanza" n="3">
           <l n="18">O fangeuse grandeur, sublime ignominie!</l>
         </lg>
       </div>

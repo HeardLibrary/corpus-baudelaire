@@ -2,15 +2,11 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="LE VIN De L'ASSASSIN">VIN DE L'ASSASSIN</title>
+        <title rend="Le Vin de l'assassin">Vin de l'assassin</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Basic Markup</resp>
+          <resp>Encoded by</resp>
           <name xml:id="RKB">Raquelle K. Bostow</name>
-        </respStmt>
-        <respStmt>
-          <resp>Critical Apparatus</resp>
-          <name xml:id="RVR">Ramona V. Romero</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -54,8 +50,9 @@
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the
-                    author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with
+                                        a portrait of the author drawn and engraved by Felix
+                                        Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
               </monogr>
@@ -84,133 +81,87 @@
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
-        <head>
-          <title type="main">LE VIN DE L'ASSASSIN</title>
-        </head>
-        <lg type="stanza" subtype="quatrain" n="1">
-          <l n="1">Ma femme est morte, je suis libre!</l>
-          <l n="2">Je puis donc boire tout mon <app>
-              <lem wit="#U1857">saoul<note type="editorial" resp="#RVR">Soûl is a variant of saoul
-                  with the meaning sated (obsolete) or drunk.</note></lem>
-              <rdg wit="#FDM1861 #FDM1868">soûl</rdg>
-            </app>.</l>
-          <l n="3">Lorsque je rentrais sans un sou,</l>
-          <l n="4">Ses <app>
-              <lem wit="#U1857">pleurs</lem>
-              <rdg wit="#FDM1861 #FDM1868">cris</rdg>
-            </app> me déchiraient la fibre.</l>
-        </lg>
-        <lg type="stanza" subtype="quatrain" n="2">
-          <l n="5">Autant qu'un roi je suis heureux;</l>
-          <l n="6">L'air est pur, le ciel admirable<app>
-              <lem wit="#U1857">.</lem>
-              <rdg wit="#FDM1861">..</rdg>
-              <rdg wit="#FDM1868">...</rdg>
-            </app></l>
-          <l n="7"><app>
-              <lem wit="#U1857">—</lem>
-              <rdg wit="#FDM1861 #FDM1868"/>
-            </app>Nous avions un été semblable</l>
-          <l n="8">Lorsque j'en devins amoureux!</l>
-        </lg>
-        <lg type="stanza" subtype="quatrain" n="3">
-          <l n="9"><app>
-              <lem wit="#U1857">—</lem>
-              <rdg wit="#FDM1861 #FDM1868"/>
-            </app>L'horrible soif qui me déchire</l>
-          <l n="10">Aurait besoin pour s'assouvir</l>
-          <l n="11">D'autant de vin qu'en peut tenir</l>
-          <l n="12">Son tombeau; — ce n'est pas peu dire:</l>
-        </lg>
-        <lg type="stanza" subtype="quatrain" n="4">
-          <l n="13">Je l'ai jetée au fond d'un puits,</l>
-          <l n="14">Et j'ai même poussé sur elle</l>
-          <l n="15">Tous les pavés de la margelle.</l>
-          <l n="16">— Je l'oublierai si je le puis!</l>
-        </lg>
-        <lg type="stanza" subtype="quatrain" n="5">
-          <l n="17">Au nom des serments de tendresse,</l>
-          <l n="18">Dont rien ne peut nous délier,</l>
-          <l n="19">Et pour nous réconcilier</l>
-          <l n="20">Comme au beau temps de notre ivresse,</l>
-        </lg>
-        <lg type="stanza" subtype="quatrain" n="6">
-          <l n="21">J'implorai d'elle un rendez-vous,</l>
-          <l n="22">Le soir, sur une route obscure<app>
-              <lem wit="#U1857">,</lem>
-              <rdg wit="#FDM1861 #FDM1868">.</rdg>
-            </app></l>
-          <l n="23">Elle y vint! <app>
-              <lem wit="#U1857"/>
-              <rdg wit="#FDM1861 #FDM1868">— </rdg>
-            </app>folle créature!</l>
-          <l n="24"><app>
-              <lem wit="#U1857">—</lem>
-              <rdg wit="#FDM1861 #FDM1868"/>
-            </app>Nous sommes tous plus ou moins fous!</l>
-        </lg>
-        <lg type="stanza" subtype="quatrain" n="7">
-          <l n="25">Elle était encore jolie,</l>
-          <l n="26">Quoique bien fatiguée! et moi,</l>
-          <l n="27">Je l'aimais trop<app>
-              <lem wit="#U1857">; —</lem>
-              <rdg wit="#FDM1861 #FDM1868">!</rdg>
-            </app> voilà pourquoi</l>
-          <l n="28">Je lui dis: <app>
-              <lem wit="#U1857">sors</lem>
-              <rdg wit="#FDM1861 #FDM1868">Sors</rdg>
-            </app> de cette vie!</l>
-        </lg>
-        <lg type="stanza" subtype="quatrain" n="8">
-          <l n="29">Nul ne peut me comprendre. Un seul</l>
-          <l n="30">Parmi ces ivrognes stupides</l>
-          <l n="31">Songea-t-il dans ses nuits <app>
-              <lem wit="#U1857">turpides</lem>
-              <rdg wit="#FDM1861 #FDM1868">morbides</rdg>
-            </app></l>
-          <l n="32">A faire du vin un linceul?</l>
-        </lg>
-        <lg type="stanza" subtype="quatrain" n="9">
-          <l n="33">Cette crapule invulnérable</l>
-          <l n="34">Comme les machines de fer</l>
-          <l n="35">Jamais, ni l'été ni l'hiver,</l>
-          <l n="36">N'a connu l'amour véritable,</l>
-        </lg>
-        <lg type="stanza" subtype="quatrain" n="10">
-          <l n="37">Avec ses noirs enchantements,</l>
-          <l n="38">Son cortège infernal d'alarmes,</l>
-          <l n="39">Ses fioles de poison, ses larmes,</l>
-          <l n="40">Ses bruits de chaîne et d'ossements!</l>
-        </lg>
-        <lg type="stanza" subtype="quatrain" n="11">
-          <l n="41">— Me voilà libre et solitaire!</l>
-          <l n="42">Je serai ce soir <app>
-              <lem wit="#U1857">ivre-mort</lem>
-              <rdg wit="#FDM1861 #FDM1868">ivre mort</rdg>
-            </app>;</l>
-          <l n="43">Alors, sans peur et sans remords,</l>
-          <l n="44">Je me coucherai sur la terre,</l>
-        </lg>
-        <lg type="stanza" subtype="quatrain" n="12">
-          <l n="45">Et je dormirai comme un chien!</l>
-          <l n="46">Le chariot aux lourdes roues</l>
-          <l n="47">Chargé de pierres et de boues,</l>
-          <l n="48">Le <app>
-              <lem wit="#U1857">vagon</lem>
-              <rdg wit="#FDM1861 #FDM1868">wagon</rdg>
-            </app> enragé peut bien</l>
-        </lg>
-        <lg type="stanza" subtype="quatrain" n="13">
-          <l n="49"><app>
-              <lem wit="#U1857">Ecraser</lem>
-              <rdg wit="#FDM1861 #FDM1868">Écraser</rdg>
-            </app> ma tête coupable</l>
-          <l n="50">Ou me couper par le milieu,</l>
-          <l n="51">Je m'en moque comme de Dieu,</l>
-          <l n="52">Du Diable ou de la Sainte Table!</l>
-        </lg>
-      </div>
+      <head>
+        <title>Le Vin de l'Assassin</title>
+      </head>
+      <lg type="stanza" subtype="quatrain" n="1">
+        <l n="1">Ma femme est morte, je suis libre!</l>
+        <l n="2">Je puis donc boire tout mon soûl.</l>
+        <l n="3">Lorsque je rentrais sans un sou,</l>
+        <l n="4">Ses cris me déchiraient la fibre.</l>
+      </lg>
+      <lg type="stanza" subtype="quatrain" n="2">
+        <l n="1">Autant qu'un roi je suis heureux;</l>
+        <l n="2">L'air est pur, le ciel admirable...</l>
+        <l n="3">Nous avions un été semblable</l>
+        <l n="4">Lorsque j'en devins amoureux!</l>
+      </lg>
+      <lg type="stanza" subtype="quatrain" n="3">
+        <l n="1">L'horrible soif qui me déchire</l>
+        <l n="2">Aurait besoin pour s'assouvir</l>
+        <l n="3">D'autant de vin qu'en peut tenir</l>
+        <l n="4">Son tombeau; — ce n'est pas peu dire:</l>
+      </lg>
+      <lg type="stanza" subtype="quatrain" n="4">
+        <l n="1">Je l'ai jetée au fond d'un puits,</l>
+        <l n="2">Et j'ai même poussé sur elle</l>
+        <l n="3">Tous les pavés de la margelle.</l>
+        <l n="4">— Je l'oublierai si je le puis!</l>
+      </lg>
+      <lg type="stanza" subtype="quatrain" n="5">
+        <l n="1">Au nom des serments de tendresse,</l>
+        <l n="2">Dont rien ne peut nous délier,</l>
+        <l n="3">Et pour nous réconcilier</l>
+        <l n="4">Comme au beau temps de notre ivresse,</l>
+      </lg>
+      <lg type="stanza" subtype="quatrain" n="6">
+        <l n="1">J'implorai d'elle un rendez-vous,</l>
+        <l n="2">Le soir, sur une route obscure.</l>
+        <l n="3">Elle y vint — folle créature!</l>
+        <l n="4">Nous sommes tous plus ou moins fous!</l>
+      </lg>
+      <lg type="stanza" subtype="quatrain" n="7">
+        <l n="1">Elle était encore jolie,</l>
+        <l n="2">Quoique bien fatiguée! et moi,</l>
+        <l n="3">Je l'aimais trop! voilà pourquoi</l>
+        <l n="4">Je lui dis: Sors de cette vie!</l>
+      </lg>
+      <lg type="stanza" subtype="quatrain" n="8">
+        <l n="1">Nul ne peut me comprendre. Un seul</l>
+        <l n="2">Parmi ces ivrognes stupides</l>
+        <l n="3">Songea-t-il dans ses nuits morbides</l>
+        <l n="4">À faire du vin un linceul?</l>
+      </lg>
+      <lg type="stanza" subtype="quatrain" n="9">
+        <l n="1">Cette crapule invulnérable</l>
+        <l n="2">Comme les machines de fer</l>
+        <l n="3">Jamais, ni l'été ni l'hiver,</l>
+        <l n="4">N'a connu l'amour véritable,</l>
+      </lg>
+      <lg type="stanza" subtype="quatrain" n="10">
+        <l n="1">Avec ses noirs enchantements,</l>
+        <l n="2">Son cortège infernal d'alarmes,</l>
+        <l n="3">Ses fioles de poison, ses larmes,</l>
+        <l n="4">Ses bruits de chaîne et d'ossements!</l>
+      </lg>
+      <lg type="stanza" subtype="quatrain" n="11">
+        <l n="1">— Me voilà libre et solitaire!</l>
+        <l n="2">Je serai ce soir ivre mort;</l>
+        <l n="3">Alors, sans peur et sans remords,</l>
+        <l n="4">Je me coucherai sur la terre,</l>
+      </lg>
+      <lg type="stanza" subtype="quatrain" n="12">
+        <l n="1">Et je dormirai comme un chien!</l>
+        <l n="2">Le chariot aux lourdes roues</l>
+        <l n="3">Chargé de pierres et de boues,</l>
+        <l n="4">Le wagon enragé peut bien</l>
+      </lg>
+      <lg type="stanza" subtype="quatrain" n="13">
+        <l n="1">Ecraser ma tête coupable</l>
+        <l n="2">Ou me couper par le milieu,</l>
+        <l n="3">Je m'en moque comme de Dieu,</l>
+        <l n="4">Du Diable ou de la Sainte Table!</l>
+      </lg>
     </body>
   </text>
 </TEI>

@@ -1,4 +1,3 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -7,13 +6,9 @@
         <title>CONFESSION</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Basic Markup</resp>
+          <resp>Encoded by</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vanderbilt University Corpus-Baudelaire(VUCB) TEAM</name>
-        </respStmt>
-        <respStmt>
-          <resp>Critical Apparatus</resp>
-          <name xml:id="RVR">Ramona V. Romero</name>
+          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -57,10 +52,31 @@
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the
-                    author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a
+                    portrait of the author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                    this is a false imprint, the book actually being published in Brussels
+                    by Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                    9-55</note>
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -100,112 +116,67 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title type="main">CONFESSION</title>
+          <title>CONFESSION</title>
         </head>
-        <lg type="stanza" subtype="quatrain" n="1">
+        <lg type="stanza" subtype="quatrain">
           <l n="1">Une fois, une seule, aimable et douce femme,</l>
           <l n="2">A mon bras votre bras poli</l>
-          <l n="3"><app>
-              <lem wit="#U1857">S'appuya; —sur</lem>
-              <rdg wit="#FDM1861 #FDM1868">S'appuya (sur</rdg>
-            </app> le fond ténébreux de mon âme</l>
-          <l n="4">Ce souvenir n'est point <app>
-              <lem wit="#U1857">pâli.</lem>
-              <rdg wit="#FDM1861 #FDM1868">pâli);</rdg>
-            </app></l>
+          <l n="3">S'appuya (sur le fond ténébreux de mon âme</l>
+          <l n="4">Ce souvenir n'est point pâli).</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="2">
+        <lg type="stanza" subtype="quatrain">
           <l n="5">Il était tard; ainsi qu'une médaille neuve</l>
           <l n="6">La pleine lune s'étalait,</l>
           <l n="7">Et la solennité de la nuit, comme un fleuve,</l>
           <l n="8">Sur Paris dormant ruisselait.</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="3">
+        <lg type="stanza" subtype="quatrain">
           <l n="9">Et le long des maisons, sous les portes cochères,</l>
           <l n="10">Des chats passaient furtivement,</l>
-          <l n="11">L'oreille au guet, <app>
-              <lem wit="#U1857">—</lem>
-              <rdg wit="#FDM1861 #FDM1868"/>
-            </app>ou bien, comme des ombres chères,</l>
+          <l n="11">L'oreille au guet, ou bien, comme des ombres chères,</l>
           <l n="12">Nous accompagnaient lentement.</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="4">
-          <l n="13"><app>
-              <lem wit="#U1857">Tout-à-coup</lem>
-              <rdg wit="#FDM1861 #FDM1868">Tout à coup</rdg>
-            </app>, au milieu de l'intimité libre</l>
+        <lg type="stanza" subtype="quatrain">
+          <l n="13">Tout à coup, au milieu de l'intimité libre</l>
           <l n="14">Eclose à la pâle clarté,</l>
-          <l n="15">De vous, <app>
-              <lem wit="#U1857">—</lem>
-              <rdg wit="#FDM1861 #FDM1868"/>
-            </app>riche et sonore instrument où ne vibre</l>
-          <l n="16">Que la radieuse <app>
-              <lem wit="#U1857">gaîté</lem>
-              <rdg wit="#FDM1861">gaité</rdg>
-            </app>,</l>
+          <l n="15">De vous, riche et sonore instrument où ne vibre</l>
+          <l n="16">Que la radieuse gaîté,</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="5">
+        <lg type="stanza" subtype="quatrain">
           <l n="17">De vous, claire et joyeuse ainsi qu'une fanfare</l>
           <l n="18">Dans le matin étincelant,</l>
-          <l n="19"><app>
-              <lem wit="#U1857">—Une note plaintive;</lem>
-              <rdg wit="#FDM1861 #FDM1868">Une note plaintive,</rdg>
-            </app> une note bizarre</l>
-          <l n="20">S'échappa, <app>
-              <lem wit="#U1857">—</lem>
-              <rdg wit="#FDM1861 #FDM1868"/>
-            </app>tout en chancelant.</l>
+          <l n="19">Une note plaintive, une note bizarre</l>
+          <l n="20">S'échappa, tout en chancelant.</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="6">
+        <lg type="stanza" subtype="quatrain">
           <l n="21">Comme une enfant chétive, horrible, sombre, immonde</l>
           <l n="22">Dont sa famille rougirait,</l>
-          <l n="23">Et qu'elle aurait <app>
-              <lem wit="#U1857">long-temps</lem>
-              <rdg wit="#FDM1861 #FDM1868">longtemps</rdg>
-            </app>, pour la cacher au monde,</l>
-          <l n="24">Dans un caveau mise au secret<app>
-              <lem wit="#U1857">.</lem>
-              <rdg wit="#FDM1868">!</rdg>
-            </app></l>
+          <l n="23">Et qu'elle aurait longtemps, pour la cacher au monde,</l>
+          <l n="24">Dans un caveau mise au secret!</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="7">
-          <l n="25">Pauvre ange, elle chantait, votre note criarde<app>
-              <lem wit="#U1857">,</lem>
-              <rdg wit="#FDM1861 #FDM1868">:</rdg>
-            </app></l>
+        <lg type="stanza" subtype="quatrain">
+          <l n="25">Pauvre ange, elle chantait, votre note criarde:</l>
           <l n="26">« Que rien ici-bas n'est certain,</l>
           <l n="27">Et que toujours, avec quelque soin qu'il se farde,</l>
           <l n="28">Se trahit l'égoïsme humain;</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="8">
+        <lg type="stanza" subtype="quatrain">
           <l n="29">Que c'est un dur métier que d'être belle femme,</l>
-          <l n="30"><app>
-              <lem wit="#U1857">—Qu'il ressemble au</lem>
-              <rdg wit="#FDM1861 #FDM1868">Et que c'est le</rdg>
-            </app> travail banal</l>
+          <l n="30">Et que c'est le travail banal</l>
           <l n="31">De la danseuse folle et froide qui se pâme</l>
           <l n="32">Dans un sourire machinal;</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="9">
-          <l n="33">Que bâtir sur les <choice>
-              <orig>cœurs</orig>
-              <reg>coeurs</reg>
-            </choice> est une chose sotte,</l>
-          <l n="34"><app>
-              <lem wit="#U1857">—</lem>
-              <rdg wit="#FDM1861 #FDM1868"/>
-            </app>Que tout craque, amour et beauté,</l>
+        <lg type="stanza" subtype="quatrain">
+          <l n="33">Que bâtir sur les coeurs est une chose sotte,</l>
+          <l n="34">Que tout craque, amour et beauté,</l>
           <l n="35">Jusqu'à ce que l'Oubli les jette dans sa hotte</l>
           <l n="36">Pour les rendre à l'Eternité! »</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="10">
+        <lg type="stanza" subtype="quatrain">
           <l n="37">J'ai souvent évoqué cette lune enchantée,</l>
           <l n="38">Ce silence et cette langueur,</l>
           <l n="39">Et cette confidence horrible chuchotée</l>
-          <l n="40">Au confessionnal du <choice>
-              <orig>cœur</orig>
-              <reg>coeur</reg>
-            </choice>.</l>
+          <l n="40">Au confessionnal du coeur.</l>
         </lg>
       </div>
     </body>

@@ -5,15 +5,11 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="LE COUVERCLE">COUVERCLE</title>
+        <title rend="Le Couvercle">Couvercle</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Basic Markup</resp>
+          <resp>Encoded by</resp>
           <name xml:id="ZB">Zora Breeding</name>
-        </respStmt>
-        <respStmt>
-          <resp>Critical Apparatus</resp>
-          <name ref="#ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -31,7 +27,60 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          
+          <witness xml:id="U1857">
+            <desc>1857 Unexpurgated</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1857</date>
+                  <note>Original edition with condemned pieces</note>
+                </imprint>
+                <extent>248 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="FDM1861">
+            <desc>1861 2nd edition censored</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1861</date>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a
+                              portrait of the author drawn and engraved by Felix Bracquemond</note>
+                </imprint>
+                <extent>319 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                              this is a false imprint, the book actually being published in Brussels
+                              by Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                              9-55</note>
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -66,9 +115,9 @@
   </teiHeader>
   <text>
     <body>
-      <div type="poem" subtype="sonnet">
+      <div type="sonnet">
         <head>
-          <title type="main">LE COUVERCLE</title>
+          <title>LE COUVERCLE</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">En quelque lieu qu'il aille, ou sur mer ou sur terre,</l>
@@ -80,12 +129,12 @@
           <l n="5">Citadin, campagnard, vagabond, sédentaire,</l>
           <l n="6">Que son petit cerveau soit actif ou soit lent,</l>
           <l n="7">Partout l'homme subit la terreur du mystère,</l>
-          <l n="8">Et ne regarde en haut qu'avec un œil tremblant.</l>
+          <l n="8">Et ne regarde en haut qu'avec un oeil tremblant.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
           <l n="9">En haut, le Ciel! ce mur de caveau qui l'étouffe,</l>
           <l n="10">Plafond illuminé pour un opéra bouffe</l>
-          <l n="11">Où chaque histrion foule un sol ensanglanté;</l>
+          <l n="11">Où chaque histrion foule un sol ensanglanté,</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
           <l n="12">Terreur du libertin, espoir du fol ermite;</l>

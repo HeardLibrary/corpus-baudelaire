@@ -3,16 +3,12 @@
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title>ÉLÉVATION</title>
+        <title>ELEVATION</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Basic Markup</resp>
+          <resp>Encoded by</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vanderbilt University Corpus-Baudelaire(VUCB) TEAM</name>
-        </respStmt>
-        <respStmt>
-          <resp>Critical Apparatus</resp>
-          <name xml:id="ZB">Zora Breeding</name>
+          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -63,7 +59,27 @@
               </monogr>
             </biblStruct>
           </witness>
-          
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                    this is a false imprint, the book actually being published in Brussels
+                    by Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                    9-55</note>
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -98,39 +114,43 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" n="3" rhyme="abbacddceffeghhgijji">
         <head>
-          <title type="main">ÉLÉVATION</title>
+          <title>ELEVATION</title>
         </head>
-        <lg type="stanza" subtype="quatrain" n="1">
-          <l n="1">Au-dessus des étangs, au-dessus des vallées,</l>
-          <l n="2">Des montagnes, des bois, des nuages, des mers,</l>
-          <l n="3"><app><lem wit="#U1857">Par-delà</lem><rdg wit="#FDM1861 #FDM1868">Par delà</rdg></app> le soleil, par delà les éthers,</l>
-          <l n="4"><app><lem wit="#U1857">Par-delà</lem><rdg wit="#FDM1861 #FDM1868">Par delà</rdg></app> les confins des sphèresv étoilées,</l>
+        <lg type="stanza" n="1" rhyme="abba">
+          <l n="1">Au-dessus des étangs, au-dessus des<rhyme label="a">vallées</rhyme>,</l>
+          <l n="2">Des montagnes, des bois, des nuages,des<rhyme label="b">mers</rhyme>,</l>
+          <l n="3">Par delà le soleil, par delà les<rhyme label="b">éthers</rhyme>,</l>
+          <l n="4">Par delà les confins des sphères<rhyme label="a">étoilées</rhyme>,</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="2">
-          <l n="5">Mon esprit, tu te meus avec agilité,</l>
-          <l n="6">Et, comme un bon nageur qui se pâme dans l'onde,</l>
-          <l n="7">Tu sillonnes gaîment l'immensité profonde</l>
-          <l n="8">Avec une indicible et mâle volupté.</l>
+        <lg type="stanza" n="2" rhyme="cddc">
+          <l n="5">Mon esprit, tu te meus avec<rhyme label="c">agilité</rhyme>,</l>
+          <l n="6">Et, comme un bon nageur qui se pâme dans<rhyme label="d">l'onde</rhyme>,</l>
+          <l n="7">Tu sillonnes gaîment l'immensité<rhyme label="d">profonde</rhyme>
+          </l>
+          <l n="8">Avec une indicible et mâle<rhyme label="c">volupté</rhyme>.</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="3"> 
-          <l n="9">Envole-toi bien loin de ces miasmes morbides<app><lem wit="#U1857">;</lem><rdg wit="#FDM1868"/></app></l>
-          <l n="10">Va te purifier dans l'air supérieur,</l>
-          <l n="11">Et bois, comme une pure et divine liqueur,</l>
-          <l n="12">Le feu clair qui remplit les espaces limpides.</l>
+        <lg type="stanza" n="3" rhyme="effe">
+          <l n="9">Envole-toi bien loin de ces miasmes<rhyme label="e">morbides</rhyme>,</l>
+          <l n="10">Va te purifier dans l'air<rhyme label="f">supérieur</rhyme>,</l>
+          <l n="11">Et bois, comme une pure et divine<rhyme label="f">liqueur</rhyme>,</l>
+          <l n="12">Le feu clair qui remplit les espaces<rhyme label="e">limpides</rhyme>.</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="4">
-          <l n="13">Derrière les ennuis et les <app><lem wit="#U1857">sombres</lem><rdg wit="#FDM1861 #FDM1868">vastes</rdg></app> chagrins</l>
-          <l n="14">Qui chargent de leur poids l'existence brumeuse,</l>
-          <l n="15">Heureux celui qui peut d'une aile vigoureuse</l>
-          <l n="16">S'élancer vers les champs lumineux et sereins<app><lem wit="#U1857">;</lem><rdg wit="#FDM1868">!</rdg></app></l>
+        <lg type="stanza" n="4" rhyme="ghhg">
+          <l n="13">Derrière les ennuis et les vastes<rhyme label="g">chagrins</rhyme>
+          </l>
+          <l n="14">Qui chargent de leur poids l'existence<rhyme label="h">brumeuse</rhyme>,</l>
+          <l n="15">Heureux celui qui peut d'une aile<rhyme label="h">vigoureuse</rhyme>,</l>
+          <l n="16">S'élancer vers les champs lumineux et<rhyme label="g">sereins!</rhyme>
+          </l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="5">
-          <l n="17">Celui dont les pensers, comme des alouettes,</l>
-          <l n="18">Vers les cieux le matin prennent un libre essor,</l>
-          <l n="19">—Qui plane sur la vie et comprend sans effort</l>
-          <l n="20">Le langage des fleurs et des choses muettes!</l>
+        <lg type="stanza" n="5" rhyme="ijji">
+          <l n="17">Celui dont les pensers, comme des<rhyme label="i">alouettes</rhyme>,</l>
+          <l n="18">Vers les cieux le matin prennent un libre<rhyme label="j">essor</rhyme>,</l>
+          <l n="19">--Qui plane sur la vie et comprend sans<rhyme label="j">effort</rhyme>
+          </l>
+          <l n="20">Le langage des fleurs et des choses<rhyme label="i">muettes</rhyme>!</l>
         </lg>
       </div>
     </body>

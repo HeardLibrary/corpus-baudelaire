@@ -2,15 +2,11 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="LE VIN DU SOLITAIRE">VIN DU SOLITAIRE</title>
+        <title rend="Le Vin du solitaire">Vin du solitaire</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Basic Markup</resp>
+          <resp>Encoded by</resp>
           <name xml:id="RKB">Raquelle K. Bostow</name>
-        </respStmt>
-        <respStmt>
-          <resp>Critical Apparatus</resp>
-          <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -61,7 +57,6 @@
                 <extent>319 p.</extent>
               </monogr>
             </biblStruct>
-            
           </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
@@ -86,34 +81,31 @@
   </teiHeader>
   <text>
     <body>
-      <div type="poem" subtype="sonnet">
       <head>
-        <title type="main">LE VIN DU SOLITAIRE</title>
+        <title>Le Vin du solitaire</title>
       </head>
       <lg type="stanza" subtype="quatrain" n="1">
         <l n="1">Le regard singulier d'une femme galante</l>
         <l n="2">Qui se glisse vers nous comme le rayon blanc</l>
         <l n="3">Que la lune onduleuse envoie au lac tremblant,</l>
-        <l n="4">Quand elle y veut baigner sa beauté nonchalante<app><lem wit="#U1857">,</lem><rdg wit="#FDM1861 #FDM1868">;</rdg></app></l>
+        <l n="4">Quand elle y veut baigner sa beauté nonchalante;</l>
       </lg>
       <lg type="stanza" subtype="quatrain" n="2">
-        <l n="5">Le dernier sac d'écus dans les doigts d'un joueur<app><lem wit="#U1857">,</lem><rdg wit="#FDM1861 #FDM1868">;</rdg></app></l>
-        <l n="6">Un baiser libertin de la maigre Adeline<app><lem wit="#U1857">.</lem><rdg wit="#FDM1861 #FDM1868">;</rdg></app></l>
-        <l n="7">Les sons d'une musique énervante et câline,</l>
-        <l n="8">Semblable au cri lointain de l'humaine douleur,</l>
+        <l n="1">Le dernier sac d'écus dans les doigts d'un joueur;</l>
+        <l n="2">Un baiser libertin de la maigre Adeline;</l>
+        <l n="3">Les sons d'une musique énervante et câline,</l>
+        <l n="4">Semblable au cri lointain de l'humaine douleur,</l>
       </lg>
       <lg type="stanza" subtype="tercet" n="3">
-        <l n="9">Tout cela ne vaut pas, ô bouteille profonde,</l>
-        <l n="10">Les baumes pénétrants que ta panse féconde</l>
-        <l n="11">Garde au <choice><orig>cœur</orig><reg>coeur</reg></choice> altéré du poète pieux;</l>
+        <l n="1">Tout cela ne vaut pas, ô bouteille profonde,</l>
+        <l n="2">Les baumes pénétrants que ta panse féconde</l>
+        <l n="3">Garde au coeur altéré du poète pieux;</l>
       </lg>
       <lg type="stanza" subtype="tercet" n="4">
-        <l n="12">Tu lui verses l'espoir, la jeunesse et la vie,</l>
-        <l n="13">— Et l'orgueil, ce trésor de toute gueuserie,</l>
-        <l n="14">Qui nous rend triomphants et semblables aux Dieux<app><lem wit="#U1857">!</lem><rdg wit="#FDM1868">.</rdg></app></l>
+        <l n="1">Tu lui verses l'espoir, la jeunesse et la vie,</l>
+        <l n="2">— Et l'orgueil, ce trésor de toute gueuserie,</l>
+        <l n="3">Qui nous rend triomphants et semblables aux Dieux!</l>
       </lg>
-      </div>
     </body>
-    
   </text>
 </TEI>

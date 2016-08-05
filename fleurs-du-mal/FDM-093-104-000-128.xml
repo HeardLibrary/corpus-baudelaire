@@ -8,16 +8,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <titleStmt>
         <!-- Title element - insert name of poem. If tile starts with an article, leave it off in the title value
 and include the title with the article in a rend attribute. -->
-        <title rend="L'AME DU VIN">AME DU VIN</title>
+        <title rend="L'Ame du Vin">Ame du Vin</title>
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Encoded by</resp>
           <!-- Insert your name and XML ID - choose an XML ID for the project and stick with it! -->
           <name xml:id="TG">Teresa Gray</name>
-        </respStmt>
-        <respStmt>
-        	<resp>Critical Apparatus</resp>
-        	<name xml:id="SYC">Sophia Clark</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -69,6 +65,27 @@ and include the title with the article in a rend attribute. -->
               </monogr>
             </biblStruct>
           </witness>
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A.
+                                        Lemerre), this is a false imprint, the book actually being
+                                        published in Brussels by Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                                        9-55</note>
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -106,25 +123,20 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title type="main">L'AME DU VIN</title>
+          <title>L'AME DU VIN</title>
         </head>
         <!-- Add lg element with type, subtype, and n attributes 
 Add l elemnts with n attributes -->
         <lg type="stanza" subtype="quatrain" n="1">
-          <l n="1">Un soir, l'âme du vin chantait dans les bouteilles :</l>
-          <l n="2">
-          	<app>
-          		<lem wit="#U1857">—</lem>
-          		<rdg wit="#FDM1861 #FDM1868"></rdg>
-          	</app>
-          	« Homme, vers toi je pousse, ô cher déshérité,</l>
+          <l n="1">Un soir, l'âme du vin chantait dans les bouteilles:</l>
+          <l n="2">«Homme, vers toi je pousse, ô cher déshérité,</l>
           <l n="3">Sous ma prison de verre et mes cires vermeilles,</l>
           <l n="4">Un chant plein de lumière et de fraternité!</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Je sais combien il faut, sur la colline en flamme,</l>
           <l n="6">De peine, de sueur et de soleil cuisant</l>
-          <l n="7">Pour engendrer ma vie et pour me donner l'âme ;</l>
+          <l n="7">Pour engendrer ma vie et pour me donner l'âme;</l>
           <l n="8">Mais je ne serai point ingrat ni malfaisant,</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="3">
@@ -137,16 +149,11 @@ Add l elemnts with n attributes -->
           <l n="13">Entends-tu retentir les refrains des dimanches</l>
           <l n="14">Et l'espoir qui gazouille en mon sein palpitant?</l>
           <l n="15">Les coudes sur la table et retroussant tes manches,</l>
-          <l n="16">Tu me glorifieras et tu seras content
-          	<app>
-          		<lem wit="#U1857">:</lem>
-          		<rdg wit="#FDM1861 #FDM1868">;</rdg>
-          	</app>
-          </l>
+          <l n="16">Tu me glorifieras et tu seras content;</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="5">
           <l n="17">J'allumerai les yeux de ta femme ravie;</l>
-          <l n="18">A ton fils je rendrai sa force et ses couleurs</l>
+          <l n="18">À ton fils je rendrai sa force et ses couleurs</l>
           <l n="19">Et serai pour ce frêle athlète de la vie</l>
           <l n="20">L'huile qui raffermit les muscles des lutteurs.</l>
         </lg>
@@ -154,7 +161,7 @@ Add l elemnts with n attributes -->
           <l n="21">En toi je tomberai, végétale ambroisie,</l>
           <l n="22">Grain précieux jeté par l'éternel Semeur,</l>
           <l n="23">Pour que de notre amour naisse la poésie</l>
-          <l n="24">Qui jaillira vers Dieu comme une rare fleur! »</l>
+          <l n="24">Qui jaillira vers Dieu comme une rare fleur!»</l>
         </lg>
       </div>
     </body>

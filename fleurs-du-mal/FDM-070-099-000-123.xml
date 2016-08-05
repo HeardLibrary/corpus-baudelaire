@@ -13,10 +13,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="TMF">Tim Foster</name>
         </respStmt>
-        <respStmt>
-        	<resp>Critical Apparatus</resp>
-        	<name xml:id="SYC">Sophia Clark</name>
-        </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -66,6 +62,27 @@ portrait of the author drawn and engraved by Felix Bracquemond</note>
               </monogr>
             </biblStruct>
           </witness>
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+this is a false imprint, the book actually being published in Brussels
+by Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
+9-55</note>
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -102,48 +119,18 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title/>
+          <title type="main">Je n'ai pas oublié, voisine de la ville</title>
         </head>
         <lg type="stanza" n="1">
           <l n="1">Je n'ai pas oublié, voisine de la ville,</l>
-          <l n="2">Notre blanche maison, petite mais tranquille
-          	<app>
-          			<lem wit="#U1857">,</lem>
-          			<rdg wit="#FDM1861 #FDM1868">;</rdg>
-          	</app>
-          </l>
+          <l n="2">Notre blanche maison, petite mais tranquille;</l>
           <l n="3">Sa Pomone de plâtre et sa vieille Vénus</l>
-          <l n="4">Dans un bosquet chétif cachant leurs membres nus
-          	<app>
-          			<lem wit="#U1857">;</lem>
-          			<rdg wit="#FDM1861 #FDM1868">,</rdg>
-          	</app>
-          </l>
-          <l n="5">
-          	<app>
-          			<lem wit="#U1857">—</lem>
-          			<rdg wit="#FDM1861 #FDM1868"></rdg>
-          	</app> 
-          		Et le soleil, le soir, ruisselant et superbe,</l>
-          <l n="6">Qui, derrière la vitre où se brisait sa gerbe
-          	<app>
-          			<lem wit="#U1857"></lem>
-          			<rdg wit="#FDM1861 #FDM1868">,</rdg>
-          	</app>
-          </l>
-          <l n="7">Semblait, grand <choice><orig>œil</orig><reg>oeil</reg></choice> ouvert dans le ciel curieux
-          	<app>
-          			<lem wit="#U1857">,</lem>
-          			<rdg wit="#FDM1868"></rdg>
-          	</app>
-          </l>
+          <l n="4">Dans un bosquet chétif cachant leurs membres nus,</l>
+          <l n="5">Et le soleil, le soir, ruisselant et superbe,</l>
+          <l n="6">Qui, derrière la vitre où se brisait sa gerbe</l>
+          <l n="7">Semblait, grand oeil ouvert dans le ciel curieux,</l>
           <l n="8">Contempler nos dîners longs et silencieux,</l>
-          <l n="9">
-          	<app>
-          			<lem wit="#U1857">Et versait</lem>
-          			<rdg wit="#FDM1861 #FDM1868">Répandant</rdg>
-          	</app>
-          		largement ses beaux reflets de cierge</l>
+          <l n="9">Répandant largement ses beaux reflets de cierge</l>
           <l n="10">Sur la nappe frugale et les rideaux de serge.</l>
         </lg>
       </div>

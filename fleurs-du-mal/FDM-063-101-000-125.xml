@@ -6,16 +6,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title>BRUMES ET PLUIES</title>
+        <title rend="Brumes et pluies">Brumes et pluies</title>
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Encoded by</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="SW">Steven Wenz</name>
-        </respStmt>
-        <respStmt>
-        	<resp>Critical Apparatus</resp>
-        	<name xml:id="SYC">Sophia Clark</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -66,6 +62,27 @@ portrait of the author drawn and engraved by Felix Bracquemond</note>
               </monogr>
             </biblStruct>
           </witness>
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+this is a false imprint, the book actually being published in Brussels
+by Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
+9-55</note>
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -100,46 +117,31 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem" subtype="sonnet">
+      <div type="poem">
         <head>
-          <title type="main">BRUMES ET PLUIES</title>
+          <title>Brumes et pluies</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
-          <l n="1">O fins d'automne, hivers, printemps trempés de boue,</l>
+          <l n="1">Ô fins d'automne, hivers, printemps trempés de boue,</l>
           <l n="2">Endormeuses saisons! je vous aime et vous loue</l>
-          <l n="3">D'envelopper ainsi mon <choice><orig>cœur</orig><reg>coeur</reg></choice> et mon cerveau</l>
-          <l n="4">D'un linceul vaporeux et d'un 
-          <app>
-          		<lem wit="#U1857">brumeux</lem>
-          		<rdg wit="#FDM1861 #FDM1868">vague</rdg>
-          </app>
-        	 tombeau.</l>
+          <l n="3">D'envelopper ainsi mon coeur et mon cerveau</l>
+          <l n="4">D'un linceul vaporeux et d'un vague tombeau.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
-          <l n="5">Dans cette grande plaine où l'autan froid se joue,</l>
-          <l n="6">Où par les longues nuits la girouette s'enroue,</l>
-          <l n="7">Mon âme mieux qu'au temps du tiède renouveau</l>
-          <l n="8">Ouvrira largement ses ailes de corbeau.</l>
+          <l n="1">Dans cette grande plaine où l'autan froid se joue,</l>
+          <l n="2">Où par les longues nuits la girouette s'enroue,</l>
+          <l n="3">Mon âme mieux qu'au temps du tiède renouveau</l>
+          <l n="4">Ouvrira largement ses ailes de corbeau.</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
-          <l n="9">Rien n'est plus doux au <choice><orig>cœur</orig><reg>coeur</reg></choice> plein de choses funèbres,</l>
-          <l n="10">Et sur qui dès 
-          <app>
-          		<lem wit="#U1857">long-temps</lem>
-          		<rdg wit="#FDM1861 #FDM1868">longtemps</rdg>
-          </app>
-        	 descendent les frimas,</l>
-          <l n="11">O blafardes saisons, reines de nos climats
-          <app>
-          		<lem wit="#U1857">!</lem>
-          		<rdg wit="#FDM1861 #FDM1868">,</rdg>
-          </app>
-          </l>
+          <l n="1">Rien n'est plus doux au coeur plein de choses funèbres,</l>
+          <l n="2">Et sur qui dès longtemps descendent les frimas,</l>
+          <l n="3">Ô blafardes saisons, reines de nos climats,</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
-          <l n="12">Que l'aspect permanent de vos pâles ténèbres,</l>
-          <l n="13">— Si ce n'est par un soir sans lune, deux à deux,</l>
-          <l n="14">D'endormir la douleur sur un lit hasardeux.</l>
+          <l n="1">Que l'aspect permanent de vos pâles ténèbres,</l>
+          <l n="2">— Si ce n'est, par un soir sans lune, deux à deux,</l>
+          <l n="3">D'endormir la douleur sur un lit hasardeux.</l>
         </lg>
       </div>
     </body>

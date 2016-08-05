@@ -6,13 +6,9 @@
         <title rend="LE CRÉPUSCULE DU SOIR">CRÉPUSCULE DU SOIR</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Basic Markup</resp>
+          <resp>Encoded by</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="CBA">Clifford Anderson</name>
-        </respStmt>
-        <respStmt>
-          <resp>Critical Apparatus</resp>
-          <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -63,7 +59,27 @@
               </monogr>
             </biblStruct>
           </witness>
-          
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                    this is a false imprint, the book actually being published in Brussels
+                    by Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                    9-55</note>
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -100,57 +116,51 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title type="main">LE CRÉPUSCULE DU SOIR</title>
+          <title>LE CRÉPUSCULE DU SOIR</title>
         </head>
-        <lg type="stanza" subtype="quatrain" n="1">
+        <lg type="quatrain" n="1">
           <l n="1">Voice le soir charmant, ami du criminel;</l>
-          <l n="2">Il vient comme un complice, à pas de loup;<app><lem wit="#U1857"> — </lem>
-          <rdg wit="#FDM1861 #FDM1868"></rdg></app>le ciel</l>
+          <l n="2">Il vient comme un complice, à pas de loup: le ciel</l>
           <l n="3">Se ferme lentement comme une grande alcôve,</l>
           <l n="4">Et l'homme impatient se change en bête fauve.</l>
         </lg>
         <lg type="stanza" n="2">
           <l n="5">O soir, aimable soir, désiree par celui</l>
           <l n="6">Dont le bras, sans mentir, peuvent dire:  Aujourd'hui</l>
-          <l n="7">Nous avons travaillé! — C'est le soir que soulage</l>
+          <l n="7">Nous avons travaillé! -C'est le soir que soulage</l>
           <l n="8">Les esprits que dévore une doleur sauvage,</l>
           <l n="9">Le savant obstiné dont le front s'alourdit,</l>
           <l n="10">Et l'ouvrier courbé que regagne son lit.</l>
-        </lg>
-          <lg type="stanza" n="3"> 
           <l n="11">Cependant des démons malsains dans l'atmosphère</l>
           <l n="12">S'éveillent lourdement, comme des gens d'affaire,.</l>
-          <l n="13">Et cognent en volant les volets et l'auvent.</l>
+          <l n="13">Et cognent en colant les volets et l'auvent.</l>
           <l n="14">À travers les leurs que tourmente le vent</l>
           <l n="15">La Prostutition s'allume dans les rues;</l>
           <l n="16">Comme une fourmilière elle ouvre ses issues;</l>
           <l n="17">Partout elle se fraye un occulte chemin,</l>
-          <l n="18">Ainsi que l'ennemi qui tente un coup de main;</l>
-          <l n="19">Elle remue au sein de la cité de fange</l>
-          <l n="20">Comme un ver qui dérobe à l'Homme ce qu'il mange.</l>
-          <l n="21">On entend çà et là les cuisines siffler,</l>
-          <l n="22">Les théatres glapir, les orchestres ronfler;</l>
-          <l n="23">Les tables d'hôte, dont le jeu fait les délices,</l>
-          <l n="24">S'emplissent de catins et d'escrocs, leurs complices,</l>
-          <l n="25">Et les voleurs, qui n'ont ni <app><lem wit="#U1857">trève</lem><rdg wit="#FDM1861 #FDM1868">trêve</rdg></app> ni merci,</l>
-          <l n="26">Vont bientôt commencer leur travail, eux aussi,</l>
-          <l n="27">Et forcer doucement les portes et les caisses</l>
-          <l n="28">Pour vivre quelques jours et vêtir leurs maîtresses.</l>
+          <l n="18">Partout elle se fraye un occulte chemin,</l>
+          <l n="18">Elle remue au sein de la cité de fange</l>
+          <l n="19">Comme un ver qui dérobe à l'Homme ce qu'il mange.</l>
+          <l n="20">On entend çà et là les cuisines siffler,</l>
+          <l n="21">Les théatres glapir, les orchestres ronfler;</l>
+          <l n="22">Les tables d'hôte, dont le jeu fait les délices,</l>
+          <l n="23">S'emplissent de catins et d'escrocs, leurs complices,</l>
+          <l n="24">Et les voleurs, qui n'ont ni trêve ni merci</l>
+          <l n="25">Vont bientôt commencer leur travail, eux aussi,</l>
+          <l n="26">Et forcer doucement les portes et les caisses</l>
+          <l n="27">Pour vivre quelques jours et vêtir leurs maîtresses.</l>
+          <l n="28">Recueille-toi, mon âme, en ce grave moment,</l>
+          <l n="29">Et ferme ton oreille à ce rugissement.</l>
+          <l n="30">C'est l'heure où les douleurs des malades s'aigrissent!</l>
+          <l n="31">La sombre Nuit les prend a la gorge; ils finissent</l>
+          <l n="32">Leur destinée et vont vers le gouffre commun;</l>
+          <l n="33">L'hôpital se remplit de leurs soupirs. -Plus d'un</l>
+          <l n="34">Ne viendra plus chercher la soupe parfumée,</l>
+          <l n="35">Au coin du feu le soir, auprès d'une ame aimée</l>
         </lg>
-        <lg type="stanza" n="4">   
-          <l n="29">Recueille-toi, mon âme, en ce grave moment,</l>
-          <l n="30">Et ferme ton oreille à ce rugissement.</l>
-          <l n="31">C'est l'heure où les douleurs des malades s'aigrissent!</l>
-          <l n="32">La sombre Nuit les prend a la gorge;<app><lem wit="#U1857"> — </lem>
-          <rdg /></app>ils finissent</l>
-          <l n="33">Leur destinée et vont vers le gouffre commun;</l>
-          <l n="34">L'hôpital se remplit de leurs soupirs. — Plus d'un</l>
-          <l n="35">Ne viendra plus chercher la soupe parfumée,</l>
-          <l n="36">Au coin du feu le soir, auprès d'une âme aimée.</l>
-        </lg>
-        <lg type="couplet" n="5">
-          <l n="37">Encore la plupart n'ont-ils jamais connu</l>
-          <l n="38">La douceur du foyer et n'ont jamais vécu!</l>
+        <lg type="couplet" n="3">
+          <l n="34">Encore la plupart n'ont-ils jamais connu</l>
+          <l n="35">La douceur du foyer et n'ont jamais vécu!</l>
         </lg>
       </div>
     </body>

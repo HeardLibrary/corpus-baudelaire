@@ -3,16 +3,12 @@
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title>A UNE MALABARAISE</title>
+        <title rend="A UNE MALABARAISE">MALABARAISE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Basic Markup</resp>
+          <resp>Encoded by</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vanderbilt University Corpus-Baudelaire(VUCB) TEAM</name>
-        </respStmt>
-        <respStmt>
-          <resp>Critical Apparatus</resp>
-          <name xml:id="ZB">Zora Breeding</name>
+          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -30,7 +26,39 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          
+          <witness xml:id="U1857">
+            <desc>1857 Unexpurgated</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1857</date>
+                  <note>Original edition with condemned pieces</note>
+                </imprint>
+                <extent>248 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="FDM1861">
+            <desc>1861 2nd edition censored</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1861</date>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a
+                    portrait of the author drawn and engraved by Felix Bracquemond</note>
+                </imprint>
+                <extent>319 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
           <witness xml:id="LE1866">
             <desc>1866 Les Epaves xml:id="1866"</desc>
             <biblStruct>
@@ -88,26 +116,27 @@ Online Distributed Proofreading Team.</p>
     <body>
       <div type="poem">
         <head>
-          <title type="main">A UNE MALABARAISE</title>
+          <title>A UNE MALABARAISE</title>
         </head>
-        <lg type="stanza" n="1">
+        <lg type="stanza">
           <l n="1">Tes pieds sont aussi fins que tes mains, et ta hanche</l>
           <l n="2">Est large à faire envie à la plus belle blanche;</l>
           <l n="3">A l'artiste pensif ton corps est doux et cher;</l>
-          <l n="4">Tes grands yeux de velours sont plus noirs que ta chair.</l>
-          <note n="1" anchored="true" place="bottom"><p><app><lem wit="#LE1866">12.</lem><rdg wit="#FDM1868"/></app></p></note>
+          <l n="4">Tes grands yeux de velours sont plus noirs que ta chair</l>
           <l n="5">Aux pays chauds et bleus où ton Dieu t'a fait naître,</l>
           <l n="6">Ta tâche est d'allumer la pipe de ton maître,</l>
           <l n="7">De pourvoir les flacons d'eaux fraîches et d'odeurs,</l>
           <l n="8">De chasser loin du lit les moustiques rôdeurs,</l>
           <l n="9">Et, dès que le matin fait chanter les platanes,</l>
-          <l n="10">D'acheter au bazar ananas et bananes<app><lem wit="#LE1866">,</lem><rdg wit="#FDM1868">.</rdg></app></l>
+          <l n="10">D'acheter au bazar ananas et bananes.</l>
           <l n="11">Tout le jour, où tu veux, tu mènes tes pieds nus,</l>
           <l n="12">Et fredonnes tout bas de vieux airs inconnus;</l>
           <l n="13">Et quand descend le soir au manteau d'écarlate,</l>
           <l n="14">Tu poses doucement ton corps sur une natte,</l>
           <l n="15">Où tes rêves flottants sont pleins de colibris,</l>
           <l n="16">Et toujours, comme toi, gracieux et fleuris.</l>
+        </lg>
+        <lg type="stanza">
           <l n="17">Pourquoi, l'heureuse enfant, veux-tu voir notre France,</l>
           <l n="18">Ce pays trop peuplé que fauche la souffrance,</l>
           <l n="19">Et, confiant ta vie aux bras forts des marins,</l>
@@ -118,10 +147,8 @@ Online Distributed Proofreading Team.</p>
           <l n="24">Si, le corset brutal emprisonnant tes flancs,</l>
           <l n="25">Il te fallait glaner ton souper dans nos fanges</l>
           <l n="26">Et vendre le parfum de tes charmes étranges,</l>
-          <l n="27"><choice><orig>L'œil</orig><reg>L'oeil</reg></choice> pensif, et suivant, dans nos sales brouillards,</l>
+          <l n="27">L'oeil pensif, et suivant, dans nos sales brouillards,</l>
           <l n="28">Des cocotiers absents les fantômes épars!</l>
-          <note n="1" anchored="true" place="bottom"><p><app><lem wit="#LE1866">1840.</lem><rdg wit="#FDM1868"/></app></p></note>
-          
         </lg>
       </div>
     </body>

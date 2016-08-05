@@ -6,16 +6,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title>SEMPER EADEM</title>
+        <title>Semper eadem</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Basic markup</resp>
+          <resp>Encoded by</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="EW">Ed Warga</name>
-        </respStmt>
-        <respStmt>
-          <resp>Critical Apparatus</resp>
-          <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -33,7 +29,22 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          
+          <witness xml:id="U1857">
+            <desc>1857 Unexpurgated</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1857</date>
+                  <note>Original edition with condemned pieces</note>
+                </imprint>
+                <extent>248 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
           <witness xml:id="FDM1861">
             <desc>1861 2nd edition censored</desc>
             <biblStruct>
@@ -51,7 +62,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               </monogr>
             </biblStruct>
           </witness>
-          
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                              this is a false imprint, the book actually being published in Brussels
+                              by Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                              9-55</note>
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -86,22 +117,18 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem" subtype="sonnet">
+      <div type="poem">
         <head>
-          <title type="main">SEMPER EADEM</title>
+          <title>SEMPER EADEM</title>
         </head>
         <lg type="stanza" subtype="quatrain">
           <l n="1">« D'où vous vient, disiez-vous, cette tristesse étrange,</l>
           <l n="2">Montant comme la mer sur le roc noir et nu? »</l>
-          <l n="3">—Quand notre <choice>
-            <orig>cœur</orig>
-            <reg>coeur</reg>
-          </choice>   a fait une fois sa vendange,</l>
-          <l n="4">Vivre est un mal<app><lem wit="#FDM1861">.</lem>
-            <rdg wit="#FDM1868">!</rdg></app> C'est un secret de tous connu,</l>
+          <l n="3">--Quand notre coeur a fait une fois sa vendange,</l>
+          <l n="4">Vivre est un mal! C'est un secret de tous connu,</l>
         </lg>
         <lg type="stanza" subtype="quatrain">
-          <l n="5">Une douleur très-simple et non mystérieuse,</l>
+          <l n="5">Une douleur très simple et non mystérieuse,</l>
           <l n="6">Et, comme votre joie, éclatante pour tous.</l>
           <l n="7">Cessez donc de chercher, ô belle curieuse!</l>
           <l n="8">Et, bien que votre voix soit douce, taisez-vous!</l>
@@ -112,10 +139,7 @@ Online Distributed Proofreading Team.</p>
           <l n="11">La Mort nous tient souvent par des liens subtils.</l>
         </lg>
         <lg type="stanza" subtype="tercet">
-          <l n="12">Laissez, laissez mon <choice>
-            <orig>cœur</orig>
-            <reg>coeur</reg>
-          </choice>   s'enivrer d'un <emph rend="italic">mensonge,</emph></l>
+          <l n="12">Laissez, laissez mon coeur s'enivrer d'un _mensonge,</l>
           <l n="13">Plonger dans vos beaux yeux comme dans un beau songe,</l>
           <l n="14">Et sommeiller longtemps à l'ombre de vos cils!</l>
         </lg>

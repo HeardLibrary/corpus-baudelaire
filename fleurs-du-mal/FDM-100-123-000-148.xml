@@ -6,16 +6,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title rend="LA MORT DES ARTISTES">MORT DES ARTISTES</title>
+        <title rend="La Mort des artistes">Mort des artistes</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Basic Markup</resp>
+          <resp>Encoded by</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="EJW">Ed Warga</name>
-        </respStmt>
-        <respStmt>
-          <resp>Critical Apparatus</resp>
-          <name xml:id="ZB">Zora Breeding</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -66,6 +62,27 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
               </monogr>
             </biblStruct>
           </witness>
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                              this is a false imprint, the book actually being published in Brussels
+                              by Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                              9-55</note>
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -100,14 +117,14 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem" subtype="sonnet">
+      <div type="poem">
         <head>
-          <title type="main">LA MORT DES ARTISTES</title>
+          <title>La Mort des artistes</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
           <l n="1">Combien faut-il de fois secouer mes grelots</l>
-          <l n="2">Et baiser ton front bas, morne <app><lem wit="#U1857">caricature</lem><rdg wit="#FDM1868">Caricature</rdg></app>?</l>
-          <l n="3">Pour piquer dans le but, <app><lem/><rdg wit="#FDM1861 #FDM1868">de</rdg></app> mystique <app><lem wit="#U1857">quadrature</lem><rdg wit="#FDM1861 #FDM1868">nature</rdg></app>,</l>
+          <l n="2">Et baiser ton front bas, morne caricature?</l>
+          <l n="3">Pour piquer dans le but, de mystique nature,</l>
           <l n="4">Combien, ô mon carquois, perdre de javelots?</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
@@ -123,7 +140,7 @@ Online Distributed Proofreading Team.</p>
         </lg>
         <lg type="stanza" subtype="tercet" n="4">
           <l n="12">N'ont qu'un espoir, étrange et sombre Capitole!</l>
-          <l n="13">C'est que la Mort, planant comme un <app><lem wit="#U1857">Soleil</lem><rdg wit="#FDM1861 #FDM1868">soleil</rdg></app> nouveau,</l>
+          <l n="13">C'est que la Mort, planant comme un soleil nouveau,</l>
           <l n="14">Fera s'épanouir les fleurs de leur cerveau!</l>
         </lg>
       </div>

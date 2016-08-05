@@ -3,16 +3,12 @@
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title>QUE DIRAS-TU CE SOIR, PAUVRE ÂME SOLITAIRE</title>
+        <title>[Que diras-tu ce soir, pauvre âme solitaire]</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Basic Markup</resp>
+          <resp>Encoded by</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="VUCB">Vanderbilt University Corpus-Baudelaire(VUCB) TEAM</name>
-        </respStmt>
-        <respStmt>
-          <resp>Critical Apparatus</resp>
-          <name xml:id="RVR">Ramona V. Romero</name>
+          <name xml:id="VUCB">Vandebilt University Corpus-Baudelaire(VUCB) TEAM</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -56,10 +52,31 @@
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the
-                    author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a
+                    portrait of the author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                    this is a false imprint, the book actually being published in Brussels
+                    by Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                    9-55</note>
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -97,55 +114,31 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem" subtype="sonnet">
+      <div type="poem">
         <head>
-          <title/>
+          <title>[Que diras-tu ce soir, pauvre âme solitaire]</title>
         </head>
-        <lg type="stanza" subtype="quatrain" n="1">
+        <lg type="stanza" subtype="quatrain">
           <l n="1">Que diras-tu ce soir, pauvre âme solitaire,</l>
-          <l n="2">Que diras-tu, mon <choice>
-              <orig>cœur</orig>
-              <reg>coeur</reg>
-            </choice>, <choice>
-              <orig>cœur</orig>
-              <reg>coeur</reg>
-            </choice> autrefois flétri,</l>
-          <l n="3">A la très-belle, à la très-bonne, à la très-chère,</l>
+          <l n="2">Que diras-tu, mon coeur, coeur autrefois flétri,</l>
+          <l n="3">A la très belle, à la très bonne, à la très chère,</l>
           <l n="4">Dont le regard divin t'a soudain refleuri?</l>
         </lg>
-        <lg type="stanza" subtype="quatrain" n="2">
-          <l n="5">—Nous mettrons noire orgueil à chanter ses louanges<app>
-              <lem wit="#U1857">:</lem>
-              <rdg wit="#FDM1868">,</rdg>
-            </app></l>
+        <lg type="stanza" subtype="quatrain">
+          <l n="5">--Nous mettrons noire orgueil à chanter ses louanges,</l>
           <l n="6">Rien ne vaut la douceur de son autorité;</l>
           <l n="7">Sa chair spirituelle a le parfum des Anges,</l>
-          <l n="8">Et son <choice>
-              <orig>œil</orig>
-              <reg>oeil</reg>
-            </choice> nous revêt d'un habit de clarté.</l>
+          <l n="8">Et son oeil nous revêt d'un habit de clarté.</l>
         </lg>
-        <lg type="stanza" subtype="tercet" n="3">
-          <l n="9">Que ce soit dans la nuit et dans la solitude,</l>
-          <l n="10">Que ce soit dans la rue et dans la multitude,</l>
-          <l n="11">Son fantôme dans l'air danse comme un flambeau<app>
-              <lem wit="#U1857"/>
-              <rdg wit="#FDM1861 #FDM1868">.</rdg>
-            </app></l>
+        <lg type="stanza" subtype="tercet">
+          <l n="9">Que ce soit dans la nuit et dans la solitude.</l>
+          <l n="10">Que ce soit dans la rue et dans la multitude;</l>
+          <l n="11">Son fantôme dans l'air danse comme un flambeau.</l>
         </lg>
-        <lg type="stanza" subtype="tercet" n="4">
+        <lg type="stanza" subtype="tercet">
           <l n="12">Parfois il parle et dit: « Je suis belle, et j'ordonne</l>
-          <l n="13">Que pour l'amour de moi vous n'aimiez que le Beau<app>
-              <lem wit="#U1857">.</lem>
-              <rdg wit="#FDM1861 #FDM1868">;</rdg>
-            </app></l>
-          <l n="14">Je suis <app>
-              <lem wit="#U1857">l'Ange Gardien </lem>
-              <rdg wit="#FDM1861 #FDM1868">l'Ange gardien</rdg>
-            </app>, la Muse et la Madone<app>
-              <lem wit="#U1857">.</lem>
-              <rdg wit="#FDM1868">!</rdg>
-            </app> »</l>
+          <l n="13">Que pour l'amour de moi vous n'aimiez que le Beau.</l>
+          <l n="14">Je suis l'Ange gardien, la Muse et la Madone. »</l>
         </lg>
       </div>
     </body>

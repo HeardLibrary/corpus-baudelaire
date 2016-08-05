@@ -134,7 +134,7 @@ Online Distributed Proofreading Team.</p>
         </lg>
         	<app>
         		<lem wit="#LE1866"><note anchored="true" place="bottom">1842</note></lem>
-        		<rdg wit="#FDM1868"/>
+        		<rdg wit="FDM1868"/>
         	</app>
       </div>
     </body>

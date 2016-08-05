@@ -6,17 +6,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title>DUELLUM</title>
+        <title>Duellum</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Basic Markup</resp>
+          <resp>Encoded by</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="RP">Rebecca Panter</name>
-        </respStmt>
-        <respStmt>
-          <resp>Critical Apparatus</resp>
-          <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-          <name xml:id="RVR">Ramona V. Romero</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -34,6 +29,22 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </publicationStmt>
       <sourceDesc>
         <listWit>
+          <witness xml:id="U1857">
+            <desc>1857 Unexpurgated</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Fleurs du Mal</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Poulet-Malassis et De Broise</publisher>
+                  <date>1857</date>
+                  <note>Original edition with condemned pieces</note>
+                </imprint>
+                <extent>248 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
           <witness xml:id="FDM1861">
             <desc>1861 2nd edition censored</desc>
             <biblStruct>
@@ -44,10 +55,31 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <pubPlace>Paris</pubPlace>
                   <publisher>Poulet-Malassis et De Broise</publisher>
                   <date>1861</date>
-                  <note>2nd edition augmented by 35 new poems and ornamented with a portrait of the
-                    author drawn and engraved by Felix Bracquemond</note>
+                  <note>2nd edition augmented by 35 new poems and ornamented with a
+                              portrait of the author drawn and engraved by Felix Bracquemond</note>
                 </imprint>
                 <extent>319 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                              this is a false imprint, the book actually being published in Brussels
+                              by Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                              9-55</note>
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
               </monogr>
             </biblStruct>
           </witness>
@@ -85,24 +117,21 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem" subtype="sonnet">
+      <div type="sonnet">
         <head>
-          <title type="main">DUELLUM</title>
+          <title>Duellum</title>
         </head>
         <lg type="stanza" subtype="quatrain" n="1">
-          <l n="1">Deux guerriers ont couru l'un sur l'autre; leurs armes</l>
+          <l n="1">Deux guerriers ont couru l'un sur l'autre, leurs armes</l>
           <l n="2">Ont éclaboussé l'air de lueurs et de sang.</l>
-          <l n="3"><app><lem wit="#FDM1861"></lem><rdg wit="#FDM1868">—</rdg></app> Ces jeux, ces cliquetis du fer sont les vacarmes</l>
+          <l n="3">Ces jeux, ces cliquetis du fer sont les vacarmes</l>
           <l n="4">D'une jeunesse en proie à l'amour vagissant.</l>
         </lg>
         <lg type="stanza" subtype="quatrain" n="2">
           <l n="5">Les glaives sont brisés! comme notre jeunesse,</l>
           <l n="6">Ma chère! Mais les dents, les ongles acérés,</l>
           <l n="7">Vengent bientôt l'épée et la dague traîtresse.</l>
-          <l n="8">— O fureur des <choice>
-              <orig>cœurs</orig>
-              <reg>coeurs</reg>
-            </choice> mûrs par l'amour ulcérés!</l>
+          <l n="8">— Ô fureur des coeurs mûrs par l'amour ulcérés!</l>
         </lg>
         <lg type="stanza" subtype="tercet" n="3">
           <l n="9">Dans le ravin hanté des chats-pards et des onces</l>

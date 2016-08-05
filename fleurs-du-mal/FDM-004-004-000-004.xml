@@ -6,17 +6,13 @@
     <fileDesc>
       <titleStmt>
         <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-        <title rend="CORRESPONDANCES">CORRESPONDANCES</title>
+        <title rend="Correspondances">Correspondances</title>
         <author>Charles Baudelaire</author>
         <respStmt>
           <resp>Encoded by</resp>
           <!--In the line below, Insert your initials as the XML id and your name between the tags-->
           <name xml:id="LR">Lynn Ramey</name>
         </respStmt>
-        <respStmt>
-        	<resp>Critical Apparatus</resp>
-        	<name xml:id="SYC">Sophia Clark</name>
-        </respStmt>      
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
       <publicationStmt>
@@ -68,6 +64,27 @@
               </monogr>
             </biblStruct>
           </witness>
+          <witness xml:id="LE1866">
+            <desc>1866 Les Epaves xml:id="1866"</desc>
+            <biblStruct>
+              <monogr>
+                <title>Les Épaves</title>
+                <author>Charles Baudelaire</author>
+                <imprint>
+                  <pubPlace>Amsterdam</pubPlace>
+                  <publisher>À L'Enseigne du Coq</publisher>
+                  <date>1866</date>
+                  <note>According to the preface of the 1890 edition (Paris, A. Lemerre),
+                                 this is a false imprint, the book actually being published in Brussels
+                                 by Poulet-Malassis.</note>
+                  <note>Includes condemned pieces removed from Fleurs du Mal: p.
+                                 9-55</note>
+                  <note>With a frontispeice etching by Félicien Rops</note>
+                </imprint>
+                <extent>163 p.</extent>
+              </monogr>
+            </biblStruct>
+          </witness>
           <witness xml:id="FDM1868">
             <desc>1868 3rd edition - posthumous xml:id="1868"</desc>
             <biblStruct>
@@ -102,36 +119,34 @@ Online Distributed Proofreading Team.</p>
   </teiHeader>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" n="4">
         <head>
-          <title>CORRESPONDANCES</title>
+          <title>Correspondances</title>
         </head>
         <lg type="quatrain" rhyme="abba">
-          <l n="1">La Nature est un temple où de vivants <rhyme label="a">piliers</rhyme></l>
-          <l n="2">Laissent parfois sortir de confuses <rhyme label="b">paroles</rhyme>;</l>
-          <l n="3">L'homme y passe à travers des forêts de <rhyme label="b">symboles</rhyme></l>
-          <l n="4">Qui l'observent avec des regards <rhyme label="a">familiers</rhyme>.</l>
+          <l n="1">La Nature est un temple où de vivants<rhyme label="a">piliers</rhyme>
+          </l>
+          <l n="2">Laissent parfois sortir de confuses<rhyme label="b">paroles</rhyme>;</l>
+          <l n="3">L'homme y passe à travers des forêts de<rhyme label="b">symboles</rhyme>
+          </l>
+          <l n="4">Qui l'observent avec des regards<rhyme label="a">familiers</rhyme>.</l>
         </lg>
         <lg type="quatrain" rhyme="caac">
-          <l n="5">Comme de longs échos qui de loin se <rhyme label="c">confondent</rhyme>
-          	<app>
-          		<lem wit="#U1857>,</lem>
-          		<rdg wit="#FDM1861 #FDM1868"></rdg>
-          	</app>
+          <l n="5">Comme de longs échos qui de loin se<rhyme label="c">confondent</rhyme>
           </l>
-          <l n="6">Dans une ténébreuse et profonde <rhyme label="a">unité</rhyme>,</l>
-          <l n="7">Vaste comme la nuit et comme la <rhyme label="a">clarté</rhyme>,</l>
-          <l n="8">Les parfums, les couleurs et les sons se <rhyme label="c">répondent</rhyme>.</l>
+          <l n="6">Dans une ténébreuse et profonde<rhyme label="a">unité</rhyme>,</l>
+          <l n="7">Vaste comme la nuit et comme la<rhyme label="a">clarté</rhyme>,</l>
+          <l n="8">Les parfums, les couleurs et les sons se<rhyme label="c">répondent</rhyme>.</l>
         </lg>
         <lg type="tercet" rhyme="ded">
-          <l n="9">Il est des parfums frais comme des chairs <rhyme label="d">d'enfants</rhyme>,</l>
-          <l n="10">Doux comme les hautbois, verts comme les <rhyme label="e">prairies</rhyme>,</l>
-          <l n="11">— Et d'autres, corrompus, riches et <rhyme label="d">triomphants</rhyme>,</l>
+          <l n="9">II est des parfums frais comme des chairs<rhyme label="d">d'enfants</rhyme>,</l>
+          <l n="10">Doux comme les hautbois, verts comme les<rhyme label="e">prairies</rhyme>,</l>
+          <l n="11">— Et d'autres, corrompus, riches et<rhyme label="d">triomphants</rhyme>,</l>
         </lg>
         <lg type="tercet" rhyme="edd">
-          <l n="12">Ayant l'expansion des choses <rhyme label="e">infinies</rhyme>,</l>
-          <l n="13">Comme l'ambre, le musc, le benjoin et <rhyme label="d">l'encens</rhyme>,</l>
-          <l n="14">Qui chantent les transports de l'esprit et des <rhyme label="d">sens</rhyme>.</l>
+          <l n="12">Ayant l'expansion des choses<rhyme label="e">infinies</rhyme>,</l>
+          <l n="13">Comme l'ambre, le musc, le benjoin et<rhyme label="d">l'encens</rhyme>,</l>
+          <l n="14">Qui chantent les transports de l'esprit et des<rhyme label="d">sens</rhyme>.</l>
         </lg>
       </div>
     </body>
