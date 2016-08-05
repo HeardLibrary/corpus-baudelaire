@@ -2,11 +2,15 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title rend="Le parfum exotique">Parfum exotique</title>
+        <title rend="Le parfum exotique">PAFUM EXOTIQUE</title>
         <author>Charles Baudelaire</author>
         <respStmt>
-          <resp>Encoded by</resp>
+          <resp>Basic Markup</resp>
           <name xml:id="RKB">Raquelle K. Bostow</name>
+        </respStmt>
+        <respStmt>
+          <resp>Critical Apparatus</resp>
+          <name xml:id="TFH">Todd Hughes</name>
         </respStmt>
         <sponsor>Jean and Alexander Heard Library</sponsor>
       </titleStmt>
@@ -80,8 +84,9 @@ portrait of the author drawn and engraved by Felix Bracquemond</note>
   </teiHeader>
   <text>
     <body>
+      <div type="poem" subtype="sonnet">
       <head>
-        <title>Le parfum exotique</title>
+        <title>LE PARFUM EXOTIQUE</title>
       </head>
       <lg type="stanza" subtype="quatrain" n="1">
         <l n="1">Quand, les deux yeux fermés, en un soir chaud d'automne,</l>
@@ -105,6 +110,7 @@ portrait of the author drawn and engraved by Felix Bracquemond</note>
         <l n="2">Qui circule dans l'air et m'enfle la narine,</l>
         <l n="3">Se mêle dans mon âme au chant des mariniers.</l>
       </lg>
+      </div>
     </body>
   </text>
 </TEI>
